@@ -1,0 +1,66 @@
+{{Infobox U.S. state
+ |Name = Alabama
+ |Fullname = State of Alabama
+ |Flag = Flag of Alabama.svg
+ |Flaglink = [[Flag of Alabama|Flag]]
+ |Seal = Seal of Alabama.svg
+ |Seallink = [[Seal of Alabama|Seal]]
+ |Coat of arms = Alabama-COA.png
+ |Coatlink = [[Coat of arms of Alabama|Coat of arms]]
+ |Map = Alabama in United States.svg
+ |Nickname = Yellowhammer State; Heart of [[Dixie]]; Cotton State
+ |Demonym = [[Adjectivals and demonyms for U.S. states|Alabamian]]&lt;ref&gt;[http://www.gettysburg.stonesentinels.com/Confederate/AL.php The Alabama monument south of Gettysburg]&lt;/ref&gt;
+ |Motto = [[Audemus jura nostra defendere]] ([[Latin]])
+ |MottoEnglish = We dare defend our rights
+ |Former = Alabama Territory
+ |Capital = [[Montgomery, Alabama|Montgomery]]
+ |OfficialLang = English
+ |Languages = English (96.17%) &lt;br /&gt;Spanish (2.12%)
+ |LargestMetro = [[Birmingham-Hoover-Cullman Combined Statistical Area|Greater Birmingham Area]]
+ |LargestCity = [[Birmingham, Alabama|Birmingham]]&lt;br /&gt;212,237 &lt;small&gt;(2010 census)&lt;/small&gt;
+ |Governor = [[Robert J. Bentley]] ([[Republican Party (United States)|R]])
+ |Lieutenant Governor = [[Kay Ivey]] ([[Republican Party (United States)|R]])
+ |Legislature = [[Alabama Legislature]]
+ |Upperhouse = [[Alabama Senate|Senate]]
+ |Lowerhouse = [[Alabama House of Representatives|House of Representatives]]
+ |Senators = [[Richard Shelby]] (R)&lt;br /&gt;[[Jeff Sessions]] (R)
+ |Representative = 6 Republicans, 1 Democrat
+ |TradAbbreviation = Ala.
+ |PostalAbbreviation = AL
+ |AreaRank = 30th
+ |TotalArea = 135,765
+ |TotalAreaUS = 52,419
+ |LandArea = 131,426
+ |LandAreaUS = 50,744
+ |WaterArea = 4,338
+ |WaterAreaUS = 1,675
+ |PCWater = 3.20
+ |PopRank = 23rd
+ |2000Pop = 4,802,740 (2011 est)&lt;ref name=PopEstUS/&gt;
+ |DensityRank = 27th
+ |2010Density = 36.5
+ |2010DensityUS = 94.6
+ |AdmittanceOrder = 22nd
+ |AdmittanceDate = December 14, 1819
+ |TimeZone = [[Central Time Zone (North America)|Central]]: [[Coordinated Universal Time|UTC]] [[Central Standard Time|-6]]/[[Central Daylight Time|-5]]
+ |TZ1Where = most of state
+ |TimeZone2 = [[Eastern Time Zone (North America)|Eastern]]: [[Coordinated Universal Time|UTC]] [[Eastern Standard Time|−5]]/[[Eastern Daylight Time|−4]]
+ |TZ2Where = [[Phenix City, Alabama]] area
+ |Latitude = 30° 11′ N to 35° N
+ |Longitude = 84° 53′ W to 88° 28′ W
+ |Width = 305
+ |WidthUS = 190
+ |Length = 531
+ |LengthUS = 330
+ |LargestCounty = [[Baldwin County, Alabama|Baldwin County]]
+ |HighestPoint = [[Mount Cheaha]]&lt;ref&gt;{{cite ngs|id=DG3595|designation= Cheehahaw|accessdate=October 20, 2011}}&lt;/ref&gt;&lt;ref name=USGS&gt;{{cite web|url=http://egsc.usgs.gov/isb/pubs/booklets/elvadist/elvadist.html|title=Elevations and Distances in the United States|publisher=[[United States Geological Survey]]|year=2001|accessdate=October 21, 2011}}&lt;/ref&gt;&lt;ref name=NAVD88&gt;Elevation adjusted to [[North American Vertical Datum of 1988]].&lt;/ref&gt;
+ |HighestElev = 735.5
+ |HighestElevUS = 2,413
+ |MeanElev = 150
+ |MeanElevUS = 500
+ |LowestPoint = [[Gulf of Mexico]]&lt;ref name=USGS/&gt;
+ |LowestElev = 0
+ |LowestElevUS = 0
+ |ISOCode = US-AL
+ |Website = alabama.gov
+}}

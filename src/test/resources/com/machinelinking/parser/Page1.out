@@ -1,0 +1,5834 @@
+Begin Document
+Begin Template: Redirect
+k: null
+Text: 'Einstein'
+End Template: Redirect
+Text: '
+'
+Begin Template: Good article
+End Template: Good article
+Text: '
+'
+Begin Template: pp-semi-indef
+End Template: pp-semi-indef
+Begin Template: pp-move-indef
+End Template: pp-move-indef
+Text: '
+'
+Begin Template: Infobox scientist
+
+k: name        
+Text: 'Albert Einstein
+'
+k: image       
+Text: 'Einstein 1921 portrait2.jpg
+'
+k: caption     
+Text: 'Albert Einstein in 1921
+'
+k: birth_date  
+Begin Template: Birth date
+k: df
+Text: 'yes'
+k: null
+Text: '1879'
+k: null
+Text: '3'
+k: null
+Text: '14'
+End Template: Birth date
+Text: '
+'
+k: birth_place 
+Begin Reference: Ulm
+End Reference: Ulm
+Text: ', '
+Begin Reference: Kingdom of Württemberg
+End Reference: Kingdom of Württemberg
+Text: ', '
+Begin Reference: German Empire
+End Reference: German Empire
+Text: '
+'
+k: death_date  
+Begin Template: Death date and age
+k: df
+Text: 'yes'
+k: null
+Text: '1955'
+k: null
+Text: '4'
+k: null
+Text: '18'
+k: null
+Text: '1879'
+k: null
+Text: '3'
+k: null
+Text: '14'
+End Template: Death date and age
+Text: '
+'
+k: death_place 
+Begin Reference: Princeton, New Jersey
+k: null
+Text: 'Princeton'
+End Reference: Princeton, New Jersey
+Text: ', New Jersey, United States
+'
+k: spouse      
+Begin Reference: Mileva Marić
+End Reference: Mileva Marić
+Text: '&nbsp;(1903–1919)'
+Open Tag: br attributes: []
+Begin Template: nowrap
+k: null
+Begin Reference: Elsa Löwenthal
+End Reference: Elsa Löwenthal
+Text: ', née Einstein, (1919–1936)'
+End Template: nowrap
+Text: '
+'
+k: residence   
+Text: 'Germany, Italy, Switzerland, Austria, Belgium, United Kingdom, United States
+'
+k: citizenship 
+Begin Template: Plainlist
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Kingdom of Württemberg
+k: null
+Text: 'Württemberg/Germany'
+End Reference: Kingdom of Württemberg
+Text: ' (1879–1896)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Statelessness
+k: null
+Text: 'Stateless'
+End Reference: Statelessness
+Text: ' (1896–1901)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Switzerland
+End Reference: Switzerland
+Text: ' (1901–1955)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Austria–Hungary
+k: null
+Text: 'Austria'
+End Reference: Austria–Hungary
+Text: ' (1911–1912)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: German Empire
+k: null
+Text: 'Germany'
+End Reference: German Empire
+Text: ' (1914–1933)'
+List Item: Unordered 1
+Text: ' United States (1940–1955)'
+End List
+End Template: Plainlist
+Text: '
+'
+k: ethnicity  
+Text: 'Jewish
+'
+k: fields     
+Begin Reference: Physics
+End Reference: Physics
+Text: '
+'
+k: workplaces 
+Begin Template: Plainlist
+Begin List
+List Item: Unordered 1
+Text: ' Swiss '
+Begin Reference: Patent Office
+End Reference: Patent Office
+Text: ' ('
+Begin Reference: Bern
+End Reference: Bern
+Text: ')'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: University of Zurich
+End Reference: University of Zurich
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Charles University in Prague
+End Reference: Charles University in Prague
+List Item: Unordered 1
+Text: ' '
+Begin Reference: ETH Zurich
+End Reference: ETH Zurich
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Prussian Academy of Sciences
+End Reference: Prussian Academy of Sciences
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Kaiser Wilhelm Institute
+End Reference: Kaiser Wilhelm Institute
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Leiden University
+k: null
+Text: 'University of Leiden'
+End Reference: Leiden University
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Institute for Advanced Study
+End Reference: Institute for Advanced Study
+End List
+End Template: Plainlist
+Text: '
+'
+k: alma_mater 
+Begin Template: Plainlist
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Reference: ETH Zurich
+End Reference: ETH Zurich
+List Item: Unordered 1
+Text: ' '
+Begin Reference: University of Zurich
+End Reference: University of Zurich
+End List
+End Template: Plainlist
+Text: '
+'
+k: doctoral_advisor  
+Begin Reference: Alfred Kleiner
+End Reference: Alfred Kleiner
+Text: '
+'
+k: academic_advisors 
+Begin Reference: Heinrich Friedrich Weber
+End Reference: Heinrich Friedrich Weber
+Text: '
+'
+k: notable_students  
+Begin Template: Plainlist
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Ernst G. Straus
+End Reference: Ernst G. Straus
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Nathan Rosen
+End Reference: Nathan Rosen
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Leo Szilard
+End Reference: Leo Szilard
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Raziuddin Siddiqui
+End Reference: Raziuddin Siddiqui
+Open Tag: ref attributes: []
+Begin Template: cite web
+k: url
+Text: 'http://www.ias.ac.in/currsci/apr25/articles32.htm '
+k: title
+Text: 'Mohammad Raziuddin Siddiqui '
+k: publisher
+Text: 'Ias.ac.in '
+k: date
+Text: '2 January 1998 '
+k: archiveurl
+Text: 'http://web.archive.org/web/20040601194117/http://www.ias.ac.in/currsci/apr25/articles32.htm'
+k: archivedate
+Text: '1 June 2004'
+k: accessdate
+Text: '3 April 2011'
+End Template: cite web
+Text: ' '
+Close Tag: ref
+End List
+End Template: Plainlist
+Text: '
+'
+k: known_for 
+Begin Template: Plainlist
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Reference: General relativity
+End Reference: General relativity
+Text: ' and '
+Begin Reference: special relativity
+End Reference: special relativity
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Photoelectric effect
+End Reference: Photoelectric effect
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Mass-energy equivalence
+End Reference: Mass-energy equivalence
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Brownian motion
+k: null
+Text: 'Theory of Brownian Motion'
+End Reference: Brownian motion
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Einstein field equations
+End Reference: Einstein field equations
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Bose–Einstein statistics
+End Reference: Bose–Einstein statistics
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Classical unified field theories
+k: null
+Text: 'Unified Field Theory'
+End Reference: Classical unified field theories
+List Item: Unordered 1
+Text: ' '
+Begin Reference: EPR paradox
+End Reference: EPR paradox
+End List
+End Template: Plainlist
+Text: '
+'
+k: awards 
+Begin Template: Plainlist
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Nobel Prize in Physics
+End Reference: Nobel Prize in Physics
+Text: ' (1921)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Matteucci Medal
+End Reference: Matteucci Medal
+Text: ' (1921)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Copley Medal
+End Reference: Copley Medal
+Text: ' (1925)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Max Planck Medal
+End Reference: Max Planck Medal
+Text: ' (1929)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Time 100: The Most Important People of the Century
+k: null
+Text: '''Time'' Person of the Century'
+End Reference: Time 100: The Most Important People of the Century
+Text: ' (1999)'
+End List
+End Template: Plainlist
+Text: '
+'
+k: signature 
+Text: 'Albert Einstein signature 1934.svg
+'
+End Template: Infobox scientist
+
+Paragraph
+ItalicBold: 3
+Text: 'Albert Einstein'
+ItalicBold: 3
+Text: ' ('
+Begin Template: IPAc-en
+k: null
+Text: 'icon'
+k: null
+Text: 'ˈ'
+k: null
+Text: 'æ'
+k: null
+Text: 'l'
+k: null
+Text: 'b'
+k: null
+Text: 'ər'
+k: null
+Text: 't'
+k: null
+Text: '_'
+k: null
+Text: 'ˈ'
+k: null
+Text: 'aɪ'
+k: null
+Text: 'n'
+k: null
+Text: 's'
+k: null
+Text: 't'
+k: null
+Text: 'aɪ'
+k: null
+Text: 'n'
+End Template: IPAc-en
+Text: '; '
+Begin Template: IPA-de
+k: null
+Text: 'ˈalbɐt ˈaɪnʃtaɪn'
+k: null
+Text: 'lang'
+k: null
+Text: 'Albert_Einstein_german.ogg'
+End Template: IPA-de
+Text: '; 14 March 1879'
+Entity: ' ' (nbsp)
+Text: '– 18 April 1955) was a German'
+Comment Tag: [[MOS:BIO]]&nbsp;– Notability: Einstein was a German Nobel laureate.
+Text: '-born '
+Begin Reference: theoretical physics
+k: null
+Text: 'theoretical physicist'
+End Reference: theoretical physics
+Text: ' who developed the theory of '
+Begin Reference: general relativity
+End Reference: general relativity
+Text: ', effecting a revolution in '
+Begin Reference: physics
+End Reference: physics
+Text: '. For this achievement, Einstein is often regarded as the father of '
+Begin Reference: modern physics
+End Reference: modern physics
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: Citation
+
+k: title
+Text: 'Poincaré's Philosophy. From Conventionalism to Phenomenology
+'
+k: first1
+Text: 'Élie
+'
+k: last1
+Text: 'Zahar
+'
+k: publisher
+Text: 'Carus Publishing Company
+'
+k: year
+Text: '2001
+'
+k: isbn
+Text: '0-8126-9435-X
+'
+k: page
+Text: '41
+'
+k: url
+Text: 'http://books.google.com/?id=jJl2JAqvoSAC'
+End Template: Citation
+
+Text: ', '
+Begin Link: http://books.google.com/books?id=jJl2JAqvoSAC&pg=PA41
+k: null
+Text: 'Chapter 2, p. 41'
+End Link: http://books.google.com/books?id=jJl2JAqvoSAC&pg=PA41
+Text: '.
+'
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: cite doi
+k: null
+Text: '10.1098/rsbm.1955.0005'
+End Template: cite doi
+Close Tag: ref
+Text: ' While best known for his '
+Begin Reference: mass–energy equivalence
+End Reference: mass–energy equivalence
+Text: ' formula '
+Begin Template: nowrap
+k: 1
+Text: '''E'' = ''mc'''
+Open Tag: sup attributes: []
+Text: '2'
+Close Tag: sup
+End Template: nowrap
+Text: ' (which has been dubbed "the world's most famous equation")'
+Open Tag: ref attributes: []
+Text: 'David Bodanis, '
+ItalicBold: 2
+Text: 'E'
+Entity: ' ' (nbsp)
+Text: '='
+Entity: ' ' (nbsp)
+Text: 'mc'
+Open Tag: sup attributes: []
+Text: '2'
+Close Tag: sup
+Text: ': A Biography of the World's Most Famous Equation'
+ItalicBold: 2
+Text: ' (New York: Walker, 2000).'
+Close Tag: ref
+Text: ', he received the '
+Begin Reference: List of Nobel laureates in Physics
+k: null
+Text: '1921'
+End Reference: List of Nobel laureates in Physics
+Text: ' '
+Begin Reference: Nobel Prize in Physics
+End Reference: Nobel Prize in Physics
+Text: ' "for his services to theoretical physics, and especially for his discovery of the law of the '
+Begin Reference: photoelectric effect
+End Reference: photoelectric effect
+Text: '".'
+Open Tag: ref attributes: []
+Begin Template: cite web 
+k: url
+Text: 'http://nobelprize.org/nobel_prizes/physics/laureates/1921/ '
+k: title
+Text: 'The Nobel Prize in Physics 1921 '
+k: accessdate
+Text: '6 March 2007 '
+k: publisher
+Begin Reference: Nobel Foundation
+End Reference: Nobel Foundation
+k: archiveurl
+Text: 'http://www.webcitation.org/5bLXMl1V0 '
+k: archivedate
+Text: '5 October 2008'
+End Template: cite web 
+Close Tag: ref
+Text: ' The latter was pivotal in establishing '
+Begin Reference: Introduction to quantum mechanics
+k: null
+Text: 'quantum theory'
+End Reference: Introduction to quantum mechanics
+Text: ' within physics.'
+Paragraph
+Text: 'Near the beginning of his career, Einstein thought that '
+Begin Reference: Newtonian mechanics
+End Reference: Newtonian mechanics
+Text: ' was no longer enough to reconcile the laws of '
+Begin Reference: classical mechanics
+End Reference: classical mechanics
+Text: ' with the laws of the '
+Begin Reference: electromagnetic field
+End Reference: electromagnetic field
+Text: '. This led to the development of his '
+Begin Reference: special theory of relativity
+End Reference: special theory of relativity
+Text: '. He realized, however, that the principle of relativity could also be extended to '
+Begin Reference: gravitational fields
+End Reference: gravitational fields
+Text: ', and with his subsequent theory of gravitation in 1916, he published a paper on the '
+Begin Reference: general theory of relativity
+End Reference: general theory of relativity
+Text: '. He continued to deal with problems of '
+Begin Reference: statistical mechanics
+End Reference: statistical mechanics
+Text: ' and '
+Begin Reference: quantum mechanics
+k: null
+Text: 'quantum theory'
+End Reference: quantum mechanics
+Text: ', which led to his explanations of '
+Begin Reference: particle
+k: null
+Text: 'particle theory'
+End Reference: particle
+Text: ' and the '
+Begin Reference: Brownian motion
+k: null
+Text: 'motion of molecules'
+End Reference: Brownian motion
+Text: '. He also investigated the thermal properties of light which laid the foundation of the '
+Begin Reference: photon
+End Reference: photon
+Text: ' theory of light. In 1917, Einstein applied the general theory of relativity to model the structure of the '
+Begin Reference: universe
+End Reference: universe
+Text: ' as a whole.'
+Open Tag: ref attributes: [name : 'Nobel']
+Begin Link: http://www.nobelprize.org/nobel_prizes/physics/laureates/2011/advanced-physicsprize2011.pdf
+k: null
+Text: '"Scientific Background on the Nobel Prize in Physics 2011. The accelerating universe." (page 2)'
+End Link: http://www.nobelprize.org/nobel_prizes/physics/laureates/2011/advanced-physicsprize2011.pdf
+Text: ' Nobelprize.org.'
+Close Tag: ref
+Paragraph
+Text: 'He was visiting the United States when '
+Begin Reference: Adolf Hitler
+End Reference: Adolf Hitler
+Text: ' came to power in 1933, and did not go back to Germany, where he had been a professor at the '
+Begin Reference: Prussian Academy of Sciences
+k: null
+Text: 'Berlin Academy of Sciences'
+End Reference: Prussian Academy of Sciences
+Text: '. He settled in the U.S., becoming a citizen in 1940.'
+Open Tag: ref attributes: [name : 'misc']
+Begin Template: cite web 
+k: url
+Text: 'http://www.einstein-website.de/z_information/variousthings.html '
+k: title
+Text: 'Various things about Albert Einstein '
+k: last
+Text: 'Hans-Josef '
+k: first
+Text: 'Küpper '
+k: year
+Text: '2000 '
+k: publisher
+Text: 'einstein-website.de '
+k: accessdate
+Text: '18 July 2009'
+End Template: cite web 
+Close Tag: ref
+Text: ' On the eve of World War II, he helped alert President '
+Begin Reference: Franklin D. Roosevelt
+End Reference: Franklin D. Roosevelt
+Text: ' that Germany might be developing an atomic weapon, and recommended that the U.S. begin similar research; this eventually led to what would become the '
+Begin Reference: Manhattan Project
+End Reference: Manhattan Project
+Text: '. Einstein was in support of defending the Allied forces, but largely denounced using the new discovery of '
+Begin Reference: nuclear fission
+End Reference: nuclear fission
+Text: ' as a weapon. Later, together with '
+Begin Reference: Bertrand Russell
+End Reference: Bertrand Russell
+Text: ', Einstein signed the '
+Begin Reference: Russell–Einstein Manifesto
+End Reference: Russell–Einstein Manifesto
+Text: ', which highlighted the danger of nuclear weapons. Einstein was affiliated with the '
+Begin Reference: Institute for Advanced Study
+End Reference: Institute for Advanced Study
+Text: ' in '
+Begin Reference: Princeton, New Jersey
+End Reference: Princeton, New Jersey
+Text: ', until his death in 1955.'
+Paragraph
+Text: 'Einstein published '
+Begin Reference: List of scientific publications by Albert Einstein
+k: null
+Text: 'more than 300 scientific papers'
+End Reference: List of scientific publications by Albert Einstein
+Text: ' along with over 150 non-scientific works.'
+Inline Tag: ref attributes: [name : 'Nobel']
+Open Tag: ref attributes: [name : 'Paul Arthur Schilpp, editor 1951 730–746']
+Begin Template: Citation 
+k: author
+Text: 'Paul Arthur Schilpp, editor '
+k: year
+Text: '1951 '
+k: title
+Text: 'Albert Einstein: Philosopher-Scientist, Volume II '
+k: publisher
+Text: 'Harper and Brothers Publishers (Harper Torchbook edition) '
+k: location
+Text: 'New York '
+k: pages
+Text: '730–746'
+End Template: Citation 
+Text: 'His non-scientific works include: '
+ItalicBold: 2
+Text: 'About Zionism: Speeches and Lectures by Professor Albert Einstein'
+ItalicBold: 2
+Text: ' (1930), "Why War?" (1933, co-authored by '
+Begin Reference: Sigmund Freud
+End Reference: Sigmund Freud
+Text: '), '
+ItalicBold: 2
+Text: 'The World As I See It'
+ItalicBold: 2
+Text: ' (1934), '
+ItalicBold: 2
+Text: 'Out of My Later Years'
+ItalicBold: 2
+Text: ' (1950), and a book on science for the general reader, '
+ItalicBold: 2
+Begin Reference: The Evolution of Physics
+End Reference: The Evolution of Physics
+ItalicBold: 2
+Text: ' (1938, co-authored by '
+Begin Reference: Leopold Infeld
+End Reference: Leopold Infeld
+Text: ').'
+Close Tag: ref
+Text: ' His great intelligence and originality have made the word "Einstein" synonymous with '
+Begin Reference: genius
+End Reference: genius
+Text: '.'
+Open Tag: ref attributes: []
+Begin Link: http://wordnetweb.princeton.edu/perl/webwn?s=Einstein
+k: null
+Text: 'WordNet for Einstein'
+End Link: http://wordnetweb.princeton.edu/perl/webwn?s=Einstein
+Text: '.'
+Close Tag: ref
+Paragraph
+Section [0] Biography
+Text: '
+'
+Section [1] Early life and education
+Text: '
+'
+Begin Reference: File:Albert Einstein at the age of three (1882).jpg
+k: alt
+Text: 'A young boy with short hair and a round face, wearing a white collar and large bow, with vest, coat, skirt and high boots. He is leaning against an ornate chair.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'Einstein at the age of three in 1882'
+End Reference: File:Albert Einstein at the age of three (1882).jpg
+Text: '
+'
+Begin Reference: File:Albert Einstein as a child.jpg
+k: alt
+Text: 'Studio photo of a boy seated in a relaxed posture and wearing a suit, posed in front of a backdrop of scenery.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'Albert Einstein in 1893 (age 14)'
+End Reference: File:Albert Einstein as a child.jpg
+Text: '
+'
+Begin Reference: File:Einstein-matura.jpg
+k: alt
+Text: 'Einstein's matriculation certificate at the age of 17. The heading reads "The Education Committee of the Canton of Aargau." His scores were German 5, French 3, Italian 5, History 6, Geography 4, Algebra 6, Geometry 6, Descriptive Geometry 6, Physics 6, Chemistry 5, Natural History 5, Art Drawing 4, Technical Drawing 4. The scores are 6 = excellent, 5 = good, 4 = sufficient, 3 = poor, 2 = very poor, 1 = unusable.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'Einstein's matriculation certificate at the age of 17, showing his final grades from the Aargau Kantonsschule (on a scale of 1-6).'
+End Reference: File:Einstein-matura.jpg
+Paragraph
+Text: 'Albert Einstein was born in '
+Begin Reference: Ulm
+End Reference: Ulm
+Text: ', in the '
+Begin Reference: Kingdom of Württemberg
+End Reference: Kingdom of Württemberg
+Text: ' in the German Empire on 14'
+Entity: ' ' (nbsp)
+Text: 'March 1879.'
+Open Tag: ref attributes: [name : 'Bio']
+Begin Template: cite web 
+k: url
+Text: 'http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-bio.html '
+k: title
+Text: 'Albert Einstein&nbsp;– Biography '
+k: accessdate
+Text: '7 March 2007 '
+k: publisher
+Begin Reference: Nobel Foundation
+End Reference: Nobel Foundation
+End Template: cite web 
+Close Tag: ref
+Text: ' His father was '
+Begin Reference: Hermann Einstein
+End Reference: Hermann Einstein
+Text: ', a salesman and engineer. His mother was '
+Begin Reference: Einstein family#Pauline Koch
+k: null
+Text: 'Pauline Einstein (née Koch)'
+End Reference: Einstein family#Pauline Koch
+Text: '. In 1880, the family moved to '
+Begin Reference: Munich
+End Reference: Munich
+Text: ', where his father and his uncle founded '
+ItalicBold: 2
+Text: 'Elektrotechnische Fabrik J. Einstein '
+Text: '& '
+Text: 'Cie'
+ItalicBold: 2
+Text: ', a company that manufactured electrical equipment based on '
+Begin Reference: direct current
+End Reference: direct current
+Text: '.'
+Inline Tag: ref attributes: [name : 'Bio']
+Paragraph
+Text: 'The Einsteins were non-observant Jews. Albert attended a '
+Begin Reference: Catholic school
+k: null
+Text: 'Catholic elementary school'
+End Reference: Catholic school
+Text: ' from the age of five for three years. Later, at the age of eight, Einstein was transferred to the '
+Begin Reference: Luitpold Gymnasium
+End Reference: Luitpold Gymnasium
+Text: ' where he received advanced primary and secondary school education until he left Germany seven years later.'
+Open Tag: ref attributes: [name : 'Stachel2002']
+Begin Template: Citation 
+k: author
+Text: 'John J. Stachel '
+k: title
+Text: 'Einstein from "B" to "Z" '
+k: url
+Text: 'http://books.google.com/books?id=OAsQ_hFjhrAC&pg=PA59 '
+k: accessdate
+Text: '20 February 2011 '
+k: year
+Text: '2002 '
+k: publisher
+Text: 'Springer '
+k: isbn
+Text: '9780817641436 '
+k: pages
+Text: '59–61'
+End Template: Citation 
+Close Tag: ref
+Text: ' Although it has been thought that Einstein had early speech difficulties, this is disputed by the Albert Einstein Archives, and he excelled at the first school that he attended.'
+Open Tag: ref attributes: []
+Text: 'Einstein's Alleged Handicaps: The Legend of the Dull-Witted Child Who Grew Up to Be a Genius '
+Begin Link: http://www.albert-einstein.org/.index11.html
+End Link: http://www.albert-einstein.org/.index11.html
+Close Tag: ref
+Paragraph
+Text: 'His father once showed him a pocket compass; Einstein realized that there must be something causing the needle to move, despite the apparent "empty space".'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: first
+Text: 'P. A. '
+k: last
+Text: 'Schilpp (Ed.) '
+k: title
+Text: 'Albert Einstein&nbsp;– Autobiographical Notes '
+k: pages
+Text: '8–9 '
+k: publisher
+Begin Reference: Open Court Publishing Company
+End Reference: Open Court Publishing Company
+Text: ' '
+k: year
+Text: '1979'
+End Template: Citation 
+Close Tag: ref
+Text: ' As he grew, Einstein built models and mechanical devices for fun and began to show a talent for mathematics.'
+Inline Tag: ref attributes: [name : 'Bio']
+Text: ' When Einstein was ten years old Max Talmud (later changed to '
+Begin Reference: Max Talmey
+End Reference: Max Talmey
+Text: '), a poor Jewish medical student from '
+Begin Reference: Poland
+End Reference: Poland
+Text: ', was introduced to the Einstein family by his brother, and during weekly visits over the next five years he gave the boy popular books on science, mathematical texts and philosophical writings. These included Immanuel Kant's '
+ItalicBold: 2
+Begin Reference: Critique of Pure Reason
+End Reference: Critique of Pure Reason
+ItalicBold: 2
+Text: ' and '
+ItalicBold: 2
+Begin Reference: Euclid's Elements
+End Reference: Euclid's Elements
+ItalicBold: 2
+Text: ' (which Einstein called the "holy little geometry book").'
+Open Tag: ref attributes: []
+Text: 'M. Talmey, '
+ItalicBold: 2
+Text: 'The Relativity Theory Simplified and the Formative Period of its Inventor'
+ItalicBold: 2
+Text: '. Falcon Press, 1932, pp. 161–164.'
+Close Tag: ref
+Open Tag: ref attributes: [name : 'HarvChemAE']
+Text: 'Dudley Herschbach, "Einstein as a Student", Department of Chemistry and Chemical Biology, Harvard University, Cambridge, MA, USA, pp. 4–5, web: '
+Begin Link: http://www.chem.harvard.edu/herschbach/Einstein_Student.pdf
+k: null
+Text: 'HarvardChem-Einstein-PDF'
+End Link: http://www.chem.harvard.edu/herschbach/Einstein_Student.pdf
+Close Tag: ref
+Begin Template: #tag:ref
+k: null
+Text: '"Albert's intellectual growth was strongly fostered at home. His mother, a talented pianist, ensured the children's musical education. His father regularly read Schiller and Heine aloud to the family. Uncle Jakob challenged Albert with mathematical problems, which he solved with 'a deep feeling of happiness'." More significant were the weekly visits of Max Talmud from 1889 through 1894 during which time he introduced the boy to popular scientific texts that brought to an end a short-lived religious phase, convincing him that 'a lot in the Bible stories could not be true'. A textbook of plane geometry that he quickly worked through led on to an avid self-study of mathematics, several years ahead of the school curriculum.
+
+'
+Open Tag: ref attributes: []
+Begin Link: http://www.chem.harvard.edu/herschbach/Einstein_Student.pdf
+k: null
+Text: 'Einstein as a Student'
+End Link: http://www.chem.harvard.edu/herschbach/Einstein_Student.pdf
+Text: ', pp. 3–5.'
+Close Tag: ref
+k: group
+Text: 'fn'
+End Template: #tag:ref
+Paragraph
+Text: 'In 1894, his father's company failed: direct current (DC) lost the '
+Begin Reference: War of Currents
+End Reference: War of Currents
+Text: ' to '
+Begin Reference: alternating current
+End Reference: alternating current
+Text: ' (AC). In search of business, the Einstein family moved to Italy, first to '
+Begin Reference: Milan
+End Reference: Milan
+Text: ' and then, a few months later, to '
+Begin Reference: Pavia
+End Reference: Pavia
+Text: '. When the family moved to Pavia, Einstein stayed in Munich to finish his studies at the Luitpold Gymnasium. His father intended for him to pursue '
+Begin Reference: electrical engineering
+End Reference: electrical engineering
+Text: ', but Einstein clashed with authorities and resented the school's regimen and teaching method. He later wrote that the spirit of learning and creative thought were lost in strict '
+Begin Reference: rote learning
+End Reference: rote learning
+Text: '. At the end of December 1894 he travelled to Italy to join his family in Pavia, convincing the school to let him go by using a doctor's note.'
+Open Tag: ref attributes: []
+Text: 'A. Fölsing, '
+ItalicBold: 2
+Text: 'Albert Einstein'
+ItalicBold: 2
+Text: ', 1997, pp. 30-31.'
+Close Tag: ref
+Text: ' It was during his time in Italy that he wrote a short essay with the title "On the Investigation of the State of the '
+Begin Reference: Aether theories
+k: null
+Text: 'Ether'
+End Reference: Aether theories
+Text: ' in a Magnetic Field."'
+Open Tag: ref attributes: []
+ItalicBold: 2
+Text: 'Albert Einstein Collected Papers'
+ItalicBold: 2
+Text: ', vol. 1 (1987), doc. 5.'
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: last 
+Text: 'Mehra '
+k: first
+Text: 'Jagdish '
+k: contribution
+Text: 'Albert Einstein's first paper '
+k: title
+Text: 'The Golden Age of Physics '
+k: publisher
+Text: 'World Scientific '
+k: year
+Text: '2001 '
+k: url
+Text: 'http://www.worldscibooks.com/phy_etextbook/4454/4454_chap1.pdf '
+k: format
+Text: 'PDF '
+k: accessdate
+Text: '4 March 2007 '
+k: isbn
+Text: '9810249853'
+End Template: Citation 
+Close Tag: ref
+Paragraph
+Text: 'In late summer 1895, at the age of sixteen, Einstein sat the entrance examinations for the Swiss Federal Polytechnic in '
+Begin Reference: Zurich
+End Reference: Zurich
+Text: ' (later the '
+Begin Reference: ETH
+k: null
+Text: 'Eidgenössische Polytechnische Schule'
+End Reference: ETH
+Text: '). He failed to reach the required standard in several subjects, but obtained exceptional grades in physics and mathematics.'
+Open Tag: ref attributes: []
+Text: 'A. Fölsing, '
+ItalicBold: 2
+Text: 'Albert Einstein'
+ItalicBold: 2
+Text: ', 1997, pp. 36-37.'
+Close Tag: ref
+Text: ' On the advice of the Principal of the Polytechnic, he attended the Aargau Cantonal School in '
+Begin Reference: Aarau
+End Reference: Aarau
+Text: ', Switzerland, in 1895-96 to complete his secondary schooling. While lodging with the family of Professor Jost Winteler, he fell in love with Winteler's daughter, Marie. (His sister '
+Begin Reference: Maja Einstein
+k: null
+Text: 'Maja'
+End Reference: Maja Einstein
+Text: ' later married the Wintelers' son, Paul.)'
+Open Tag: ref attributes: []
+Begin Template: Harvtxt
+k: null
+Text: 'Highfield'
+k: null
+Text: 'Carter'
+k: null
+Text: '1993'
+k: pp
+Text: '21,31,56–57'
+End Template: Harvtxt
+Close Tag: ref
+Text: ' In January 1896, with his father's approval, he renounced his '
+Begin Reference: German citizenship
+k: null
+Text: 'citizenship in the German Kingdom of Württemberg'
+End Reference: German citizenship
+Text: ' to avoid '
+Begin Reference: Conscription in Germany
+k: null
+Text: 'military service'
+End Reference: Conscription in Germany
+Text: '.'
+Open Tag: ref attributes: []
+Text: 'A. Fölsing, '
+ItalicBold: 2
+Text: 'Albert Einstein'
+ItalicBold: 2
+Text: ', 1997, p. 40.'
+Close Tag: ref
+Text: '  In September 1896 he passed the Swiss '
+Begin Reference: Matura
+End Reference: Matura
+Text: ' with mostly good grades (gaining maximum grade 6 in physics and mathematical subjects, on a scale 1-6),'
+Open Tag: ref attributes: []
+ItalicBold: 2
+Text: 'Collected Papers'
+ItalicBold: 2
+Text: ', vol. 1, docs. 21-27.'
+Close Tag: ref
+Text: ' and though still only seventeen he enrolled in the four year mathematics and physics teaching diploma program at the Zurich Polytechnic. Marie Winteler moved to '
+Begin Reference: Olsberg, Switzerland
+End Reference: Olsberg, Switzerland
+Text: ' for a teaching post.'
+Paragraph
+Text: 'Einstein's future wife, '
+Begin Reference: Mileva Marić
+End Reference: Mileva Marić
+Text: ', also enrolled at the Polytechnic that same year, the only woman among the six students in the mathematics and physics section of the teaching diploma course. Over the next few years, Einstein and Marić's friendship developed into romance, and they read books together on extra-curricular physics in which Einstein was taking an increasing interest. In 1900 Einstein was awarded the Zurich Polytechnic teaching diploma, but Marić failed the examination with a poor grade in the mathematics component, theory of functions.'
+Open Tag: ref attributes: []
+ItalicBold: 2
+Text: 'Albert Einstein Collected Papers'
+ItalicBold: 2
+Text: ', vol. 1, 1987, doc. 67.'
+Close Tag: ref
+Text: ' There have been claims that Marić collaborated with Einstein on his celebrated 1905 papers,'
+Open Tag: ref attributes: []
+Text: 'Troemel-Ploetz, D., "Mileva Einstein-Marić: The Woman Who Did Einstein's Mathematics", '
+ItalicBold: 2
+Text: 'Women's Studies Int. Forum'
+ItalicBold: 2
+Text: ', vol. 13, no. 5, pp. 415–432, 1990.'
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: Citation
+
+k: url
+Text: 'http://philosci40.unibe.ch/lehre/winter99/einstein/Walker_Stachel.pdf
+'
+k: title
+Text: 'Did Einstein Espouse his Spouse's Ideas?
+'
+k: author
+Text: 'Walker, Evan Harris
+'
+k: format
+Text: 'PDF
+'
+k: date
+Text: 'February 1989
+'
+k: publisher
+Text: 'Physics Today
+'
+k: accessdate
+Text: '31 March 2011
+'
+k: postscript
+Text: '.'
+End Template: Citation
+
+Close Tag: ref
+Text: ' but historians of physics who have studied the issue find no evidence that she made any substantive contributions.'
+Open Tag: ref attributes: []
+Text: 'Pais, A., '
+ItalicBold: 2
+Text: 'Einstein Lived Here'
+ItalicBold: 2
+Text: ', Oxford University Press, 1994, pp. 1–29.'
+Close Tag: ref
+Open Tag: ref attributes: []
+Text: 'Holton, G., '
+ItalicBold: 2
+Text: 'Einstein, History, and Other Passions'
+ItalicBold: 2
+Text: ', Harvard University Press, 1996, pp. 177–193.'
+Close Tag: ref
+Open Tag: ref attributes: []
+Text: 'Stachel, J., '
+ItalicBold: 2
+Text: 'Einstein from B to Z'
+ItalicBold: 2
+Text: ', Birkhäuser, 2002, pp. 26–38; 39–55. '
+Begin Link: http://philoscience.unibe.ch/lehre/winter99/einstein/Stachel1966.pdf
+k: null
+Text: 'philoscience.unibe.ch'
+End Link: http://philoscience.unibe.ch/lehre/winter99/einstein/Stachel1966.pdf
+Close Tag: ref
+Open Tag: ref attributes: []
+Text: 'Martinez, A. A., “Handling evidence in history: the case of Einstein’s Wife.” '
+ItalicBold: 2
+Text: 'School Science Review'
+ItalicBold: 2
+Text: ', 86 (316), March 2005, pp. 49–56. '
+Begin Link: https://webspace.utexas.edu/aam829/1/m/Maric_files/EvidenceMaric.pdf
+End Link: https://webspace.utexas.edu/aam829/1/m/Maric_files/EvidenceMaric.pdf
+Close Tag: ref
+Paragraph
+Section [1] Marriages and children
+Text: '
+'
+Begin Template: main
+k: null
+Text: 'Einstein family'
+End Template: main
+Text: '
+In early 1902, Einstein and '
+Begin Reference: Mileva Marić
+End Reference: Mileva Marić
+Text: ' (Милева Марић) had a daughter they named '
+Begin Reference: Lieserl Einstein
+k: null
+Text: 'Lieserl'
+End Reference: Lieserl Einstein
+Text: ' in their correspondence, who was born in '
+Begin Reference: Novi Sad
+End Reference: Novi Sad
+Text: ' where Marić's parents lived.'
+Open Tag: ref attributes: []
+Text: 'This conclusion is from Einstein's correspondence with Marić. Lieserl is first mentioned in a letter from Einstein to Marić (who was staying with her family in or near Novi Sad at the time of Lieserl's birth) dated 4 February 1902 ('
+ItalicBold: 2
+Text: 'Collected papers'
+ItalicBold: 2
+Text: ' Vol. 1, document 134).'
+Close Tag: ref
+Text: ' Her full name is not known, and her fate is uncertain after 1903.'
+Open Tag: ref attributes: []
+Text: 'Albrecht Fölsing (1998). Albert Einstein: A Biography. Penguin Group. ISBN 0140237194; see section I, II,'
+Close Tag: ref
+Paragraph
+Text: 'Einstein and Marić married in January 1903. In May 1904, the couple's first son, '
+Begin Reference: Hans Albert Einstein
+End Reference: Hans Albert Einstein
+Text: ', was born in '
+Begin Reference: Bern
+End Reference: Bern
+Text: ', Switzerland. Their second son, '
+Begin Reference: Eduard Einstein
+k: null
+Text: 'Eduard'
+End Reference: Eduard Einstein
+Text: ', was born in Zurich in July 1910. In 1914, Einstein moved to Berlin, while his wife remained in Zurich with their sons. Marić and Einstein divorced on 14 February 1919, having lived apart for five years.'
+Paragraph
+Text: 'Einstein '
+Begin Reference: cousin marriage
+k: null
+Text: 'married'
+End Reference: cousin marriage
+Text: ' '
+Begin Reference: Elsa Einstein
+k: null
+Text: 'Elsa Löwenthal'
+End Reference: Elsa Einstein
+Text: ' (née Einstein) on 2 June 1919, after having had a relationship with her since 1912. She was his first cousin maternally and his second cousin paternally. In 1933, they emigrated permanently to the United States. In 1935, Elsa Einstein was diagnosed with heart and kidney problems and died in December 1936.'
+Open Tag: ref attributes: [name : 'Highfield216']
+Begin Template: Harvnb
+k: null
+Text: 'Highfield'
+k: null
+Text: 'Carter'
+k: null
+Text: '1993'
+k: p
+Text: '216'
+End Template: Harvnb
+Close Tag: ref
+Paragraph
+Section [1] Patent office
+Text: '
+'
+Begin Reference: File:Einstein-with-habicht-and-solovine.jpg
+k: null
+Text: 'thumb'
+k: null
+Text: 'left'
+k: alt
+Text: 'Three young men in suits with high white collars and bow ties, sitting.'
+k: null
+Text: 'Left to right: Conrad Habicht, '
+Begin Reference: Maurice Solovine
+End Reference: Maurice Solovine
+Text: ' and Einstein, who founded the Olympia Academy'
+End Reference: File:Einstein-with-habicht-and-solovine.jpg
+Text: '
+'
+Begin Reference: File:einsteinhaus4.jpg
+k: alt
+Text: 'Attached stone dwelling with drapery visible in the windows. It is over a first story restaurant.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'right'
+k: null
+Text: 'upright'
+k: null
+Begin Reference: Einsteinhaus
+k: null
+Text: 'Einstein's home'
+End Reference: Einsteinhaus
+Text: ' in Bern'
+End Reference: File:einsteinhaus4.jpg
+Text: '
+After graduating, Einstein spent almost two frustrating years searching for a teaching post, but a former classmate's father helped him secure a job in Bern, at the '
+Begin Reference: Swiss Federal Institute of Intellectual Property
+k: null
+Text: 'Federal Office for Intellectual Property'
+End Reference: Swiss Federal Institute of Intellectual Property
+Text: ', the patent office, as an assistant '
+Begin Reference: patent examiner
+k: null
+Text: 'examiner'
+End Reference: patent examiner
+Text: '.'
+Open Tag: ref attributes: []
+Text: 'Now the '
+Begin Template: Citation
+k: title
+Text: 'Swiss Federal Institute of Intellectual Property '
+k: url
+Text: 'http://www.ipi.ch/E/institut/i1.shtm'
+k: accessdate
+Text: '16 October 2006 '
+End Template: Citation
+Text: '. See also their '
+Begin Template: Citation 
+k: title
+Text: 'FAQ about Einstein and the Institute'
+k: url
+Text: 'http://www.ipi.ch/E/institut/i1094.shtm'
+End Template: Citation 
+Close Tag: ref
+Text: ' He evaluated '
+Begin Reference: patent application
+End Reference: patent application
+Text: 's for electromagnetic devices. In 1903, Einstein's position at the Swiss Patent Office became permanent, although he was passed over for promotion until he "fully mastered machine technology".'
+Open Tag: ref attributes: []
+Text: 'Peter Galison, "Einstein's Clocks: The Question of Time" '
+ItalicBold: 2
+Text: 'Critical Inquiry'
+ItalicBold: 2
+Text: ' 26, no. 2 (Winter 2000): 355–389.'
+Close Tag: ref
+Paragraph
+Text: 'Much of his work at the patent office related to questions about transmission of electric signals and electrical-mechanical synchronization of time, two technical problems that show up conspicuously in the '
+Begin Reference: thought experiment
+End Reference: thought experiment
+Text: 's that eventually led Einstein to his radical conclusions about the nature of light and the fundamental connection between space and time.'
+Open Tag: ref attributes: []
+Text: 'Gallison, Question of Time.'
+Close Tag: ref
+Paragraph
+Text: 'With a few friends he met in Bern, Einstein started a small discussion group, self-mockingly named "'
+Begin Reference: Olympia Academy
+k: null
+Text: 'The Olympia Academy'
+End Reference: Olympia Academy
+Text: '", which met regularly to discuss science and philosophy. Their readings included the works of '
+Begin Reference: Henri Poincaré
+End Reference: Henri Poincaré
+Text: ', '
+Begin Reference: Ernst Mach
+End Reference: Ernst Mach
+Text: ', and '
+Begin Reference: David Hume
+End Reference: David Hume
+Text: ', which influenced his scientific and philosophical outlook.'
+Paragraph
+Section [1] Academic career
+Text: '
+'
+Begin Reference: File:Albert Einstein (Nobel).png
+k: null
+Text: 'thumb'
+k: null
+Text: 'left'
+k: null
+Text: 'Einstein's official 1921 portrait after receiving the Nobel Prize in Physics.'
+End Reference: File:Albert Einstein (Nobel).png
+Text: '
+During 1901, the paper '
+Begin Reference: List of scientific publications by Albert Einstein#Journal articles
+k: null
+Text: '"Folgerungen aus den Kapillarität Erscheinungen"'
+End Reference: List of scientific publications by Albert Einstein#Journal articles
+Text: ' ("Conclusions from the Capillarity Phenomena") was published in the prestigious '
+ItalicBold: 2
+Begin Reference: Annalen der Physik
+End Reference: Annalen der Physik
+ItalicBold: 2
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: Citation
+
+k: last 
+Text: 'Galison
+'
+k: first 
+Text: 'Peter
+'
+k: authorlink 
+Text: 'Peter Galison
+'
+k: title 
+Text: 'Einstein's Clocks, Poincaré's Maps: Empires of Time
+'
+k: publisher
+Text: 'W.W. Norton
+'
+k: location 
+Text: 'New York
+'
+k: year 
+Text: '2003
+'
+k: isbn 
+Text: '0393020010 '
+End Template: Citation
+
+Close Tag: ref
+Text: ' On 30 April 1905, Einstein completed his thesis, with '
+Begin Reference: Alfred Kleiner
+End Reference: Alfred Kleiner
+Text: ', Professor of Experimental Physics, serving as '
+ItalicBold: 2
+Begin Reference: Wikt:pro forma
+k: null
+Text: 'pro-forma'
+End Reference: Wikt:pro forma
+ItalicBold: 2
+Text: ' advisor. Einstein was awarded a PhD by the '
+Begin Reference: University of Zurich
+End Reference: University of Zurich
+Text: '. His dissertation was entitled "A New Determination of Molecular Dimensions".'
+Open Tag: ref attributes: []
+Begin Template: harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1905b'
+End Template: harv
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: cite web
+k: url
+Text: 'http://e-collection.library.ethz.ch/eserv/eth:30378/eth-30378-01.pdf '
+k: title
+Text: 'Eine Neue Bestimmung der Moleküldimensionen '
+k: publisher
+Text: 'ETH Zürich '
+k: year
+Text: '1905 '
+k: accessdate
+Text: '26 September 2011'
+End Template: cite web
+Close Tag: ref
+Text: ' That same year, which has been called Einstein's '
+ItalicBold: 2
+Begin Reference: annus mirabilis
+End Reference: annus mirabilis
+ItalicBold: 2
+Text: ' (miracle year), he published '
+Begin Reference: Annus Mirabilis papers
+k: null
+Text: 'four groundbreaking papers'
+End Reference: Annus Mirabilis papers
+Text: ', on the photoelectric effect, Brownian motion, special relativity, and the equivalence of matter and energy, which were to bring him to the notice of the academic world.'
+Paragraph
+Text: 'By 1908, he was recognized as a leading scientist, and he was appointed lecturer at the '
+Begin Reference: University of Bern
+End Reference: University of Bern
+Text: '. The following year, he quit the patent office and the lectureship to take the position of physics '
+Begin Reference: Docent#Germany and Switzerland
+k: null
+Text: 'docent'
+End Reference: Docent#Germany and Switzerland
+Text: ' '
+Open Tag: ref attributes: []
+Begin Template: cite web
+k: url
+Text: 'http://www.uzh.ch/about/portrait/history.html '
+k: title
+Text: 'Universität Zürich: Geschichte '
+k: publisher
+Text: 'Uzh.ch '
+k: date
+Text: '2 December 2010 '
+k: accessdate
+Text: '3 April 2011'
+End Template: cite web
+Close Tag: ref
+Text: ' at the University of Zurich. He became a full professor at '
+Begin Reference: Charles University in Prague
+k: null
+Text: 'Karl-Ferdinand University in Prague'
+End Reference: Charles University in Prague
+Text: ' in 1911. In 1914, he returned to Germany after being appointed director of the '
+Begin Reference: Kaiser Wilhelm Society
+k: null
+Text: 'Kaiser Wilhelm Institute for Physics'
+End Reference: Kaiser Wilhelm Society
+Text: ' (1914–1932)'
+Open Tag: ref attributes: [name : 'Kant']
+Text: 'Kant, Horst. "Albert Einstein and the '
+Begin Reference: Kaiser Wilhelm Institute for Physics
+End Reference: Kaiser Wilhelm Institute for Physics
+Text: ' in Berlin". in Renn, Jürgen. "Albert Einstein'
+Entity: ' ' (nbsp)
+Text: '– Chief Engineer of the Universe: One Hundred Authors for Einstein." Ed. Renn, Jürgen. '
+ItalicBold: 2
+Text: 'Wiley-VCH'
+ItalicBold: 2
+Text: '. 2005. pp. 166–169. ISBN 3527405747'
+Close Tag: ref
+Text: ' and a professor at the '
+Begin Reference: Humboldt University of Berlin
+End Reference: Humboldt University of Berlin
+Text: ', with a special clause in his contract that freed him from most teaching obligations. He became a member of the '
+Begin Reference: Prussian Academy of Sciences
+End Reference: Prussian Academy of Sciences
+Text: '. In 1916, Einstein was appointed president of the '
+Begin Reference: German Physical Society
+End Reference: German Physical Society
+Text: ' (1916–1918).'
+Open Tag: ref attributes: []
+Begin Template: Citation
+
+k: title
+Text: 'Albert Einstein: a biography
+'
+k: first1
+Text: 'Alice
+'
+k: last1
+Text: 'Calaprice
+'
+k: first2
+Text: 'Trevor
+'
+k: last2
+Text: 'Lipscombe
+'
+k: publisher
+Text: 'Greenwood Publishing Group
+'
+k: year
+Text: '2005
+'
+k: isbn
+Text: '0-313-33080-8
+'
+k: page
+Text: 'xix
+'
+k: url
+Text: 'http://books.google.com/?id=5eWh2O_3OAQC'
+End Template: Citation
+
+Text: ', '
+Begin Link: http://books.google.com/books?id=5eWh2O_3OAQC&pg=PR19
+k: null
+Text: 'Timeline, p. xix'
+End Link: http://books.google.com/books?id=5eWh2O_3OAQC&pg=PR19
+Text: '
+'
+Close Tag: ref
+Open Tag: ref attributes: []
+Text: 'Heilbron, 2000, p. 84.'
+Close Tag: ref
+Paragraph
+Text: 'During 1911, he had calculated that, based on his new theory of general relativity, light from another star would be bent by the Sun's gravity. That prediction was claimed confirmed by observations made by a British expedition led by Sir '
+Begin Reference: Arthur Stanley Eddington
+k: null
+Text: 'Arthur Eddington'
+End Reference: Arthur Stanley Eddington
+Text: ' during the '
+Begin Reference: solar eclipse of 29 May 1919
+End Reference: solar eclipse of 29 May 1919
+Text: '. International media reports of this made Einstein world famous. On 7 November 1919, the leading British newspaper '
+ItalicBold: 2
+Begin Reference: The Times
+End Reference: The Times
+ItalicBold: 2
+Text: ' printed a banner headline that read: "Revolution in Science'
+Entity: ' ' (nbsp)
+Text: '– New Theory of the Universe'
+Entity: ' ' (nbsp)
+Text: '– Newtonian Ideas Overthrown".'
+Open Tag: ref attributes: [name : 'Eddington']
+Begin Template: Citation
+k: last 
+Text: 'Andrzej '
+k: first 
+Text: 'Stasiak '
+k: year 
+Text: '2003 '
+k: title 
+Text: 'Myths in science '
+k: journal
+Text: 'EMBO reports '
+k: volume 
+Text: '4 '
+k: issue 
+Text: '3 '
+k: page 
+Text: '236'
+k: doi 
+Text: '10.1038/sj.embor.embor779 '
+k: url 
+Text: 'http://www.nature.com/embor/journal/v4/n3/full/embor779.html '
+k: accessdate 
+Text: '31 March 2007'
+End Template: Citation
+Close Tag: ref
+Text: ' (Much later, questions were raised whether the measurements had been accurate enough to support Einstein's theory).'
+Paragraph
+Text: 'In 1921, Einstein was awarded the '
+Begin Reference: Nobel Prize in Physics
+End Reference: Nobel Prize in Physics
+Text: '  for his explanation of the photoelectric effect, as relativity was considered still somewhat controversial. He also received the '
+Begin Reference: Copley Medal
+End Reference: Copley Medal
+Text: ' from the '
+Begin Reference: Royal Society
+End Reference: Royal Society
+Text: ' in 1925.'
+Paragraph
+Section [1] Travels abroad
+Paragraph
+Text: 'Einstein visited New York City for the first time on 2 April 1921, where he received an official welcome by '
+Begin Reference: John Francis Hylan
+k: null
+Text: 'the Mayor'
+End Reference: John Francis Hylan
+Text: ', followed by three weeks of lectures and receptions. He went on to deliver several lectures at Columbia University and Princeton University, and in Washington he accompanied representatives of the National Academy of Science on a visit to the White House. On his return to Europe he was the guest of the British statesman and philosopher '
+Begin Reference: Viscount Haldane
+End Reference: Viscount Haldane
+Text: ' in London, where he met several renowned scientific, intellectual and political figures, and delivered a lecture at Kings College.'
+Open Tag: ref attributes: []
+Text: 'Hoffman and Dukas (1972), pp. 145–148; Fölsing (1997), pp. 499–508.'
+Close Tag: ref
+Paragraph
+Text: 'In 1922, he traveled throughout Asia and later to Palestine, as part of a six-month excursion and speaking tour. His travels included '
+Begin Reference: Singapore
+End Reference: Singapore
+Text: ', '
+Begin Reference: Ceylon
+End Reference: Ceylon
+Text: ', and Japan, where he gave a series of lectures to thousands of Japanese. His first lecture in Tokyo lasted four hours, after which he met the emperor and empress at the '
+Begin Reference: Tokyo Imperial Palace
+k: null
+Text: 'Imperial Palace'
+End Reference: Tokyo Imperial Palace
+Text: ' where thousands came to watch. Einstein later gave his impressions of the Japanese in a letter to his sons:'
+Inline Tag: ref attributes: [name : 'Isaacson2']
+Begin Template: rp
+k: null
+Text: '307'
+End Template: rp
+Text: ' "Of all the people I have met, I like the Japanese most, as they are modest, intelligent, considerate, and have a feel for art."'
+Open Tag: ref attributes: [name : 'Isaacson2']
+Text: 'Isaacson, Walter. '
+ItalicBold: 2
+Text: 'Einstein: His Life and Universe'
+ItalicBold: 2
+Text: ', Simon '
+Text: '& '
+Text: 'Schuster (2007)'
+Close Tag: ref
+Begin Template: rp
+k: null
+Text: '308'
+End Template: rp
+Paragraph
+Text: 'On his return voyage, he also visited '
+Begin Reference: British Mandate for Palestine
+k: null
+Text: 'Palestine'
+End Reference: British Mandate for Palestine
+Text: ' for 12 days in what would become his only visit to that region. "He was greeted with great British pomp, as if he were a head of state rather than a theoretical physicist", writes Isaacson. This included a cannon salute upon his arrival at the residence of the British high commissioner, '
+Begin Reference: Sir Herbert Samuel
+End Reference: Sir Herbert Samuel
+Text: '. During one reception given to him, the building was "stormed by throngs who wanted to hear him". In Einstein's talk to the audience, he expressed his happiness over the event:'
+Paragraph
+Begin Template: Block quote
+k: null
+Text: 'I consider this the greatest day of my life. Before, I have always found something to regret in the Jewish soul, and that is the forgetfulness of its own people. Today, I have been made happy by the sight of the Jewish people learning to recognize themselves and to make themselves recognized as a force in the world.'
+Inline Tag: ref attributes: [name : 'Isaacson']
+Begin Template: rp
+k: null
+Text: '308'
+End Template: rp
+Text: '.'
+End Template: Block quote
+Paragraph
+Section [1] Love of music
+Text: '
+Einstein developed an appreciation of music at an early age. His mother played the piano reasonably well and wanted her son to learn the violin, not only to instill in him a love of music but also to help him assimilate within German culture. According to conductor '
+Begin Reference: Leon Botstein
+End Reference: Leon Botstein
+Text: ', Einstein is said to have begun playing when he was five, but didn't enjoy trying to learn it at that age.'
+Inline Tag: ref attributes: [name : 'Botstein']
+Paragraph
+Begin Reference: File:Einstein - violin - 1939.jpg
+k: null
+Text: 'thumb'
+k: null
+Text: 'Playing violin at home in Princeton, 1939'
+End Reference: File:Einstein - violin - 1939.jpg
+Text: '
+When he turned thirteen, however, he discovered the violin sonatas of '
+Begin Reference: Mozart
+End Reference: Mozart
+Text: '. "Einstein fell in love" with Mozart's music, notes Botstein, and learned to play music more willingly. According to Einstein, he taught himself to play by "ever practicing systematically," adding that "Love is a better teacher than a sense of duty."'
+Open Tag: ref attributes: [name : 'Botstein']
+Text: 'Botstein, Leon; Galison, Peter; Holton, Gerald James; Schweber, Silvan S. '
+ItalicBold: 2
+Text: 'Einstein for the 21st Century: His Legacy in Science, Art, and Modern Culture'
+ItalicBold: 2
+Text: ', Princeton Univ. Press (2008) pp. 161-164'
+Close Tag: ref
+Text: ' At age seventeen, he was heard by a school examiner in '
+Begin Reference: Aarau
+End Reference: Aarau
+Text: ' as he played '
+Begin Reference: Beethoven
+End Reference: Beethoven
+Text: ''s '
+Begin Reference: violin sonata
+End Reference: violin sonata
+Text: 's, the examiner stating afterward that his playing was "remarkable and revealing of 'great insight.'" What struck the examiner, writes Botstein, was that Einstein "displayed a deep love of the music, a quality that was and remains in short supply. Music possessed an unusual meaning for this student."'
+Inline Tag: ref attributes: [name : 'Botstein']
+Paragraph
+Text: 'Botstein notes that music assumed a pivotal and permanent role in Einstein's life from that period on. Although the idea of becoming a professional was not on his mind at any time, he did play '
+Begin Reference: chamber music
+End Reference: chamber music
+Text: ' with others, and performed for private audiences and friends. Chamber music also became a regular part of his social life while living in Bern, Zurich, and Berlin, where he played with '
+Begin Reference: Max Planck
+End Reference: Max Planck
+Text: ' and his son, among others. Near the end of his life, while living in Princeton, the young '
+Begin Reference: Juilliard Quartet
+End Reference: Juilliard Quartet
+Text: ' visited him and he joined them playing his violin, although they slowed the tempo to accommodate his lesser abilities. However, notes Botstein, the quartet was "impressed by Einstein's level of coordination and intonation."'
+Inline Tag: ref attributes: [name : 'Botstein']
+Paragraph
+Section [1] Emigration
+Text: '
+'
+Begin Reference: File:Einstein-cartoon1.jpg
+k: null
+Text: 'thumb'
+k: null
+Text: 'left'
+k: null
+Text: 'Cartoon of Einstein, who has shed his "Pacifism" wings, standing next to a pillar labeled "World Peace." He is rolling up his sleeves and holding a sword labeled "Preparedness" (circa 1933).'
+End Reference: File:Einstein-cartoon1.jpg
+Text: '
+In 1933, Einstein decided to emigrate to the United States due to the rise to power of the '
+Begin Reference: Nazi Germany
+k: null
+Text: 'Nazis'
+End Reference: Nazi Germany
+Text: ' under Germany's new chancellor, '
+Begin Reference: Adolf Hitler
+End Reference: Adolf Hitler
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: cite web 
+k: url
+Text: 'http://www.ias.edu/people/einstein/in-brief '
+k: title
+Text: 'In Brief '
+k: publisher
+Text: 'Institute for Advanced Study '
+k: accessdate
+Text: '4 March 2010'
+End Template: cite web 
+Close Tag: ref
+Text: ' While visiting American universities in April, 1933, he learned that the new German government had passed a law barring Jews from holding any official positions, including teaching at universities. A month later, the '
+Begin Reference: Nazi book burnings
+End Reference: Nazi book burnings
+Text: ' occurred, with Einstein's works being among those burnt, and Nazi propaganda minister '
+Begin Reference: Joseph Goebbels
+End Reference: Joseph Goebbels
+Text: ' proclaimed, "Jewish intellectualism is dead."'
+Open Tag: ref attributes: [name : 'Isaacson']
+Text: 'Isaacson, Walter. '
+ItalicBold: 2
+Text: 'Einstein: His Life and Universe'
+ItalicBold: 2
+Text: ', Simon '
+Text: '& '
+Text: 'Schuster (2007) pp. 407–410'
+Close Tag: ref
+Text: ' Einstein also learned that his name was on a list of assassination targets, with a "$5,000 bounty on his head." One German magazine included him in a list of enemies of the German regime with the phrase, "not yet hanged".'
+Inline Tag: ref attributes: [name : 'Isaacson']
+Paragraph
+Text: 'Einstein was undertaking his third two-month visiting professorship at the '
+Begin Reference: California Institute of Technology
+End Reference: California Institute of Technology
+Text: ' when Hitler came to power in Germany. On his return to Europe in March 1933 he resided in Belgium for some months, before temporarily moving to England.'
+Open Tag: ref attributes: []
+Text: 'Hoffman, B. (1972), pp. 165–171; Fölsing, A. (1997), pp. 666–677.'
+Close Tag: ref
+Paragraph
+Text: 'He took up a position at the '
+Begin Reference: Institute for Advanced Study
+End Reference: Institute for Advanced Study
+Text: ' at '
+Begin Reference: Princeton, New Jersey
+k: null
+Text: 'Princeton'
+End Reference: Princeton, New Jersey
+Text: ', New Jersey,'
+Open Tag: ref attributes: [name : 'princeton']
+Begin Template: cite web
+  
+k: title 
+Text: 'In Brief (Albert Einstein)
+  '
+k: work
+Text: 'The Center for History of Physics
+  '
+k: publisher
+Text: 'American Institute of Physics
+  '
+k: year 
+Text: '2005
+  '
+k: url 
+Text: 'http://www.ias.edu/people/einstein/in-brief
+  '
+k: accessdate 
+Text: '2 November 2010'
+End Template: cite web
+  
+Close Tag: ref
+Text: '
+an affiliation that lasted until his death in 1955. He was one of the four first selected (two of the others being '
+Begin Reference: John von Neumann
+End Reference: John von Neumann
+Text: ' and '
+Begin Reference: Kurt Gödel
+End Reference: Kurt Gödel
+Text: '). At the institute, he soon developed a close friendship with Gödel. The two would take long walks together discussing their work. His last assistant was '
+Begin Reference: Bruria Kaufman
+End Reference: Bruria Kaufman
+Text: ', who later became a renowned physicist.  During this period, Einstein tried to develop a '
+Begin Reference: unified field theory
+End Reference: unified field theory
+Text: ' and to refute the accepted interpretation of '
+Begin Reference: quantum physics
+End Reference: quantum physics
+Text: ', both unsuccessfully.'
+Paragraph
+Text: 'Other scientists also fled to America. Among them were Nobel laureates and professors of '
+Begin Reference: theoretical physics
+End Reference: theoretical physics
+Text: '. With so many other Jewish scientists now forced by circumstances to live in America, often working side by side, Einstein wrote to a friend, "For me the most beautiful thing is to be in contact with a few fine Jews—a few millennia of a civilized past do mean something after all." In another letter he writes, "In my whole life I have never felt so Jewish as now."'
+Inline Tag: ref attributes: [name : 'Isaacson']
+Paragraph
+Section [2] World War II and the Manhattan Project
+Text: '
+In 1939, a group of Hungarian scientists that included emigre physicist '
+Begin Reference: Leó Szilárd
+End Reference: Leó Szilárd
+Text: ' attempted to alert Washington of ongoing Nazi atomic bomb research. The group's warnings were discounted.'
+Open Tag: ref attributes: [name : 'Pritchard']
+Begin Template: cite news 
+k: url 
+Text: 'http://www.telegraph.co.uk/finance/comment/7970619/Obama-could-kill-fossil-fuels-overnight-with-a-nuclear-dash-for-thorium.html '
+k: location
+Text: 'London '
+k: work
+Text: 'The Daily Telegraph  '
+k: title
+Text: 'Obama could kill fossil fuels overnight with a nuclear dash for thorium '
+k: first
+Text: 'Ambrose '
+k: last
+Text: 'Evans-Pritchard '
+k: date
+Text: '29 August 2010'
+End Template: cite news 
+Close Tag: ref
+Text: '  Einstein and Szilárd, along with other refugees such as '
+Begin Reference: Edward Teller
+End Reference: Edward Teller
+Text: ' and '
+Begin Reference: Eugene Wigner
+End Reference: Eugene Wigner
+Text: ', "regarded it as their responsibility to alert Americans to the possibility that German scientists might win the '
+Begin Reference: German nuclear energy project
+k: null
+Text: 'race to build an atomic bomb'
+End Reference: German nuclear energy project
+Text: ', and to warn that Hitler would be more than willing to resort to such a weapon."'
+Inline Tag: ref attributes: [name : 'Isaacson2']
+Begin Template: rp
+k: null
+Text: '630'
+End Template: rp
+Open Tag: ref attributes: [name : 'Gosling']
+Text: 'Gosling, F.G. '
+ItalicBold: 2
+Text: 'The Manhattan Project: Making the Atomic Bomb'
+ItalicBold: 2
+Text: ', U.S. Department of Energy, History Division (January, 1999) p. vii'
+Close Tag: ref
+Text: ' In the summer of 1939, a few months before the beginning of World War II in Europe, Einstein was persuaded to lend his prestige by writing '
+Begin Reference: Einstein–Szilárd letter
+k: null
+Text: 'a letter'
+End Reference: Einstein–Szilárd letter
+Text: ' with Szilárd to President '
+Begin Reference: Franklin D. Roosevelt
+End Reference: Franklin D. Roosevelt
+Text: ' to alert him of the possibility. The letter also recommended that the U.S. government pay attention to and become directly involved in uranium research and associated chain reaction research.'
+Paragraph
+Text: 'The letter is believed to be "arguably the key stimulus for the U.S. adoption of serious investigations into nuclear weapons on the eve of the U.S. entry into World War II".'
+Open Tag: ref attributes: []
+Text: 'Diehl, Sarah J.; Moltz, James Clay. '
+Begin Link: http://books.google.com/books?id=3PN-NEfl_U0C&pg=PA218&dq=Einstein+Roosevelt&num=30&cd=4#v=onepage&q=Letter%20from%20Einstein%20Roosevelt&f=false
+k: null
+Text: '''Nuclear Weapons and Nonproliferation: a Reference Handbook'''
+End Link: http://books.google.com/books?id=3PN-NEfl_U0C&pg=PA218&dq=Einstein+Roosevelt&num=30&cd=4#v=onepage&q=Letter%20from%20Einstein%20Roosevelt&f=false
+Text: ', ABC-CLIO (2008) p. 218'
+Close Tag: ref
+Text: ' President Roosevelt could not take the risk of allowing Hitler to possess atomic bombs first. As a result of Einstein's letter and his meetings with Roosevelt, the U.S. entered the "race" to develop the bomb, drawing on its "immense material, financial, and scientific resources" to initiate the '
+Begin Reference: Manhattan Project
+End Reference: Manhattan Project
+Text: '. It became the only country to successfully develop an atomic bomb during World War II.'
+Paragraph
+Text: 'For Einstein, "war was a disease . . . '
+Text: '[and'
+Text: '] he called for resistance to war." But in 1933, after Hitler assumed full power in Germany, "he renounced pacifism altogether . . . In fact, he urged the Western powers to prepare themselves against another German onslaught."'
+Inline Tag: ref attributes: [name : 'Stern']
+Begin Template: rp
+k: null
+Text: '110'
+End Template: rp
+Text: ' In 1954, a year before his death, Einstein said to his old friend, '
+Begin Reference: Linus Pauling
+End Reference: Linus Pauling
+Text: ', "I made one great mistake in my life'
+Entity: ' ' (nbsp)
+Text: '— when I signed the letter to President Roosevelt recommending that atom bombs be made; but there was some justification'
+Entity: ' ' (nbsp)
+Text: '— the danger that the Germans would make them..."'
+Open Tag: ref attributes: [name : 'regret']
+Text: 'Einstein: The Life and Times'
+ItalicBold: 2
+Text: ' by Ronald Clark. page 752'
+Close Tag: ref
+Paragraph
+Section [2] U.S. citizenship
+Text: '
+'
+Begin Reference: File:Citizen-Einstein.jpg
+k: null
+Text: 'thumb'
+k: null
+Text: 'right'
+k: null
+Text: 'Accepting U.S. citizenship, 1940'
+End Reference: File:Citizen-Einstein.jpg
+Paragraph
+Text: 'Einstein became an American citizen in 1940. Not long after settling into his career at Princeton, he expressed his appreciation of the "'
+Begin Reference: meritocracy
+End Reference: meritocracy
+Text: '" in American culture when compared to Europe. According to Isaacson, he recognized the "right of individuals to say and think what they pleased", without social barriers, and as result, the individual was "encouraged" to be more creative, a trait he valued from his own early education. Einstein writes:
+'
+Open Tag: blockquote attributes: []
+Text: '
+What makes the new arrival devoted to this country is the democratic trait among the people. No one humbles himself before another person or class. . . American youth has the good fortune not to have its outlook troubled by outworn traditions.'
+Inline Tag: ref attributes: [name : 'Isaacson']
+Begin Template: rp
+k: null
+Text: '432'
+End Template: rp
+Text: '
+'
+Inline Tag: blockquote attributes: []
+Text: '
+As a member of the '
+Begin Reference: National Association for the Advancement of Colored People
+End Reference: National Association for the Advancement of Colored People
+Text: ' (NAACP) at Princeton who campaigned for the '
+Begin Reference: African-American Civil Rights Movement (1896–1954)
+k: null
+Text: 'civil rights'
+End Reference: African-American Civil Rights Movement (1896–1954)
+Text: ' of African Americans, Einstein corresponded with civil rights activist '
+Begin Reference: W. E. B. Du Bois
+End Reference: W. E. B. Du Bois
+Text: ', and in 1946 Einstein called racism America's "worst disease".'
+Open Tag: ref attributes: []
+Text: 'Fred Jerome, Rodger Taylor (2006) '
+ItalicBold: 2
+Begin Link: http://books.google.com/books?id=4d79VQdOfFUC&pg=PR10&dq=Einstein+on+Race+and+Racism+america's+worst+disease#v=onepage&q&f=false
+k: null
+Text: 'Einstein on Race and Racism'
+End Link: http://books.google.com/books?id=4d79VQdOfFUC&pg=PR10&dq=Einstein+on+Race+and+Racism+america's+worst+disease#v=onepage&q&f=false
+ItalicBold: 2
+Text: ' Rutgers University Press, 2006.'
+Close Tag: ref
+Text: ' He later stated, "Race prejudice has unfortunately become an American tradition which is uncritically handed down from one generation to the next. The only remedies are enlightenment and education".'
+Open Tag: ref attributes: []
+Text: 'Calaprice, Alice (2005) '
+ItalicBold: 2
+Begin Link: http://press.princeton.edu/titles/7921.html
+k: null
+Text: 'The new quotable Einstein'
+End Link: http://press.princeton.edu/titles/7921.html
+ItalicBold: 2
+Text: '. pp.148–149 Princeton University Press, 2005. See also '
+ItalicBold: 2
+Begin Link: http://books.google.com/books?id=dLhVn-McDDgC&pg=PA226&dq=racism+americas+worst+disease+1946#v=onepage&q&f=false
+k: null
+Text: 'Odyssey in Climate Modeling, Global Warming, and Advising Five Presidents'
+End Link: http://books.google.com/books?id=dLhVn-McDDgC&pg=PA226&dq=racism+americas+worst+disease+1946#v=onepage&q&f=false
+ItalicBold: 2
+Close Tag: ref
+Paragraph
+Begin Reference: File:Albert Einstein at Princeton.jpg
+k: null
+Text: 'thumb'
+k: null
+Text: 'Einstein at his home in Princeton, 1949'
+End Reference: File:Albert Einstein at Princeton.jpg
+Text: '
+After the death of Israel's first president, '
+Begin Reference: Chaim Weizmann
+End Reference: Chaim Weizmann
+Text: ', in November 1952, Prime Minister '
+Begin Reference: David Ben-Gurion
+End Reference: David Ben-Gurion
+Text: ' offered Einstein the position of '
+Begin Reference: President of Israel
+End Reference: President of Israel
+Text: ', a mostly ceremonial post.'
+Open Tag: ref attributes: [name : 'Time']
+Begin Template: Cite news 
+k: url
+Text: 'http://www.time.com/time/magazine/article/0,9171,817454,00.html '
+k: title
+Text: 'ISRAEL: Einstein Declines '
+k: work
+Text: 'Time magazine '
+k: date
+Text: '1 December 1952 '
+k: accessdate
+Text: '31 March 2010'
+End Template: Cite news 
+Close Tag: ref
+Text: ' The offer was presented by Israel's ambassador in Washington, '
+Begin Reference: Abba Eban
+End Reference: Abba Eban
+Text: ', who explained that the offer "embodies the deepest respect which the Jewish people can repose in any of its sons".'
+Inline Tag: ref attributes: [name : 'Isaacson2']
+Begin Template: rp
+k: null
+Text: '522'
+End Template: rp
+Text: ' However, Einstein declined, and wrote in his response that he was "deeply moved", and "at once saddened and ashamed" that he could not accept it:
+'
+Open Tag: blockquote attributes: []
+Text: '
+All my life I have dealt with objective matters, hence I lack both the natural aptitude and the experience to deal properly with people and to exercise official function. I am the more distressed over these circumstances because my relationship with the Jewish people became my strongest human tie once I achieved complete clarity about our precarious position among the nations of the world.'
+ItalicBold: 2
+Inline Tag: ref attributes: [name : 'Isaacson2']
+Begin Template: rp
+k: null
+Text: '522'
+End Template: rp
+Inline Tag: ref attributes: [name : 'Time']
+Open Tag: ref attributes: []
+Begin Template: cite web 
+k: url
+Text: 'http://www.princetonhistory.org/museum_alberteinstein.cfm '
+k: title
+Text: 'Einstein in Princeton / Scientist, Humanitarian, Cultural Icon '
+k: publisher
+Text: 'Historical Society of Princeton '
+k: accessdate
+Text: '31 March 2010'
+End Template: cite web 
+Close Tag: ref
+Text: '
+'
+Close Tag: blockquote
+Paragraph
+Section [1] Death
+Text: '
+'
+Begin Reference: File:Death headline.jpg
+k: null
+Text: 'thumb'
+k: null
+Text: 'The '''
+Begin Reference: New York World-Telegram
+End Reference: New York World-Telegram
+Text: ''' announces Einstein's death on 18 April 1955.'
+End Reference: File:Death headline.jpg
+Text: '
+On 17 April 1955, Albert Einstein experienced internal bleeding caused by the rupture of an '
+Begin Reference: abdominal aortic aneurysm
+End Reference: abdominal aortic aneurysm
+Text: ', which had previously been reinforced surgically by '
+Begin Reference: Nissen fundoplication
+k: null
+Text: 'Dr. Rudolph Nissen'
+End Reference: Nissen fundoplication
+Text: ' in 1948.'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: url
+Text: 'http://www.medscape.com/viewarticle/436253 '
+k: title
+Text: 'The Case of the Scientist with a Pulsating Mass '
+k: date
+Text: '14 June 2002 '
+k: accessdate
+Text: '11 June 2007'
+End Template: Citation 
+Close Tag: ref
+Text: ' He took the draft of a speech he was preparing for a television appearance commemorating the State of Israel's seventh anniversary with him to the hospital, but he did not live long enough to complete it.'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: last
+Text: 'Albert Einstein Archives '
+k: contribution
+Text: 'Draft of projected Telecast Israel Independence Day, April 1955 (last statement ever written) '
+k: title
+Text: 'Einstein Archives Online '
+k: date
+Text: 'April 1955 '
+k: contribution-url
+Text: 'http://www.alberteinstein.info/db/ViewImage.do?DocumentID=20078&Page=1 '
+k: url
+Text: 'http://www.alberteinstein.info/ '
+k: accessdate
+Text: '14 March 2007 '
+End Template: Citation 
+Close Tag: ref
+Text: ' Einstein refused surgery, saying: "I want to go when I want. It is tasteless to prolong life artificially. I have done my share, it is time to go. I will do it elegantly."'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: year
+Text: '1995 '
+k: month
+Text: 'November '
+k: author
+Text: 'Cohen, J.R.; Graver, L.M. '
+k: title
+Text: 'The ruptured abdominal aortic aneurysm of Albert Einstein '
+k: volume 
+Text: '170 '
+k: issue
+Text: '5 '
+k: pages 
+Text: '455–8 '
+k: journal
+Text: 'Surgery, Gynecology & Obstetrics '
+k: pmid
+Text: '2183375 '
+k: ref
+Text: 'harv '
+k: postscript
+Text: '.
+'
+End Template: Citation 
+Close Tag: ref
+Text: ' He died in '
+Begin Reference: Princeton Hospital
+End Reference: Princeton Hospital
+Text: ' early the next morning at the age of 76, having continued to work until near the end.'
+Paragraph
+Text: 'During the autopsy, the pathologist of Princeton Hospital, '
+Begin Reference: Thomas Stoltz Harvey
+End Reference: Thomas Stoltz Harvey
+Text: ', removed '
+Begin Reference: Albert Einstein's brain
+k: null
+Text: 'Einstein's brain'
+End Reference: Albert Einstein's brain
+Text: ' for preservation without the permission of his family, in the hope that the '
+Begin Reference: neuroscience
+End Reference: neuroscience
+Text: ' of the future would be able to discover what made Einstein so intelligent.'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: url
+Text: 'http://www.npr.org/templates/story/story.php?storyId=4602913 '
+k: title
+Text: 'The Long, Strange Journey of Einstein's Brain '
+k: accessdate
+Text: '3 October 2007 '
+k: publisher
+Begin Reference: National Public Radio
+End Reference: National Public Radio
+End Template: Citation 
+Close Tag: ref
+Text: ' Einstein's remains were cremated and his ashes were scattered at an undisclosed location.'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: last 
+Text: 'O'Connor '
+k: first 
+Text: 'J.J. '
+k: last2 
+Text: 'Robertson '
+k: first2 
+Text: 'E.F. '
+k: chapter
+Text: 'Albert Einstein '
+k: title
+Text: 'The MacTutor History of Mathematics archive '
+k: publisher
+Text: 'School of Mathematics and Statistics, University of St. Andrews '
+k: year
+Text: '1997 '
+k: chapter-url
+Text: 'http://www-history.mcs.st-andrews.ac.uk/Biographies/Einstein.html '
+End Template: Citation 
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: title
+Text: 'Dr. Albert Einstein Dies in Sleep at 76. World Mourns Loss of Great Scientist'
+k: quote
+Text: 'Princeton, New Jersey, 18 April 1955. Dr. Albert Einstein, one of the great thinkers of the ages, died in his sleep here early today. '
+k: work
+Text: 'New York Times '
+k: date
+Text: '19 April 1955 '
+End Template: Citation 
+Close Tag: ref
+Paragraph
+Text: 'In his lecture at Einstein's memorial, nuclear physicist '
+Begin Reference: Robert Oppenheimer
+End Reference: Robert Oppenheimer
+Text: ' summarized his impression of him as a person: "He was almost wholly without sophistication and wholly without worldliness . . . There was always with him a wonderful purity at once childlike and profoundly stubborn."'
+Open Tag: ref attributes: [name : 'Stern']
+Text: 'Stern, Fritz. Essay, '
+Begin Link: http://books.google.com/books?id=zGzcV40b3IkC&pg=PA97&dq=E%3D+Einstein's+German+by+Fritz+Stern#v=onepage&q&f=false
+k: null
+Text: '"Einstein's Germany"'
+End Link: http://books.google.com/books?id=zGzcV40b3IkC&pg=PA97&dq=E%3D+Einstein's+German+by+Fritz+Stern#v=onepage&q&f=false
+Text: ', '
+ItalicBold: 2
+Text: 'E = Einstein: His Life, His Thought, and His Influence on Our Culture'
+ItalicBold: 2
+Text: ', Sterling Publishing (2006) pp. 97–118'
+Close Tag: ref
+Paragraph
+Section [0] Scientific career
+Text: '
+'
+Begin Reference: File:Einstein patentoffice.jpg
+k: alt
+Text: 'Head and shoulders shot of a young, moustached man with dark, curly hair wearing a plaid suit and vest, striped shirt, and a dark tie.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'Albert Einstein in 1904'
+End Reference: File:Einstein patentoffice.jpg
+Text: '
+'
+Begin Reference: Image:Photoelectric effect.svg
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'The photoelectric effect. Incoming photons on the left strike a metal plate (bottom), and eject electrons, depicted as flying off to the right.'
+End Reference: Image:Photoelectric effect.svg
+Text: '
+Throughout his life, Einstein published hundreds of books and articles.'
+Inline Tag: ref attributes: [name : 'Paul Arthur Schilpp, editor 1951 730–746']
+Inline Tag: ref attributes: [name : 'Bio']
+Text: ' In addition to the work he did by himself he also collaborated with other scientists on additional projects including the Bose–Einstein statistics, the '
+Begin Reference: Einstein refrigerator
+End Reference: Einstein refrigerator
+Text: ' and others.'
+Open Tag: ref attributes: [name : 'Instituut-Lorentz']
+Text: '"'
+Begin Link: http://www.lorentz.leidenuniv.nl/history/Einstein_archive/
+k: null
+Text: 'Einstein archive at the Instituut-Lorentz'
+End Link: http://www.lorentz.leidenuniv.nl/history/Einstein_archive/
+Text: '". '
+ItalicBold: 2
+Text: 'Instituut-Lorentz.'
+ItalicBold: 2
+Text: ' 2005. Retrieved on 21 November 2005.'
+Close Tag: ref
+Paragraph
+Section [1] 1905 - Annus Mirabilis papers
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Annus Mirabilis papers'
+k: null
+Text: 'Photoelectric effect'
+k: null
+Text: 'Special theory of relativity'
+k: null
+Text: 'Mass–energy equivalence'
+End Template: Main
+Text: '
+The '
+ItalicBold: 2
+Begin Reference: Annus mirabilis
+k: null
+Text: 'Annus Mirabilis'
+End Reference: Annus mirabilis
+ItalicBold: 2
+Text: ' papers are four articles pertaining to the '
+Begin Reference: photoelectric effect
+End Reference: photoelectric effect
+Text: ' (which gave rise to '
+Begin Reference: quantum mechanics
+k: null
+Text: 'quantum theory'
+End Reference: quantum mechanics
+Text: '), '
+Begin Reference: Brownian motion
+End Reference: Brownian motion
+Text: ', the '
+Begin Reference: special theory of relativity
+End Reference: special theory of relativity
+Text: ', and '
+Begin Reference: E=mc2
+k: E 
+Text: 'mc'
+Open Tag: sup attributes: []
+Text: '2'
+Close Tag: sup
+End Reference: E=mc2
+Text: ' that Albert Einstein published in the '
+ItalicBold: 2
+Begin Reference: Annalen der Physik
+End Reference: Annalen der Physik
+ItalicBold: 2
+Text: ' scientific journal in 1905. These four works contributed substantially to the foundation of '
+Begin Reference: History of physics#Modern physics
+k: null
+Text: 'modern physics'
+End Reference: History of physics#Modern physics
+Text: ' and changed views on '
+Begin Reference: space
+End Reference: space
+Text: ', time, and '
+Begin Reference: matter
+End Reference: matter
+Text: '. The four papers are:'
+Paragraph
+Begin Table
+Text: ' class=wikitable
+'
+Header Cell (1, 1)
+Text: 'Title '
+Open Tag: small attributes: []
+Text: '(translated)'
+Close Tag: small
+Text: ' '
+Header Cell (1, 2)
+Text: 'Area of focus '
+Header Cell (1, 3)
+Text: 'Received '
+Header Cell (1, 4)
+Text: 'Published '
+Header Cell (1, 5)
+Text: 'Significance
+'
+Body Cell (2, 2)
+Text: '''On a Heuristic Viewpoint Concerning the Production and Transformation of Light'' '
+Body Cell (2, 3)
+Begin Reference: Photoelectric effect
+End Reference: Photoelectric effect
+Text: ' '
+Body Cell (2, 4)
+Text: '18 March '
+Body Cell (2, 5)
+Text: '9 June '
+Body Cell (2, 6)
+Text: 'Resolved an unsolved puzzle by suggesting that energy is exchanged only in discrete amounts ('
+Begin Reference: quantum
+k: null
+Text: 'quanta'
+End Reference: quantum
+Text: ').'
+Open Tag: ref attributes: []
+Begin Template: cite book 
+k: title
+Text: 'Lectures on quantum mechanics '
+k: first1
+Text: 'Ashok '
+k: last1
+Text: 'Das '
+k: publisher
+Text: 'Hindustan Book Agency '
+k: year
+Text: '2003 '
+k: isbn
+Text: '8-185-93141-0 '
+k: page
+Text: '59 '
+k: url
+Text: 'http://books.google.com/books?id=KmwsAAAAYAAJ'
+End Template: cite book 
+Close Tag: ref
+Text: ' This idea was pivotal to the early development of quantum theory.'
+Open Tag: ref attributes: []
+Begin Template: cite book 
+k: title
+Text: 'Seven ideas that shook the universe '
+k: edition
+Text: '2nd '
+k: first1
+Text: 'Nathan '
+k: last1
+Text: 'Spielberg '
+k: first2
+Text: 'Bryon D. '
+k: last2
+Text: 'Anderson '
+k: publisher
+Text: 'John Wiley & Sons '
+k: year
+Text: '1995 '
+k: isbn
+Text: '0-471-30606-1 '
+k: page
+Text: '263 '
+k: url
+Text: 'http://books.google.com/books?id=_pbuAAAAMAAJ'
+End Template: cite book 
+Close Tag: ref
+Text: '
+'
+Body Cell (3, 2)
+Text: '''On the Motion of Small Particles Suspended in a Stationary Liquid, as Required by the Molecular Kinetic Theory of Heat'' '
+Body Cell (3, 3)
+Begin Reference: Brownian motion
+End Reference: Brownian motion
+Text: ' '
+Body Cell (3, 4)
+Text: '11 May '
+Body Cell (3, 5)
+Text: '18 July '
+Body Cell (3, 6)
+Text: 'Explained empirical evidence for the '
+Begin Reference: atom
+k: null
+Text: 'atomic theory'
+End Reference: atom
+Text: ', supporting the application of '
+Begin Reference: statistical physics
+End Reference: statistical physics
+Text: '.
+'
+Body Cell (4, 2)
+Text: '''On the Electrodynamics of Moving Bodies'' '
+Body Cell (4, 3)
+Begin Reference: Special relativity
+End Reference: Special relativity
+Text: ' '
+Body Cell (4, 4)
+Text: '30 June '
+Body Cell (4, 5)
+Text: '26 Sept '
+Body Cell (4, 6)
+Text: 'Reconciled Maxwell's equations for electricity and magnetism with the laws of mechanics by introducing major changes to mechanics close to the speed of light, resulting from analysis based on empirical evidence that the speed of light is independent of the motion of the observer.'
+Open Tag: ref attributes: []
+Begin Template: cite book
+
+k: title
+Text: 'The quantum beat: principles and applications of atomic clocks '
+k: edition
+Text: '2nd  '
+k: first1
+Text: 'Fouad G. '
+k: last1
+Text: 'Major '
+k: publisher
+Text: 'Springer  '
+k: year
+Text: '2007 '
+k: isbn
+Text: '0-387-69533-8 '
+k: page
+Text: '142 '
+k: url
+Text: 'http://books.google.com/books?id=tmdr6Wx_2PYC'
+End Template: cite book
+
+Close Tag: ref
+Text: '  Discredited the concept of an "'
+Begin Reference: luminiferous ether
+End Reference: luminiferous ether
+Text: '."'
+Open Tag: ref attributes: []
+Begin Template: cite book 
+k: title
+Text: 'Foundations of physics '
+k: first1
+Text: 'Robert Bruce '
+k: last1
+Text: 'Lindsay '
+k: first2
+Text: 'Henry '
+k: last2
+Text: 'Margenau '
+k: publisher
+Text: 'Ox Bow Press '
+k: year
+Text: '1981 '
+k: isbn
+Text: '0-918-02417-X '
+k: page
+Text: '330 '
+k: url
+Text: 'http://books.google.com/books?id=dwZltQAACAAJ'
+End Template: cite book 
+Close Tag: ref
+Text: '
+'
+Body Cell (5, 2)
+Text: '''Does the Inertia of a Body Depend Upon Its Energy Content?'' '
+Body Cell (5, 3)
+Begin Reference: Mass–energy equivalence
+k: null
+Text: 'Matter–energy equivalence'
+End Reference: Mass–energy equivalence
+Text: ' '
+Body Cell (5, 4)
+Text: '27 Sept '
+Body Cell (5, 5)
+Text: '21 Nov '
+Body Cell (5, 6)
+Text: 'Equivalence of matter and energy, '
+Begin Template: nowrap
+k: 1
+Text: '''E'' = ''mc'''
+Open Tag: sup attributes: []
+Text: '2'
+Close Tag: sup
+End Template: nowrap
+Text: ' (and by implication, the ability of gravity to "bend" light), the existence of "'
+Begin Reference: rest energy
+End Reference: rest energy
+Text: '", and the basis of nuclear energy.
+'
+End Table
+Paragraph
+Section [1] Thermodynamic fluctuations and statistical physics
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Statistical mechanics'
+k: null
+Text: 'thermal fluctuations'
+k: null
+Text: 'statistical physics'
+End Template: Main
+Text: '
+Albert Einstein's first paper'
+Open Tag: ref attributes: [name : 'PubList']
+Begin Template: cite web
+k: author
+Text: 'Hans-Josef Kuepper '
+k: url
+Text: 'http://www.einstein-website.de/z_physics/wisspub-e.html '
+k: title
+Text: 'List of Scientific Publications of Albert Einstein '
+k: publisher
+Text: 'Einstein-website.de '
+k: accessdate
+Text: '3 April 2011'
+End Template: cite web
+Close Tag: ref
+Text: ' submitted in 1900 to '
+ItalicBold: 2
+Text: 'Annalen der Physik'
+ItalicBold: 2
+Text: ' was on '
+Begin Reference: capillary attraction
+End Reference: capillary attraction
+Text: '. It was published in 1901 with the title "Folgerungen aus den Kapillarität Erscheinungen," which translates as "Conclusions from the capillarity phenomena". Two papers he published in 1902–1903 (thermodynamics) attempted to interpret '
+Begin Reference: atom
+End Reference: atom
+Text: 'ic phenomena from a statistical point of view. These papers were the foundation for the 1905 paper on '
+Begin Reference: Brownian motion
+End Reference: Brownian motion
+Text: ', which showed that Brownian movement can be construed as firm evidence that molecules exist. His research in 1903 and 1904 was mainly concerned with the effect of finite atomic size on diffusion phenomena.'
+Inline Tag: ref attributes: [name : 'PubList']
+Paragraph
+Section [1] General principles
+Paragraph
+Text: 'He articulated the '
+Begin Reference: principle of relativity
+End Reference: principle of relativity
+Text: '. This was understood by '
+Begin Reference: Hermann Minkowski
+End Reference: Hermann Minkowski
+Text: ' to be a generalization of rotational invariance from space to space-time. Other principles postulated by Einstein and later vindicated are the '
+Begin Reference: principle of equivalence
+End Reference: principle of equivalence
+Text: ' and the principle of '
+Begin Reference: adiabatic invariant
+k: null
+Text: 'adiabatic invariance'
+End Reference: adiabatic invariant
+Text: ' of the quantum number.'
+Paragraph
+Section [1] Theory of relativity and <math>E =mc ^2</math>
+Paragraph
+Begin Template: Main
+k: null
+Text: 'History of special relativity'
+End Template: Main
+Text: '
+Einstein's "Zur Elektrodynamik bewegter Körper" ("On the Electrodynamics of Moving Bodies") was received on 30 June 1905 and published 26 September of that same year. It reconciles '
+Begin Reference: Maxwell's equations
+End Reference: Maxwell's equations
+Text: ' for electricity and magnetism with the laws of mechanics, by introducing major changes to mechanics close to the '
+Begin Reference: speed of light
+End Reference: speed of light
+Text: '. This later became known as Einstein's '
+Begin Reference: special theory of relativity
+End Reference: special theory of relativity
+Text: '.'
+Paragraph
+Text: 'Consequences of this include the '
+Begin Reference: Spacetime
+k: null
+Text: 'time-space frame'
+End Reference: Spacetime
+Text: ' of a moving body appearing to '
+Begin Reference: Time dilation
+k: null
+Text: 'slow down'
+End Reference: Time dilation
+Text: ' and '
+Begin Reference: Length contraction
+k: null
+Text: 'contract'
+End Reference: Length contraction
+Text: ' (in the direction of motion) when measured in the frame of the observer. This paper also argued that the idea of a '
+Begin Reference: luminiferous aether
+End Reference: luminiferous aether
+Entity: ' ' (nbsp)
+Text: '– one of the leading theoretical entities in physics at the time'
+Entity: ' ' (nbsp)
+Text: '– was superfluous.'
+Open Tag: ref attributes: []
+Begin Template: harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1905d'
+End Template: harv
+Close Tag: ref
+Paragraph
+Text: 'In his paper on '
+ItalicBold: 2
+Begin Reference: mass–energy equivalence
+End Reference: mass–energy equivalence
+ItalicBold: 2
+Text: ' Einstein produced '
+ItalicBold: 2
+Text: 'E'
+ItalicBold: 2
+Entity: ' ' (nbsp)
+Text: '='
+Entity: ' ' (nbsp)
+ItalicBold: 2
+Text: 'mc'
+ItalicBold: 2
+Open Tag: sup attributes: []
+Text: '2'
+Close Tag: sup
+Text: ' from his special relativity equations.'
+Open Tag: ref attributes: [name : 'Stachel']
+Begin Template: Citation
+k: last 
+Text: 'Stachel'
+k: first 
+Text: 'John J.'
+k: title 
+Text: 'Einstein from "B" to "Z"
+  '
+k: publisher
+Text: 'Springer-Verlag New York, LLC'
+k: series 
+Text: 'Einstein Studies, Vol. 9
+  '
+k: date 
+Text: 'December 2001
+  '
+k: location 
+Text: 'Center for Einstein Studies, Boston University
+  '
+k: pages 
+Text: 'vi, 15, 90, 131, 215
+  '
+k: url 
+Text: 'http://books.google.com/?id=OAsQ_hFjhrAC&pg=PA215&dq=mass%E2%80%93energy+equivalence#
+  '
+k: isbn 
+Text: '978-0-8176-4143-6'
+End Template: Citation
+Close Tag: ref
+Text: ' Einstein's 1905 work on relativity remained controversial for many years, but was accepted by leading physicists, starting with Max Planck.'
+Open Tag: ref attributes: []
+Text: 'For a discussion of the reception of relativity theory around the world, and the different controversies it encountered, see the articles in Thomas F. Glick, ed., '
+ItalicBold: 2
+Text: 'The Comparative Reception of Relativity'
+ItalicBold: 2
+Text: ' (Kluwer Academic Publishers, 1987), ISBN 9027724989.'
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: last 
+Text: 'Pais '
+k: first 
+Text: 'Abraham '
+k: author-link 
+Text: 'Abraham Pais '
+k: year 
+Text: '1982 '
+k: title 
+Text: 'Subtle is the Lord. The Science and the Life of Albert Einstein '
+k: publisher
+Text: 'Oxford University Press '
+k: pages 
+Text: '382–386 '
+k: isbn 
+Text: '019853907X '
+End Template: Citation 
+Close Tag: ref
+Paragraph
+Section [1] Photons and energy quanta
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Photon'
+k: null
+Text: 'Quantum'
+End Template: Main
+Text: '
+In a 1905 paper,'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: last 
+Text: 'Einstein '
+k: first 
+Text: 'Albert '
+k: title 
+Text: 'Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt '
+k: journal
+Text: 'Annalen der Physik '
+k: volume 
+Text: '17 '
+k: pages 
+Text: '132–148 '
+k: year 
+Text: '1905 '
+k: url 
+Text: 'http://www.zbp.univie.ac.at/dokumente/einstein1.pdf '
+k: accessdate 
+Text: '27 June 2009 '
+k: bibcode 
+Text: '1905AnP...322..132E '
+k: doi 
+Text: '10.1002/andp.19053220607 '
+k: issue 
+Text: '6 '
+End Template: Citation 
+Close Tag: ref
+Text: ' Einstein postulated that light itself consists of localized particles ('
+ItalicBold: 2
+Begin Reference: quantum
+k: null
+Text: 'quanta'
+End Reference: quantum
+ItalicBold: 2
+Text: '). Einstein's light quanta were nearly universally rejected by all physicists, including Max Planck and Niels Bohr. This idea only became universally accepted in 1919, with '
+Begin Reference: Robert Millikan
+End Reference: Robert Millikan
+Text: ''s detailed experiments on the '
+Begin Reference: photoelectric effect
+End Reference: photoelectric effect
+Text: ', and with the measurement of '
+Begin Reference: Compton scattering
+End Reference: Compton scattering
+Text: '.'
+Paragraph
+Text: 'Einstein concluded that each wave of frequency '
+ItalicBold: 2
+Text: 'f'
+ItalicBold: 2
+Text: ' is associated with a collection of '
+Begin Reference: photon
+End Reference: photon
+Text: 's with energy '
+ItalicBold: 2
+Text: 'hf'
+ItalicBold: 2
+Text: ' each, where '
+ItalicBold: 2
+Text: 'h'
+ItalicBold: 2
+Text: ' is '
+Begin Reference: Planck's constant
+End Reference: Planck's constant
+Text: '. He does not say much more, because he is not sure how the particles are related to the wave. But he does suggest that this idea would explain certain experimental results, notably the photoelectric effect.'
+Open Tag: ref attributes: []
+Begin Template: harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1905a'
+End Template: harv
+Text: '.'
+Close Tag: ref
+Paragraph
+Section [1] Quantized atomic vibrations
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Einstein solid'
+End Template: Main
+Text: '
+In 1907 Einstein proposed a model of matter where each atom in a lattice structure is an independent harmonic oscillator. In the Einstein model, each atom oscillates independently'
+Entity: ' ' (nbsp)
+Text: '– a series of equally spaced quantized states for each oscillator. Einstein was aware that getting the frequency of the actual oscillations would be different, but he nevertheless proposed this theory because it was a particularly clear demonstration that quantum mechanics could solve the specific heat problem in classical mechanics. '
+Begin Reference: Peter Debye
+End Reference: Peter Debye
+Text: ' refined this model.'
+Open Tag: ref attributes: []
+Begin Link: http://www.osti.gov/accomplishments/nuggets/einstein/solidcolda.html
+k: null
+Text: 'Celebrating Einstein "Solid Cold". U.S. DOE.'
+End Link: http://www.osti.gov/accomplishments/nuggets/einstein/solidcolda.html
+Text: ', '
+Begin Reference: Office of Scientific and Technical Information
+End Reference: Office of Scientific and Technical Information
+Text: ', 2011.'
+Close Tag: ref
+Paragraph
+Section [1] Adiabatic principle and action-angle variables
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Old quantum theory'
+End Template: Main
+Text: '
+Throughout the 1910s, quantum mechanics expanded in scope to cover many different systems. After '
+Begin Reference: Ernest Rutherford
+End Reference: Ernest Rutherford
+Text: ' discovered the nucleus and proposed that electrons orbit like planets, Niels Bohr was able to show that the same quantum mechanical postulates introduced by Planck and developed by Einstein would explain the discrete motion of electrons in atoms, and the '
+Begin Reference: periodic table of the elements
+End Reference: periodic table of the elements
+Text: '.'
+Paragraph
+Text: 'Einstein contributed to these developments by linking them with the 1898 arguments '
+Begin Reference: Wilhelm Wien
+End Reference: Wilhelm Wien
+Text: ' had made. Wien had shown that the hypothesis of '
+Begin Reference: adiabatic invariant
+k: null
+Text: 'adiabatic invariance'
+End Reference: adiabatic invariant
+Text: ' of a thermal equilibrium state allows all the '
+Begin Reference: blackbody radiation
+k: null
+Text: 'blackbody curves'
+End Reference: blackbody radiation
+Text: ' at different temperature to be derived from one another by a '
+Begin Reference: Wien's displacement law
+k: null
+Text: 'simple shifting process'
+End Reference: Wien's displacement law
+Text: '. Einstein noted in 1911 that the same adiabatic principle shows that the quantity which is quantized in any mechanical motion must be an adiabatic invariant. '
+Begin Reference: Arnold Sommerfeld
+End Reference: Arnold Sommerfeld
+Text: ' identified this adiabatic invariant as the '
+Begin Reference: action-angle variables
+k: null
+Text: 'action variable'
+End Reference: action-angle variables
+Text: ' of classical mechanics. The law that the action variable is quantized was a basic principle of the quantum theory as it was known between 1900 and 1925.'
+Begin Template: citation needed
+k: date
+Text: 'December 2010'
+End Template: citation needed
+Paragraph
+Section [1] Wave–particle duality
+Text: '
+'
+Begin Reference: File:Einstein 1911 Solvay.jpg
+k: alt
+Text: 'Upper body shot of man in suit, high white collar and bow tie.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'Einstein at the '
+Begin Reference: Solvay Conference
+End Reference: Solvay Conference
+Text: ' in 1911'
+End Reference: File:Einstein 1911 Solvay.jpg
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Wave–particle duality'
+End Template: Main
+Text: '
+Although the patent office promoted Einstein to Technical Examiner Second Class in 1906, he had not given up on academia. In 1908, he became a '
+ItalicBold: 2
+Begin Reference: privatdozent
+End Reference: privatdozent
+ItalicBold: 2
+Text: ' at the '
+Begin Reference: University of Bern
+End Reference: University of Bern
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: Citation
+k: last 
+Text: 'Pais '
+k: first 
+Text: 'Abraham '
+k: author-link 
+Text: 'Abraham Pais '
+k: year 
+Text: '1982 '
+k: title 
+Text: 'Subtle is the Lord. The Science and the Life of Albert Einstein '
+k: publisher
+Text: 'Oxford University Press '
+k: isbn 
+Text: '019853907X '
+k: page 
+Text: '522 '
+End Template: Citation
+Close Tag: ref
+Text: '
+In "über die Entwicklung unserer Anschauungen über das Wesen und die Konstitution der Strahlung" ("'
+Begin Reference: s:The Development of Our Views on the Composition and Essence of Radiation
+k: null
+Text: 'The Development of Our Views on the Composition and Essence of Radiation'
+End Reference: s:The Development of Our Views on the Composition and Essence of Radiation
+Text: '"), on the '
+Begin Reference: quantization (physics)
+k: null
+Text: 'quantization'
+End Reference: quantization (physics)
+Text: ' of light, and in an earlier 1909 paper, Einstein showed that Max Planck's energy quanta must have well-defined '
+Begin Reference: momentum
+k: null
+Text: 'momenta'
+End Reference: momentum
+Text: ' and act in some respects as independent, '
+Begin Reference: point particle
+k: null
+Text: 'point-like particles'
+End Reference: point particle
+Text: '. This paper introduced the '
+ItalicBold: 2
+Text: 'photon'
+ItalicBold: 2
+Text: ' concept (although the name '
+ItalicBold: 2
+Text: 'photon'
+ItalicBold: 2
+Text: ' was introduced later by '
+Begin Reference: Gilbert N. Lewis
+End Reference: Gilbert N. Lewis
+Text: ' in 1926) and inspired the notion of '
+Begin Reference: wave–particle duality
+End Reference: wave–particle duality
+Text: ' in '
+Begin Reference: quantum mechanics
+End Reference: quantum mechanics
+Text: '.'
+Paragraph
+Section [1] Theory of critical opalescence
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Critical opalescence'
+End Template: Main
+Text: '
+Einstein returned to the problem of thermodynamic fluctuations, giving a treatment of the density variations in a fluid at its critical point. Ordinarily the density fluctuations are controlled by the second derivative of the free energy with respect to the density. At the critical point, this derivative is zero, leading to large fluctuations. The effect of density fluctuations is that light of all wavelengths is scattered, making the fluid look milky white. Einstein relates this to '
+Begin Reference: Raleigh scattering
+End Reference: Raleigh scattering
+Text: ', which is what happens when the fluctuation size is much smaller than the wavelength, and which explains why the sky is blue.'
+Open Tag: ref attributes: [name : 'Levenson']
+Text: 'Levenson, Thomas. "'
+Begin Link: http://www.pbs.org/wgbh/nova/einstein/genius/
+k: null
+Text: 'Einstein's Big Idea'
+End Link: http://www.pbs.org/wgbh/nova/einstein/genius/
+Text: '". '
+ItalicBold: 2
+Begin Reference: Public Broadcasting Service
+End Reference: Public Broadcasting Service
+Text: '.'
+ItalicBold: 2
+Text: ' 2005. Retrieved on 25 February 2006.'
+Close Tag: ref
+Text: ' Einstein quantitatively derived critical opalescence from a treatment of density fluctuations, and demonstrated how both the effect and Rayleigh scattering originate from the atomistic constitution of matter.'
+Paragraph
+Section [1] Zero-point energy
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Zero-point energy'
+End Template: Main
+Text: '
+Einstein's physical intuition led him to note that Planck's oscillator energies had an incorrect zero point. He modified Planck's hypothesis by stating that the lowest energy state of an oscillator is equal to '
+Begin Template: frac
+k: null
+Text: '1'
+k: null
+Text: '2'
+End Template: frac
+ItalicBold: 2
+Text: 'hf'
+ItalicBold: 2
+Text: ', to half the energy spacing between levels. This argument, which was made in 1913 in collaboration with '
+Begin Reference: Otto Stern
+End Reference: Otto Stern
+Text: ', was based on the thermodynamics of a diatomic molecule which can split apart into two free atoms.'
+Paragraph
+Section [1] General relativity and the Equivalence Principle
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'History of general relativity'
+End Template: Main
+Text: '
+'
+Begin Template: See also
+k: null
+Text: 'Principle of equivalence'
+k: null
+Text: 'Theory of relativity'
+k: null
+Text: 'Einstein field equations'
+End Template: See also
+Text: '
+'
+Begin Reference: Image:1919 eclipse positive.jpg
+k: alt
+Text: 'Black circle covering the sun, rays visible around it, in a dark sky.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Begin Reference: Arthur Stanley Eddington
+k: null
+Text: 'Eddington'
+End Reference: Arthur Stanley Eddington
+Text: '’s photograph of a '
+Begin Reference: solar eclipse
+End Reference: solar eclipse
+Text: '.'
+End Reference: Image:1919 eclipse positive.jpg
+Text: '
+General relativity (GR) is a '
+Begin Reference: theory of gravitation
+End Reference: theory of gravitation
+Text: ' that was developed by Albert Einstein between 1907 and 1915. According to '
+Begin Reference: general relativity
+End Reference: general relativity
+Text: ', the observed gravitational attraction between masses results from the warping of space and time by those masses. General relativity has developed into an essential tool in modern '
+Begin Reference: astrophysics
+End Reference: astrophysics
+Text: '. It provides the foundation for the current understanding of '
+Begin Reference: black holes
+End Reference: black holes
+Text: ', regions of space where gravitational attraction is so strong that not even light can escape.'
+Paragraph
+Text: 'As Albert Einstein later said, the reason for the development of '
+Begin Reference: general relativity
+End Reference: general relativity
+Text: ' was that the preference of inertial motions within '
+Begin Reference: special relativity
+End Reference: special relativity
+Text: ' was unsatisfactory, while a theory which from the outset prefers no state of motion (even accelerated ones) should appear more satisfactory.'
+Open Tag: ref attributes: []
+Text: 'Albert Einstein, '
+Begin Link: http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-lecture.html
+k: null
+Text: 'Nobel lecture'
+End Link: http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-lecture.html
+Text: ' in 1921'
+Close Tag: ref
+Text: ' So in 1908 he published an article on acceleration under '
+Begin Reference: special relativity
+End Reference: special relativity
+Text: '. In that article, he argued that '
+Begin Reference: free fall
+End Reference: free fall
+Text: ' is really inertial motion, and that for a freefalling observer the rules of special relativity must apply. This argument is called the '
+Begin Reference: Equivalence principle
+End Reference: Equivalence principle
+Text: '. In the same article, Einstein also predicted the phenomenon of '
+Begin Reference: gravitational time dilation
+End Reference: gravitational time dilation
+Text: '. In 1911, Einstein published another article expanding on the 1907 article, in which additional effects such as the '
+Begin Reference: Gravitational lensing
+k: null
+Text: 'deflection of light'
+End Reference: Gravitational lensing
+Text: ' by massive bodies were predicted.'
+Paragraph
+Section [1] Hole argument and Entwurf theory
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Hole argument'
+End Template: Main
+Text: '
+While developing general relativity, Einstein became confused about the '
+Begin Reference: gauge invariance
+End Reference: gauge invariance
+Text: ' in the theory. He formulated an argument that led him to conclude that a general relativistic field theory is impossible. He gave up looking for fully generally covariant tensor equations, and searched for equations that would be invariant under general linear transformations only.'
+Paragraph
+Text: 'In June, 1913 the Entwurf ("draft") theory was the result of these investigations. As its name suggests, it was a sketch of a theory, with the equations of motion supplemented by additional gauge fixing conditions. Simultaneously less elegant and more difficult than general relativity, after more than two years of intensive work Einstein abandoned the theory in November, 1915 after realizing that the hole argument was mistaken.'
+Open Tag: ref attributes: []
+Text: 'van Dongen, Jeroen (2010) '
+ItalicBold: 2
+Text: 'Einstein's Unification'
+ItalicBold: 2
+Text: ' Cambridge University Press, p.23.'
+Close Tag: ref
+Paragraph
+Section [1] Cosmology
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Cosmology'
+End Template: Main
+Text: '
+In 1917, Einstein applied the General theory of relativity to model the structure of the universe as a whole. He wanted the universe to be eternal and unchanging, but this type of universe is not consistent with relativity. To fix this, Einstein modified the general theory by introducing a new notion, the '
+Begin Reference: cosmological constant
+End Reference: cosmological constant
+Text: '. With a positive cosmological constant, the universe could be an '
+Begin Reference: Einstein static universe
+k: null
+Text: 'eternal static sphere'
+End Reference: Einstein static universe
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: Harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1917a'
+End Template: Harv
+Close Tag: ref
+Text: '
+'
+Begin Reference: File:Albert Einstein photo 1920.jpg
+k: alt
+Text: 'Einstein, sitting at a table, looks up from the papers he is reading and into the camera.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'upright'
+k: null
+Text: 'Einstein in his office at the '
+Begin Reference: University of Berlin
+End Reference: University of Berlin
+Text: '.'
+End Reference: File:Albert Einstein photo 1920.jpg
+Paragraph
+Text: 'Einstein believed a spherical static universe is philosophically preferred, because it would obey '
+Begin Reference: Mach's principle
+End Reference: Mach's principle
+Text: '. He had shown that general relativity incorporates Mach's principle to a certain extent in '
+Begin Reference: frame dragging
+End Reference: frame dragging
+Text: ' by '
+Begin Reference: Gravitomagnetism
+k: null
+Text: 'gravitomagnetic fields'
+End Reference: Gravitomagnetism
+Text: ', but he knew that Mach's idea would not work if space goes on forever. In a closed universe, he believed that Mach's principle would hold. Mach's principle has generated much controversy over the years.'
+Paragraph
+Section [1] Modern quantum theory
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Schrödinger equation'
+End Template: Main
+Text: '
+In 1917, at the height of his work on relativity, Einstein published an article in '
+ItalicBold: 2
+Text: 'Physikalische Zeitschrift'
+ItalicBold: 2
+Text: ' that proposed the possibility of '
+Begin Reference: stimulated emission
+End Reference: stimulated emission
+Text: ', the physical process that makes possible the '
+Begin Reference: maser
+End Reference: maser
+Text: ' and the '
+Begin Reference: laser
+End Reference: laser
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: Harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1917b'
+End Template: Harv
+Close Tag: ref
+Text: '
+This article showed that the statistics of absorption and emission of light would only be consistent with Planck's distribution law if the emission of light into a mode with n photons would be enhanced statistically compared to the emission of light into an empty mode. This paper was enormously influential in the later development of quantum mechanics, because it was the first paper to show that the statistics of atomic transitions had simple laws.
+Einstein discovered '
+Begin Reference: Louis de Broglie
+End Reference: Louis de Broglie
+Text: ''s work, and supported his ideas, which were received skeptically at first. In another major paper from this era, Einstein gave a wave equation for '
+Begin Reference: Matter wave
+k: null
+Text: 'de Broglie waves'
+End Reference: Matter wave
+Text: ', which Einstein suggested was the '
+Begin Reference: Hamilton–Jacobi equation
+End Reference: Hamilton–Jacobi equation
+Text: ' of mechanics. This paper would inspire Schrödinger's work of 1926.'
+Paragraph
+Section [1] Bose–Einstein statistics
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Bose–Einstein condensation'
+End Template: Main
+Text: '
+In 1924, Einstein received a description of a '
+Begin Reference: statistical mechanics
+k: null
+Text: 'statistical'
+End Reference: statistical mechanics
+Text: ' model from Indian physicist '
+Begin Reference: Satyendra Nath Bose
+End Reference: Satyendra Nath Bose
+Text: ', based on a counting method that assumed that light could be understood as a gas of indistinguishable particles. Einstein noted that Bose's statistics applied to some atoms as well as to the proposed light particles, and submitted his translation of Bose's paper to the '
+ItalicBold: 2
+Begin Reference: Zeitschrift für Physik
+End Reference: Zeitschrift für Physik
+ItalicBold: 2
+Text: '. Einstein also published his own articles describing the model and its implications, among them the '
+Begin Reference: Bose–Einstein condensate
+End Reference: Bose–Einstein condensate
+Text: ' phenomenon that some particulates should appear at very low temperatures.'
+Open Tag: ref attributes: []
+Begin Template: Harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1924'
+End Template: Harv
+Close Tag: ref
+Text: ' It was not until 1995 that the first such condensate was produced experimentally by '
+Begin Reference: Eric Allin Cornell
+End Reference: Eric Allin Cornell
+Text: ' and '
+Begin Reference: Carl Wieman
+End Reference: Carl Wieman
+Text: ' using '
+Begin Reference: ultracold atom
+k: null
+Text: 'ultra-cooling'
+End Reference: ultracold atom
+Text: ' equipment built at the '
+Begin Reference: National Institute of Standards and Technology
+k: null
+Text: 'NIST'
+End Reference: National Institute of Standards and Technology
+Text: '–'
+Begin Reference: JILA
+End Reference: JILA
+Text: ' laboratory at the '
+Begin Reference: University of Colorado at Boulder
+End Reference: University of Colorado at Boulder
+Text: '.'
+Open Tag: ref attributes: []
+Begin Template: Citation
+k: url
+Text: 'http://www.nist.gov/public_affairs/releases/n01-04.htm'
+k: title
+Text: 'Cornell and Wieman Share 2001 Nobel Prize in Physics'
+k: date
+Text: '9 October 2001'
+k: accessdate
+Text: '11 June 2007'
+End Template: Citation
+Close Tag: ref
+Text: ' '
+Begin Reference: Bose–Einstein statistics
+End Reference: Bose–Einstein statistics
+Text: ' are now used to describe the behaviors of any assembly of '
+Begin Reference: boson
+End Reference: boson
+Text: 's. Einstein's sketches for this project may be seen in the Einstein Archive in the library of the Leiden University.'
+Inline Tag: ref attributes: [name : 'Instituut-Lorentz']
+Paragraph
+Section [1] Energy momentum pseudotensor
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Stress-energy-momentum pseudotensor'
+End Template: Main
+Text: '
+General relativity includes a dynamical spacetime, so it is difficult to see how to identify the conserved energy and momentum. '
+Begin Reference: Noether's theorem
+End Reference: Noether's theorem
+Text: ' allows these quantities to be determined from a '
+Begin Reference: Lagrangian
+End Reference: Lagrangian
+Text: ' with '
+Begin Reference: Translational symmetry
+k: null
+Text: 'translation invariance'
+End Reference: Translational symmetry
+Text: ', but '
+Begin Reference: general covariance
+End Reference: general covariance
+Text: ' makes translation invariance into something of a '
+Begin Reference: gauge symmetry
+End Reference: gauge symmetry
+Text: '. The energy and momentum derived within general relativity by Noether's presecriptions do not make a real tensor for this reason.'
+Paragraph
+Text: 'Einstein argued that this is true for fundamental reasons, because the gravitational field could be made to vanish by a choice of coordinates. He maintained that the non-covariant energy momentum pseudotensor was in fact the best description of the energy momentum distribution in a gravitational field. This approach has been echoed by '
+Begin Reference: Lev Landau
+End Reference: Lev Landau
+Text: ' and '
+Begin Reference: Evgeny Lifshitz
+End Reference: Evgeny Lifshitz
+Text: ', and others, and has become standard.'
+Paragraph
+Text: 'The use of non-covariant objects like pseudotensors was heavily criticized in 1917 by '
+Begin Reference: Erwin Schrödinger
+End Reference: Erwin Schrödinger
+Text: ' and others.'
+Paragraph
+Section [1] Unified field theory
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Classical unified field theories'
+End Template: Main
+Text: '
+Following his research on general relativity, Einstein entered into a series of attempts to generalize his geometric theory of gravitation to include electromagnetism as another aspect of a single entity. In 1950, he described his "'
+Begin Reference: unified field theory
+End Reference: unified field theory
+Text: '" in a '
+ItalicBold: 2
+Begin Reference: Scientific American
+End Reference: Scientific American
+ItalicBold: 2
+Text: ' article entitled "On the Generalized Theory of Gravitation".'
+Open Tag: ref attributes: []
+Begin Template: Harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1950'
+End Template: Harv
+Close Tag: ref
+Text: ' Although he continued to be lauded for his work, Einstein became increasingly isolated in his research, and his efforts were ultimately unsuccessful.
+In his pursuit of a unification of the fundamental forces, Einstein ignored some mainstream developments in physics, most notably the '
+Begin Reference: strong nuclear force
+k: null
+Text: 'strong'
+End Reference: strong nuclear force
+Text: ' and '
+Begin Reference: weak nuclear force
+End Reference: weak nuclear force
+Text: 's, which were not well understood until many years after his death. Mainstream physics, in turn, largely ignored Einstein's approaches to unification. Einstein's dream of unifying other laws of physics with gravity motivates modern quests for a '
+Begin Reference: theory of everything
+End Reference: theory of everything
+Text: ' and in particular '
+Begin Reference: string theory
+End Reference: string theory
+Text: ', where geometrical fields emerge in a unified quantum-mechanical setting.'
+Paragraph
+Section [1] Wormholes
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Wormhole'
+End Template: Main
+Text: '
+Einstein collaborated with others to produce a model of a '
+Begin Reference: wormhole
+End Reference: wormhole
+Text: '. His motivation was to model elementary particles with charge as a solution of gravitational field equations, in line with the program outlined in the paper "Do Gravitational Fields play an Important Role in the Constitution of the Elementary Particles?". These solutions cut and pasted '
+Begin Reference: Schwarzschild black hole
+End Reference: Schwarzschild black hole
+Text: 's to make a bridge between two patches.'
+Paragraph
+Text: 'If one end of a wormhole was positively charged, the other end would be negatively charged. These properties led Einstein to believe that pairs of particles and antiparticles could be described in this way.'
+Paragraph
+Section [1] Einstein–Cartan theory
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Einstein–Cartan theory'
+End Template: Main
+Text: '
+In order to incorporate spinning point particles into general relativity, the affine connection needed to be generalized to include an antisymmetric part, called the '
+Begin Reference: Torsion tensor
+k: null
+Text: 'torsion'
+End Reference: Torsion tensor
+Text: '. This modification was made by Einstein and Cartan in the 1920s.'
+Paragraph
+Section [1] Equations of motion
+Paragraph
+Begin Template: Main
+k: null
+Text: 'Einstein–Infeld–Hoffmann equations'
+End Template: Main
+Text: '
+The theory of general relativity has a fundamental law '
+Entity: ' ' (nbsp)
+Text: '– the '
+Begin Reference: Einstein equations
+End Reference: Einstein equations
+Text: ' which describe how space curves, the '
+Begin Reference: geodesic equation
+End Reference: geodesic equation
+Text: ' which describes how particles move may be derived from the Einstein equations.'
+Paragraph
+Text: 'Since the equations of general relativity are non-linear, a lump of energy made out of pure gravitational fields, like a black hole, would move on a trajectory which is determined by the Einstein equations themselves, not by a new law. So Einstein proposed that the path of a singular solution, like a black hole, would be determined to be a geodesic from general relativity itself.'
+Paragraph
+Text: 'This was established by Einstein, Infeld, and Hoffmann for pointlike objects without angular momentum, and by '
+Begin Reference: Roy Kerr
+End Reference: Roy Kerr
+Text: ' for spinning objects.'
+Paragraph
+Section [1] Other investigations
+Text: '
+'
+Begin Template: main
+k: null
+Text: 'Einstein's unsuccessful investigations'
+End Template: main
+Text: '
+Einstein conducted other investigations that were unsuccessful and abandoned. These pertain to '
+Begin Reference: force
+End Reference: force
+Text: ', '
+Begin Reference: superconductivity
+End Reference: superconductivity
+Text: ', '
+Begin Reference: gravitational waves
+End Reference: gravitational waves
+Text: ', and other research. Please see the '
+Begin Reference: Einstein's unsuccessful investigations
+k: null
+Text: 'main article'
+End Reference: Einstein's unsuccessful investigations
+Text: ' for details.'
+Paragraph
+Section [1] Collaboration with other scientists
+Text: '
+'
+Begin Reference: File:Solvay conference 1927.jpg
+k: null
+Text: '230px'
+k: null
+Text: 'thumb'
+k: null
+Text: 'The 1927 '
+Begin Reference: Solvay Conference
+End Reference: Solvay Conference
+Text: ' in Brussels, a gathering of the world's top physicists. Einstein in the center.'
+End Reference: File:Solvay conference 1927.jpg
+Text: '
+In addition to long time collaborators '
+Begin Reference: Leopold Infeld
+End Reference: Leopold Infeld
+Text: ', '
+Begin Reference: Nathan Rosen
+End Reference: Nathan Rosen
+Text: ', '
+Begin Reference: Peter Bergmann
+End Reference: Peter Bergmann
+Text: ' and others, Einstein also had some one-shot collaborations with various scientists.'
+Paragraph
+Section [2] Einstein–de Haas experiment
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Einstein–de Haas effect'
+End Template: Main
+Text: '
+Einstein and De Haas demonstrated that magnetization is due to the motion of electrons, nowadays known to be the spin. In order to show this, they reversed the magnetization in an iron bar suspended on a '
+Begin Reference: torsion pendulum
+End Reference: torsion pendulum
+Text: '. They confirmed that this leads the bar to rotate, because the electron's angular momentum changes as the magnetization changes. This experiment needed to be sensitive, because the angular momentum associated with electrons is small, but it definitively established that electron motion of some kind is responsible for magnetization.'
+Paragraph
+Section [2] Schrödinger gas model
+Text: '
+Einstein suggested to Erwin Schrödinger that he might be able to reproduce the statistics of a '
+Begin Reference: Bose–Einstein condensate
+k: null
+Text: 'Bose–Einstein gas'
+End Reference: Bose–Einstein condensate
+Text: ' by considering a box. Then to each possible quantum motion of a particle in a box associate an independent harmonic oscillator. Quantizing these oscillators, each level will have an integer occupation number, which will be the number of particles in it.'
+Paragraph
+Text: 'This formulation is a form of '
+Begin Reference: second quantization
+End Reference: second quantization
+Text: ', but it predates modern quantum mechanics. Erwin Schrödinger applied this to derive the '
+Begin Reference: thermodynamics
+k: null
+Text: 'thermodynamic'
+End Reference: thermodynamics
+Text: ' properties of a '
+Begin Reference: Quantum chaos
+k: null
+Text: 'semiclassical'
+End Reference: Quantum chaos
+Text: ' '
+Begin Reference: ideal gas
+End Reference: ideal gas
+Text: '. Schrödinger urged Einstein to add his name as co-author, although Einstein declined the invitation.'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: last
+Text: 'Moore '
+k: first
+Text: 'Walter '
+k: year
+Text: '1989 '
+k: title
+Text: 'Schrödinger: Life and Thought '
+k: location
+Text: 'Cambridge '
+k: publisher
+Text: 'Cambridge University Press '
+k: isbn
+Text: '0-521-43767-9'
+End Template: Citation 
+Close Tag: ref
+Paragraph
+Section [2] Einstein refrigerator
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Einstein refrigerator'
+End Template: Main
+Text: '
+In 1926, Einstein and his former student '
+Begin Reference: Leó Szilárd
+End Reference: Leó Szilárd
+Text: ' co-invented (and in 1930, patented) the '
+Begin Reference: Einstein refrigerator
+End Reference: Einstein refrigerator
+Text: '. This '
+Begin Reference: absorption refrigerator
+End Reference: absorption refrigerator
+Text: ' was then revolutionary for having no moving parts and using only heat as an input.'
+Open Tag: ref attributes: [name : 'Goettling']
+Text: 'Goettling, Gary. '
+Begin Link: http://gtalumni.org/Publications/magazine/sum98/einsrefr.html
+k: null
+Text: 'Einstein's refrigerator'
+End Link: http://gtalumni.org/Publications/magazine/sum98/einsrefr.html
+Text: ' '
+ItalicBold: 2
+Text: 'Georgia Tech Alumni Magazine.'
+ItalicBold: 2
+Text: ' 1998. Retrieved on 21 November 2005. '
+Begin Reference: Leó Szilárd
+End Reference: Leó Szilárd
+Text: ', a Hungarian physicist who later worked on the Manhattan Project, is credited with the discovery of the '
+Begin Reference: chain reaction
+End Reference: chain reaction
+Close Tag: ref
+Text: ' On 11 November 1930, '
+Begin Template: US patent
+k: null
+Text: '1781541'
+End Template: US patent
+Text: ' was awarded to Albert Einstein and Leó Szilárd for the refrigerator. Their invention was not immediately put into commercial production, as the most promising of their patents were quickly bought up by the Swedish company '
+Begin Reference: Electrolux
+End Reference: Electrolux
+Text: ' to protect its refrigeration technology from competition.'
+Open Tag: ref attributes: []
+Text: 'In September 2008 it was reported that Malcolm McCulloch of Oxford University was heading a three-year project to develop more robust appliances that could be used in locales lacking electricity, and that his team had completed a prototype Einstein refrigerator. He was quoted as saying that improving the design and changing the types of gases used might allow the design's efficiency to be quadrupled.'
+Begin Template: Citation 
+k: last 
+Text: 'Alok '
+k: first 
+Text: 'Jha '
+k: title 
+Text: 'Einstein fridge design can help global cooling '
+k: work
+Text: 'The Guardian '
+k: location
+Text: 'UK '
+k: date 
+Text: '21 September 2008 '
+k: url 
+Text: 'http://www.guardian.co.uk/science/2008/sep/21/scienceofclimatechange.climatechange '
+k: accessdate 
+Text: '22 February 2011'
+End Template: Citation 
+Close Tag: ref
+Paragraph
+Section [1] Bohr versus Einstein
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Bohr–Einstein debates'
+End Template: Main
+Text: '
+'
+Begin Reference: File:Niels Bohr Albert Einstein by Ehrenfest.jpg
+k: alt
+Text: 'Two men sitting, looking relaxed. A dark-haired Bohr is talking while Einstein looks sceptical.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'Einstein and '
+Begin Reference: Niels Bohr
+End Reference: Niels Bohr
+Text: ', 1925'
+End Reference: File:Niels Bohr Albert Einstein by Ehrenfest.jpg
+Text: ' The '
+ItalicBold: 3
+Text: 'Bohr–Einstein debates'
+ItalicBold: 3
+Text: ' were a series of public disputes about '
+Begin Reference: quantum mechanics
+End Reference: quantum mechanics
+Text: ' between Albert Einstein and '
+Begin Reference: Niels Bohr
+End Reference: Niels Bohr
+Text: ' who were two of its founders. Their debates are remembered because of their importance to the '
+Begin Reference: philosophy of science
+End Reference: philosophy of science
+Text: '.'
+Open Tag: ref attributes: [name : ''Bohr1949'']
+Begin Template: cite web 
+k: url 
+Text: 'http://www.marxists.org/reference/subject/philosophy/works/dk/bohr.htm '
+k: title 
+Text: 'Discussions with Einstein on Epistemological Problems in Atomic Physics '
+k: accessdate 
+Text: '30 August 2010 '
+k: last 
+Text: 'Bohr N '
+k: work
+Text: 'The Value of Knowledge: A Miniature Library of Philosophy '
+k: publisher
+Begin Reference: Marxists Internet Archive
+End Reference: Marxists Internet Archive
+End Template: cite web 
+Text: ' From Albert Einstein: Philosopher-Scientist (1949), publ. Cambridge University Press, 1949. Niels Bohr's report of conversations with Einstein.'
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: Harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1969'
+End Template: Harv
+Text: '. A reprint of this book was published by Edition Erbrich in 1982, ISBN 388682005X'
+Close Tag: ref
+Open Tag: ref attributes: []
+Begin Template: Harv
+k: null
+Text: 'Einstein'
+k: null
+Text: '1935'
+End Template: Harv
+Close Tag: ref
+Paragraph
+Section [1] Einstein–Podolsky–Rosen paradox
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'EPR paradox'
+End Template: Main
+Text: '
+In 1935, Einstein returned to the question of quantum mechanics. He considered how a measurement on one of two entangled particles would affect the other. He noted, along with his collaborators, that by performing different measurements on the distant particle, either of position or momentum, different properties of the entangled partner could be discovered without disturbing it in any way.'
+Paragraph
+Text: 'He then used a hypothesis of '
+Begin Reference: local realism
+End Reference: local realism
+Text: ' to conclude that the other particle had these properties already determined. The principle he proposed is that if it is possible to determine what the answer to a position or momentum measurement would be, without in any way disturbing the particle, then the particle actually has values of position or momentum.'
+Paragraph
+Text: 'This principle distilled the essence of Einstein's objection to quantum mechanics. As a physical principle, it was shown to be incorrect when the '
+Begin Reference: Aspect experiment
+End Reference: Aspect experiment
+Text: ' of 1982 confirmed '
+Begin Reference: Bell's theorem
+End Reference: Bell's theorem
+Text: ', which had been promulgated in 1964.'
+Paragraph
+Section [0] Political and religious views
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Albert Einstein's political views'
+k: null
+Text: 'Albert Einstein's religious views'
+End Template: Main
+Text: '
+'
+Begin Reference: File:Einsteinwiezmann.PNG
+k: alt
+Text: 'Casual group shot of four men and two women standing on a brick pavement.'
+k: null
+Text: 'thumb'
+k: null
+Text: 'Albert Einstein, seen here with his wife '
+Begin Reference: Elsa Einstein
+End Reference: Elsa Einstein
+Text: ' and Zionist leaders, including future '
+Begin Reference: President of Israel
+End Reference: President of Israel
+Text: ' '
+Begin Reference: Chaim Weizmann
+End Reference: Chaim Weizmann
+Text: ', his wife '
+Begin Reference: Vera Weizmann
+k: null
+Text: 'Dr. Vera Weizmann'
+End Reference: Vera Weizmann
+Text: ', '
+Begin Reference: Menahem Ussishkin
+End Reference: Menahem Ussishkin
+Text: ', and Ben-Zion Mossinson on arrival in '
+Begin Reference: New York City
+End Reference: New York City
+Text: ' in 1921.'
+End Reference: File:Einsteinwiezmann.PNG
+Paragraph
+Text: 'Albert Einstein's political views emerged publicly in the middle of the 20th century due to his fame and reputation for genius. Einstein offered to and was called on to give judgments and opinions on matters often unrelated to theoretical physics or mathematics ('
+Begin Reference: Albert Einstein's political views
+k: null
+Text: 'see main article'
+End Reference: Albert Einstein's political views
+Text: ').'
+Paragraph
+Text: 'Einstein's views about religious belief have been collected from interviews and original writings. These views covered '
+Begin Reference: Judaism
+End Reference: Judaism
+Text: ', theological determinism, agnosticism, and humanism. He also wrote much about ethical culture, opting for '
+Begin Reference: Spinoza's god
+End Reference: Spinoza's god
+Text: ' over belief in a '
+Begin Reference: personal god
+End Reference: personal god
+Text: '.'
+Paragraph
+Section [0] Non-scientific legacy
+Text: '
+While travelling, Einstein wrote daily to his wife Elsa and adopted stepdaughters Margot and Ilse. The letters were included in the papers bequeathed to '
+Begin Reference: The Hebrew University
+End Reference: The Hebrew University
+Text: '. Margot Einstein permitted the personal letters to be made available to the public, but requested that it not be done until twenty years after her death (she died in 1986'
+Open Tag: ref attributes: []
+Begin Template: cite web
+k: url
+Text: 'http://query.nytimes.com/gst/fullpage.html?res=9A0DEFD9153FF931A25754C0A960948260 '
+k: title
+Text: 'Obituary '
+k: work
+Text: 'New York Times '
+k: date
+Text: '12 July 1986 '
+k: accessdate
+Text: '3 April 2011'
+End Template: cite web
+Close Tag: ref
+Text: '). Barbara Wolff, of The Hebrew University's Albert Einstein Archives, told the '
+Begin Reference: BBC
+End Reference: BBC
+Text: ' that there are about 3,500 pages of private correspondence written between 1912 and 1955.'
+Open Tag: ref attributes: []
+Begin Template: Citation 
+k: title 
+Text: 'Letters Reveal Einstein Love Life '
+k: journal
+Begin Reference: BBC News
+End Reference: BBC News
+Text: ' '
+k: publisher
+Text: 'BBC  '
+k: url 
+Text: 'http://news.bbc.co.uk/2/hi/science/nature/5168002.stm '
+k: accessdate 
+Text: '14 March 2007 '
+k: date
+Text: '11 July 2006'
+End Template: Citation 
+Close Tag: ref
+Paragraph
+Text: 'Einstein bequeathed the royalties from use of his '
+Begin Reference: personality rights
+k: null
+Text: 'image'
+End Reference: personality rights
+Text: ' to The Hebrew University of Jerusalem. '
+Begin Reference: Corbis
+End Reference: Corbis
+Text: ', successor to '
+Begin Reference: The Roger Richman Agency
+End Reference: The Roger Richman Agency
+Text: ', licenses the use of his name and associated imagery, as agent for the university.'
+Open Tag: ref attributes: []
+Begin Template: Citation
+k: url
+Text: 'http://einstein.biz/'
+k: title
+Text: 'Einstein'
+k: publisher
+Text: 'Corbis Rights Representation'
+k: accessdate
+Text: '8 August 2008'
+End Template: Citation
+Close Tag: ref
+Paragraph
+Section [0] In popular culture
+Text: '
+'
+Begin Template: Main
+k: null
+Text: 'Albert Einstein in popular culture'
+End Template: Main
+Text: '
+In the period before World War II, Einstein was so well known in America that he would be stopped on the street by people wanting him to explain "that theory". He finally figured out a way to handle the incessant inquiries. He told his inquirers "Pardon me, sorry! Always I am mistaken for Professor Einstein."'
+Open Tag: ref attributes: []
+Text: 'The New Yorker April 1939 pg 69 '
+Begin Link: http://www.newyorker.com/search/query?queryType=nonparsed&query=Einstein+&bylquery=Maloney&month1=01&day1=14&year1=1939&month2=01&day2=14&year2=1939&page=&sort=&submit.x=10&submit.y=5
+k: null
+Text: 'Disguise'
+End Link: http://www.newyorker.com/search/query?queryType=nonparsed&query=Einstein+&bylquery=Maloney&month1=01&day1=14&year1=1939&month2=01&day2=14&year2=1939&page=&sort=&submit.x=10&submit.y=5
+Close Tag: ref
+Paragraph
+Text: 'Einstein has been the subject of or inspiration for many novels, films, plays, and works of music.'
+Open Tag: ref attributes: []
+Begin Link: http://www.cindymctee.com/einsteins_dream.html
+End Link: http://www.cindymctee.com/einsteins_dream.html
+Text: ' '
+ItalicBold: 2
+Text: 'Einstein's Dream'
+ItalicBold: 2
+Text: ' for orchestra by '
+Begin Reference: Cindy McTee
+End Reference: Cindy McTee
+Close Tag: ref
+Text: ' He is a favorite model for depictions of '
+Begin Reference: mad scientist
+End Reference: mad scientist
+Text: 's and '
+Begin Reference: absent-minded professor
+End Reference: absent-minded professor
+Text: 's; his expressive face and distinctive hairstyle have been widely copied and exaggerated. '
+ItalicBold: 2
+Text: 'TIME'
+ItalicBold: 2
+Text: ' magazine's Frederic Golden wrote that Einstein was "a cartoonist's dream come true".'
+Open Tag: ref attributes: [name : 'slqbwn']
+Begin Template: Citation
+k: last 
+Text: 'Golden '
+k: first 
+Text: 'Frederic '
+k: title 
+Text: 'Person of the Century: Albert Einstein'
+k: magazine 
+Text: 'Time '
+k: date 
+Text: '3 January 2000 '
+k: url 
+Text: 'http://www.time.com/time/time100/poc/magazine/albert_einstein5a.html '
+k: accessdate 
+Text: '25 February 2006 '
+End Template: Citation
+Close Tag: ref
+Paragraph
+Section [0] Awards and honors
+Text: '
+'
+Begin Template: main
+k: null
+Text: 'Einstein's awards and honors'
+End Template: main
+Text: '
+Einstein received numerous awards and honors, including the '
+Begin Reference: Nobel Prize in Physics
+End Reference: Nobel Prize in Physics
+Text: '.'
+Paragraph
+Section [0] Publications
+Text: '
+: '
+ItalicBold: 2
+Text: 'The following publications by Albert Einstein are referenced in this article. A more complete list of his publications may be found at '
+Begin Reference: List of scientific publications by Albert Einstein
+End Reference: List of scientific publications by Albert Einstein
+Text: '.'
+ItalicBold: 2
+Text: '
+'
+Begin Template: refbegin
+k: colwidth
+Text: '30em'
+End Template: refbegin
+Text: '
+'
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: year 
+Text: '1901
+'
+k: title 
+Text: 'Folgerungen aus den Capillaritätserscheinungen (Conclusions Drawn from the Phenomena of Capillarity)
+'
+k: periodical 
+Text: 'Annalen der Physik
+'
+k: volume 
+Text: '4
+'
+k: page 
+Text: '513
+'
+k: doi 
+Text: '10.1002/andp.19013090306
+'
+k: bibcode 
+Text: '1901AnP...309..513E
+'
+k: issue 
+Text: '3 '
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: year 
+Text: '1905a
+'
+k: title 
+Text: 'Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt (On a Heuristic Viewpoint Concerning the Production and Transformation of Light)
+'
+k: journal
+Text: 'Annalen der Physik
+'
+k: volume 
+Text: '17
+'
+k: pages 
+Text: '132–148
+'
+k: doi 
+Text: '10.1002/andp.19053220607
+'
+k: url 
+Text: 'http://www.physik.uni-augsburg.de/annalen/history/einstein-papers/1905_17_132-148.pdf
+'
+k: bibcode 
+Text: '1905AnP...322..132E
+'
+k: issue 
+Text: '6 '
+End Template: Citation
+
+Text: ' This annus mirabilis paper on the photoelectric effect was received by ''Annalen der Physik'' 18 March.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein'
+k: first
+Text: 'Albert'
+k: year
+Text: '1905b
+'
+k: title 
+Text: 'A new determination of molecular dimensions
+'
+End Template: Citation
+
+Text: '. This PhD thesis was completed 30 April and submitted 20 July.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: year 
+Text: '1905c
+'
+k: title 
+Text: 'On the Motion&nbsp;– Required by the Molecular Kinetic Theory of Heat&nbsp;– of Small Particles Suspended in a Stationary Liquid
+'
+k: journal
+Text: 'Annalen der Physik
+'
+k: volume 
+Text: '17
+'
+k: pages 
+Text: '549–560
+'
+k: bibcode 
+Text: '1905AnP...322..549E '
+k: doi 
+Text: '10.1002/andp.19053220806
+'
+k: issue 
+Text: '8 '
+End Template: Citation
+
+Text: '. This annus mirabilis paper on Brownian motion was received 11 May.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: year 
+Text: '1905d
+'
+k: title 
+Text: 'On the Electrodynamics of Moving Bodies
+'
+k: journal
+Text: 'Annalen der Physik
+'
+k: volume 
+Text: '17
+'
+k: pages 
+Text: '891–921
+'
+k: bibcode 
+Text: '1905AnP...322..891E '
+k: doi 
+Text: '10.1002/andp.19053221004
+'
+k: issue 
+Text: '10 '
+End Template: Citation
+
+Text: '. This annus mirabilis paper on special relativity was received 30 June.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein'
+k: first
+Text: 'Albert
+'
+k: year
+Text: '1905e
+'
+k: title 
+Text: 'Does the Inertia of a Body Depend Upon Its Energy Content?
+'
+k: journal
+Text: 'Annalen der Physik'
+k: volume
+Text: '18'
+k: pages
+Text: '639–641
+'
+k: bibcode 
+Text: '1905AnP...323..639E '
+k: doi 
+Text: '10.1002/andp.19053231314
+'
+k: issue 
+Text: '13 '
+End Template: Citation
+
+Text: '. This annus mirabilis paper on mass-energy equivalence was received 27 September.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Die Feldgleichungen der Gravitation (The Field Equations of Gravitation)
+'
+k: journal
+Text: 'Königlich Preussische Akademie der Wissenschaften
+'
+k: pages 
+Text: '844–847
+'
+k: year 
+Text: '1915
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Kosmologische Betrachtungen zur allgemeinen Relativitätstheorie (Cosmological Considerations in the General Theory of Relativity)
+'
+k: journal
+Text: 'Königlich Preussische Akademie der Wissenschaften
+'
+k: year 
+Text: '1917a
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Zur Quantentheorie der Strahlung (On the Quantum Mechanics of Radiation)
+'
+k: journal
+Text: 'Physikalische Zeitschrift
+'
+k: volume 
+Text: '18
+'
+k: pages 
+Text: '121–128
+'
+k: year 
+Text: '1917b
+'
+k: bibcode 
+Text: '1917PhyZ...18..121E '
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: date 
+Text: '11 July 1923
+'
+k: contribution 
+Text: 'Fundamental Ideas and Problems of the Theory of Relativity
+'
+k: title 
+Text: 'Nobel Lectures, Physics 1901–1921
+'
+k: publisher
+Text: 'Elsevier Publishing Company
+'
+k: place 
+Text: 'Amsterdam
+'
+k: url 
+Text: 'http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-lecture.pdf
+'
+k: accessdate 
+Text: '25 March 2007
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Quantentheorie des einatomigen idealen Gases (Quantum theory of monatomic ideal gases)
+'
+k: journal
+Text: 'Sitzungsberichte der Preussichen Akademie der Wissenschaften Physikalisch-Mathematische Klasse
+'
+k: pages 
+Text: '261–267
+'
+k: year 
+Text: '1924
+'
+End Template: Citation
+
+Text: '. First of a series of papers on this topic.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Die Ursache der Mäanderbildung der Flussläufe und des sogenannten Baerschen Gesetzes
+'
+k: journal
+Text: 'Die Naturwissenschaften
+'
+k: pages 
+Text: '223–224
+'
+k: year 
+Text: '1926
+'
+k: doi 
+Text: '10.1007/BF01510300
+'
+k: volume 
+Text: '14
+'
+k: bibcode 
+Text: '1926NW.....14..223E
+'
+k: issue 
+Text: '11 '
+End Template: Citation
+
+Text: '. On '
+Begin Reference: Baer's law
+End Reference: Baer's law
+Text: ' and '
+Begin Reference: meander
+End Reference: meander
+Text: 's in the courses of rivers.'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: last2 
+Text: 'Podolsky
+'
+k: first2 
+Text: 'Boris
+'
+k: last3 
+Text: 'Rosen
+'
+k: first3 
+Text: 'Nathan
+'
+k: title 
+Text: 'Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?
+'
+k: journal
+Text: 'Physical Review
+'
+k: issue 
+Text: '10
+'
+k: volume 
+Text: '47
+'
+k: pages 
+Text: '777–780
+'
+k: date 
+Text: '15 May 1935
+'
+k: doi 
+Text: '10.1103/PhysRev.47.777
+'
+k: ref 
+Begin Template: harvid
+k: null
+Text: 'Einstein'
+k: null
+Text: '1935'
+End Template: harvid
+Text: '
+'
+k: bibcode 
+Text: '1935PhRv...47..777E '
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'On Science and Religion
+'
+k: journal
+Text: 'Nature
+'
+k: volume 
+Text: '146
+'
+k: year 
+Text: '1940
+'
+k: doi 
+Text: '10.1038/146605a0
+'
+k: page 
+Text: '605
+'
+k: isbn 
+Text: '0707304539
+'
+k: publisher
+Text: 'Scottish Academic
+'
+k: location 
+Text: 'Edinburgh
+'
+k: bibcode 
+Text: '1940Natur.146..605E
+'
+k: issue 
+Text: '3706 '
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert ''et&nbsp;al.''
+'
+k: title 
+Text: 'To the editors
+'
+k: newspaper
+Text: 'New York Times
+'
+k: date 
+Text: '4 December 1948
+'
+k: url 
+Text: 'http://phys4.harvard.edu/~wilson/NYTimes1948.html
+'
+k: isbn 
+Text: '0735403597
+'
+k: publisher
+Text: 'AIP, American Inst. of Physics
+'
+k: location 
+Text: 'Melville, NY
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Why Socialism?
+'
+k: magazine 
+Text: 'Monthly Review
+'
+k: date 
+Text: 'May 1949
+'
+k: url 
+Text: 'http://www.monthlyreview.org/598einst.htm
+'
+k: accessdate 
+Text: '16 January 2006
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'On the Generalized Theory of Gravitation
+'
+k: journal
+Text: 'Scientific American
+'
+k: volume 
+Text: 'CLXXXII
+'
+k: issue 
+Text: '4
+'
+k: pages 
+Text: '13–17
+'
+k: year 
+Text: '1950
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Ideas and Opinions
+'
+k: place 
+Text: 'New York
+'
+k: publisher
+Text: 'Random House
+'
+k: year 
+Text: '1954
+'
+k: isbn 
+Text: '0-517-00393-7
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: title 
+Text: 'Albert Einstein, Hedwig und Max Born: Briefwechsel 1916–1955
+'
+k: publisher
+Text: 'Nymphenburger Verlagshandlung
+'
+k: year 
+Text: '1969
+'
+k: location 
+Text: 'Munich
+'
+k: language 
+Text: 'German
+'
+k: isbn 
+Text: '388682005X
+'
+End Template: Citation
+
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+
+k: last 
+Text: 'Einstein
+'
+k: first 
+Text: 'Albert
+'
+k: edition 
+Text: 'Centennial
+'
+k: title 
+Text: 'Autobiographical Notes
+'
+k: year 
+Text: '1979
+'
+k: place 
+Text: 'Chicago
+'
+k: publisher
+Text: 'Open Court
+'
+k: isbn 
+Text: '0-875-48352-6
+'
+k: others 
+Text: 'Paul Arthur Schilpp
+'
+End Template: Citation
+
+Text: '. The ''chasing a light beam'' thought experiment is described on pages 48–51.'
+List Item: Unordered 1
+Text: ' Collected Papers: '
+Begin Template: Citation
+
+k: author
+Begin Reference: John Stachel
+k: null
+Text: 'Stachel, John'
+End Reference: John Stachel
+Text: ', Martin J. Klein, a.&nbsp;J. Kox, Michel Janssen, R. Schulmann, Diana Komos Buchwald and others (Eds.)
+'
+k: year 
+Text: '1987–2006
+'
+k: title 
+Text: 'The Collected Papers of Albert Einstein, Vol. 1–10
+'
+k: publisher
+Begin Reference: Princeton University Press
+End Reference: Princeton University Press
+Text: '
+'
+k: url
+Text: 'http://press.princeton.edu/einstein/writings.html#papers
+'
+End Template: Citation
+
+Text: ' Further information about the volumes published so far can be found on the webpages of the '
+Begin Link: http://www.einstein.caltech.edu/index.html
+k: null
+Text: 'Einstein Papers Project'
+End Link: http://www.einstein.caltech.edu/index.html
+Text: ' and on the '
+Begin Reference: Princeton University Press
+End Reference: Princeton University Press
+Text: ' '
+Begin Link: http://press.princeton.edu/einstein/
+k: null
+Text: 'Einstein Page'
+End Link: http://press.princeton.edu/einstein/
+End List
+Begin Template: refend
+End Template: refend
+Paragraph
+Section [0] See also
+Text: '
+'
+Begin Template: Portal
+k: null
+Text: 'Biography'
+k: null
+Text: 'Physics'
+k: null
+Text: 'Science'
+End Template: Portal
+Text: '
+'
+Begin Template: Wikipedia books
+End Template: Wikipedia books
+Text: '
+'
+Begin Template: div col
+k: colwidth
+Text: '20em'
+End Template: div col
+Text: '
+'
+Begin List
+List Item: Unordered 1
+Text: ' '''
+Begin Reference: The Einstein Theory of Relativity
+End Reference: The Einstein Theory of Relativity
+Text: ''' (educational film about the theory of relativity)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: German inventors and discoverers
+End Reference: German inventors and discoverers
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Heinrich Burkhardt
+End Reference: Heinrich Burkhardt
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Hermann Einstein
+End Reference: Hermann Einstein
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Historical Museum of Bern
+End Reference: Historical Museum of Bern
+Text: ' (Einstein museum)'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: History of gravitational theory
+End Reference: History of gravitational theory
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Introduction to special relativity
+End Reference: Introduction to special relativity
+List Item: Unordered 1
+Text: ' '
+Begin Reference: List of coupled cousins
+End Reference: List of coupled cousins
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Relativity priority dispute
+End Reference: Relativity priority dispute
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Sticky bead argument
+End Reference: Sticky bead argument
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Summation convention
+End Reference: Summation convention
+List Item: Unordered 1
+Text: ' '
+Begin Reference: List of Jewish Nobel laureates
+End Reference: List of Jewish Nobel laureates
+End List
+Begin Template: div col end
+End Template: div col end
+Text: '
+'
+Begin Template: clear
+End Template: clear
+Text: '
+'
+Section [0] Notes
+Text: '
+'
+Inline Tag: references attributes: [group : 'fn']
+Paragraph
+Section [0] References
+Text: '
+'
+Begin Template: Reflist
+k: colwidth
+Text: '30em'
+End Template: Reflist
+Paragraph
+Section [0] Further reading
+Text: '
+'
+Begin Template: refbegin
+End Template: refbegin
+Text: '
+'
+Begin List
+List Item: Unordered 1
+Text: ' Fölsing, Albrecht (1997): ''Albert Einstein: A Biography''. New York: Penguin Viking. (Translated and abridged from the German by Ewald Osers.)'
+List Item: Unordered 1
+Text: ' '
+Begin Template: cite book 
+k: last1
+Text: 'Highfield '
+k: first1
+Text: 'Roger '
+k: last2
+Text: 'Carter '
+k: first2
+Text: 'Paul '
+k: year
+Text: '1993 '
+k: title
+Text: 'The Private Lives of Albert Einstein '
+k: location
+Text: 'London '
+k: publisher
+Text: 'Faber and Faber '
+k: isbn
+Text: '978-0571167449 '
+k: ref
+Text: 'harv'
+End Template: cite book 
+List Item: Unordered 1
+Text: ' Hoffmann, Banesh, with the collaboration of Helen Dukas (1972): ''Albert Einstein: Creator and Rebel''. London: Hart-Davis, MacGibbon Ltd.'
+List Item: Unordered 1
+Text: ' Isaacson, Walter (2007): ''Einstein: His Life and Universe''. Simon & Schuster Paperbacks, New York. ISBN 9780743264730'
+List Item: Unordered 1
+Text: ' Moring, Gary (2004): '''
+Begin Link: http://books.google.com/books?id=875TTxildJ0C&dq=idiots+guide+to+einstein&printsec=frontcover
+k: null
+Text: 'The complete idiot's guide to understanding Einstein'
+End Link: http://books.google.com/books?id=875TTxildJ0C&dq=idiots+guide+to+einstein&printsec=frontcover
+Text: ''' ( 1st ed. 2000). Indianapolis IN: Alpha books (Macmillan USA). ISBN 0028631803'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: Abraham Pais
+k: null
+Text: 'Pais, Abraham'
+End Reference: Abraham Pais
+Text: ' (1982): ''Subtle is the Lord: The science and the life of Albert Einstein''. Oxford University Press. The definitive biography to date.'
+List Item: Unordered 1
+Text: ' Pais, Abraham (1994): ''Einstein Lived Here''. Oxford University Press.'
+List Item: Unordered 1
+Text: ' Parker, Barry (2000): ''Einstein's Brainchild''. Prometheus Books. A review of Einstein's career and accomplishments, written for the lay public.'
+List Item: Unordered 1
+Text: ' Schweber, Sylvan S. (2008): ''Einstein and '
+Begin Reference: J. Robert Oppenheimer
+k: null
+Text: 'Oppenheimer'
+End Reference: J. Robert Oppenheimer
+Text: ': The Meaning of Genius''. Harvard University Press. ISBN 978-0674028289.'
+List Item: Unordered 1
+Text: ' '
+Begin Reference: J. Robert Oppenheimer
+k: null
+Text: 'Oppenheimer'
+End Reference: J. Robert Oppenheimer
+Text: ', J.R. (1971): "On Albert Einstein," p.&nbsp;8–12 in ''Science and synthesis: an international colloquium organized by Unesco on the tenth anniversary of the death of Albert Einstein and Teilhard de Chardin'', Springer-Verlag, 1971, 208 pp. (Lecture delivered at the UNESCO House in Paris on 13 December 1965.) Also published in The New York Review of Books, 17 March 1966, '
+Begin Link: http://www.nybooks.com/articles/archives/1966/mar/17/on-albert-einstein/?pagination=false
+k: null
+Text: 'On Albert Einstein by Robert Oppenheimer'
+End Link: http://www.nybooks.com/articles/archives/1966/mar/17/on-albert-einstein/?pagination=false
+End List
+Begin Template: refend
+End Template: refend
+Paragraph
+Section [0] External links
+Text: '
+'
+Begin Template: Sister project links
+k: null
+Text: 'Albert Einstein'
+k: s
+Text: 'Author:Albert Einstein'
+End Template: Sister project links
+Text: '
+'
+Begin List
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://scholar.google.com.au/citations?user=qc6CJjYAAAAJ&hl=en
+k: null
+Text: 'Einstein's Scholar Google profile'
+End Link: http://scholar.google.com.au/citations?user=qc6CJjYAAAAJ&hl=en
+List Item: Unordered 1
+Text: ' '
+Begin Reference: wikilivres:Albert Einstein
+k: null
+Text: 'Works by Albert Einstein'
+End Reference: wikilivres:Albert Einstein
+Text: ' (public domain in Canada)'
+List Item: Unordered 1
+Text: ' '
+Begin Template: Citation
+k: year
+Text: '1997 '
+k: month
+Text: 'April '
+k: publisher
+Text: 'School of Mathematics and Statistics, University of St Andrews, Scotland '
+k: title 
+Text: 'The MacTutor History of Mathematics archive '
+k: url
+Text: 'http://www-history.mcs.st-andrews.ac.uk/Biographies/Einstein.html '
+k: accessdate 
+Text: '14 June 2009'
+End Template: Citation
+List Item: Unordered 1
+Text: ' '''
+Begin Link: http://www.monthlyreview.org/598einstein.php
+k: null
+Text: 'Why Socialism?'
+End Link: http://www.monthlyreview.org/598einstein.php
+Text: ''' by Albert Einstein, '''
+Begin Reference: Monthly Review
+End Reference: Monthly Review
+Text: ''', May 1949'
+List Item: Unordered 1
+Begin Link: http://www.shapell.org/exhibitions.aspx?einstein-original-letters-in-aid-of-his-brethren
+k: null
+Text: 'Einstein's Personal Correspondence: Religion, Politics, The Holocaust, and Philosophy'
+End Link: http://www.shapell.org/exhibitions.aspx?einstein-original-letters-in-aid-of-his-brethren
+Text: ' Shapell Manuscript Foundation'
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://vault.fbi.gov/Albert%20Einstein
+k: null
+Text: 'FBI file on Albert Einstein'
+End Link: http://vault.fbi.gov/Albert%20Einstein
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-bio.html
+k: null
+Text: 'Nobelprize.org Biography:Albert Einstein'
+End Link: http://nobelprize.org/nobel_prizes/physics/laureates/1921/einstein-bio.html
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://www.life.com/image/first/in-gallery/41492/the-einstein-you-never-knew
+k: null
+Text: 'The Einstein You Never Knew'
+End Link: http://www.life.com/image/first/in-gallery/41492/the-einstein-you-never-knew
+Text: '&nbsp;— slideshow by '''
+Begin Reference: Life magazine
+End Reference: Life magazine
+Text: ''''
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://www.history.com/topics/albert-einstein
+k: null
+Text: 'Albert Einstein'
+End Link: http://www.history.com/topics/albert-einstein
+Text: '&nbsp;— videos'
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://www.pbs.org/wgbh/aso/databank/entries/bpeins.html
+k: null
+Text: 'Science Odyssey People And Discoveries'
+End Link: http://www.pbs.org/wgbh/aso/databank/entries/bpeins.html
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://ocw.mit.edu/courses/science-technology-and-society/sts-042j-einstein-oppenheimer-feynman-physics-in-the-20th-century-spring-2006/
+k: null
+Text: 'MIT OpenCourseWare STS.042J/8.225J: Einstein, Oppenheimer, Feynman: Physics in the 20th century'
+End Link: http://ocw.mit.edu/courses/science-technology-and-society/sts-042j-einstein-oppenheimer-feynman-physics-in-the-20th-century-spring-2006/
+Text: '&nbsp;— free study course that explores the changing roles of physics and physicists during the 20th century'
+List Item: Unordered 1
+Text: ' '
+Begin Template: GoogleScholar
+k: null
+Text: 'qc6CJjYAAAAJ'
+End Template: GoogleScholar
+List Item: Unordered 1
+Text: ' '
+Begin Link: http://www.alberteinstein.info
+k: null
+Text: 'Albert Einstein Archives Online (80,000+ Documents)'
+End Link: http://www.alberteinstein.info
+Text: ' ('
+Begin Link: http://www.msnbc.msn.com/id/46785542/ns/technology_and_science-science/
+k: null
+Text: 'MSNBC - 03/19/2012'
+End Link: http://www.msnbc.msn.com/id/46785542/ns/technology_and_science-science/
+Text: ')'
+End List
+Text: '
+'
+Begin Template: Copley Medallists 1901-1950
+End Template: Copley Medallists 1901-1950
+Text: '
+'
+Begin Template: Nobel Prize in Physics Laureates 1901–1925
+End Template: Nobel Prize in Physics Laureates 1901–1925
+Text: '
+'
+Begin Template: philosophy of science
+End Template: philosophy of science
+Text: '
+'
+Begin Template: Einstein family
+k: state
+Text: 'collapsed'
+End Template: Einstein family
+Text: '
+'
+Begin Template: Use dmy dates
+k: date
+Text: 'October 2011'
+End Template: Use dmy dates
+Text: '
+'
+Begin Template: Normdaten
+k: PND
+Text: '118529579'
+k: LCCN
+Text: 'n/79/22889'
+k: VIAF
+Text: '75121530'
+End Template: Normdaten
+Paragraph
+Begin Template: Persondata
+
+k: NAME 
+Text: 'Einstein, Albert
+'
+k: ALTERNATIVE NAMES 
+k: SHORT DESCRIPTION 
+Begin Reference: Physicist
+End Reference: Physicist
+Text: '
+'
+k: DATE OF BIRTH 
+Text: '1879-03-14 '
+Comment Tag:  ISO format (YYYY-MM-DD) 
+Text: '
+'
+k: PLACE OF BIRTH 
+Begin Reference: Ulm
+End Reference: Ulm
+Text: ', '
+Begin Reference: Baden-Württemberg
+End Reference: Baden-Württemberg
+Text: ', '
+Begin Reference: German Empire
+End Reference: German Empire
+Text: '
+'
+k: DATE OF DEATH 
+Text: '1955-04-18 '
+Comment Tag:  ISO format (YYYY-MM-DD) 
+Text: '
+'
+k: PLACE OF DEATH 
+Begin Reference: Princeton, New Jersey
+End Reference: Princeton, New Jersey
+Text: ', '
+Begin Reference: USA
+End Reference: USA
+Text: '
+'
+End Template: Persondata
+
+Text: '
+'
+Begin Template: DEFAULTSORT:Einstein, Albert
+End Template: DEFAULTSORT:Einstein, Albert
+Text: '
+'
+Begin Reference: Category:1879 births
+End Reference: Category:1879 births
+Text: '
+'
+Begin Reference: Category:1955 deaths
+End Reference: Category:1955 deaths
+Text: '
+'
+Begin Reference: Category:19th-century American people
+End Reference: Category:19th-century American people
+Text: '
+'
+Begin Reference: Category:19th-century German people
+End Reference: Category:19th-century German people
+Text: '
+'
+Begin Reference: Category:19th-century Jews
+End Reference: Category:19th-century Jews
+Text: '
+'
+Begin Reference: Category:19th-century Swiss people
+End Reference: Category:19th-century Swiss people
+Text: '
+'
+Begin Reference: Category:20th-century American people
+End Reference: Category:20th-century American people
+Text: '
+'
+Begin Reference: Category:20th-century German people
+End Reference: Category:20th-century German people
+Text: '
+'
+Begin Reference: Category:20th-century Swiss people
+End Reference: Category:20th-century Swiss people
+Text: '
+'
+Begin Reference: Category:Academics of Charles University in Prague
+End Reference: Category:Academics of Charles University in Prague
+Text: '
+'
+Begin Reference: Category:Albert Einstein
+k: null
+Text: ' '
+End Reference: Category:Albert Einstein
+Text: '
+'
+Begin Reference: Category:American humanitarians
+End Reference: Category:American humanitarians
+Text: '
+'
+Begin Reference: Category:American inventors
+End Reference: Category:American inventors
+Text: '
+'
+Begin Reference: Category:American pacifists
+End Reference: Category:American pacifists
+Text: '
+'
+Begin Reference: Category:American people of Swiss-Jewish descent
+End Reference: Category:American people of Swiss-Jewish descent
+Text: '
+'
+Begin Reference: Category:American people of German-Jewish descent
+End Reference: Category:American people of German-Jewish descent
+Text: '
+'
+Begin Reference: Category:American physicists
+End Reference: Category:American physicists
+Text: '
+'
+Begin Reference: Category:Cosmologists
+End Reference: Category:Cosmologists
+Text: '
+'
+Begin Reference: Category:Deaths from abdominal aortic aneurysm
+End Reference: Category:Deaths from abdominal aortic aneurysm
+Text: '
+'
+Begin Reference: Category:Deists
+End Reference: Category:Deists
+Text: '
+'
+Begin Reference: Category:Einstein family
+End Reference: Category:Einstein family
+Text: '
+'
+Begin Reference: Category:ETH Zurich alumni
+End Reference: Category:ETH Zurich alumni
+Text: '
+'
+Begin Reference: Category:ETH Zurich faculty
+End Reference: Category:ETH Zurich faculty
+Text: '
+'
+Begin Reference: Category:Fellows of the Leopoldina
+End Reference: Category:Fellows of the Leopoldina
+Text: '
+'
+Begin Reference: Category:Foreign Members of the Royal Society
+End Reference: Category:Foreign Members of the Royal Society
+Text: '
+'
+Begin Reference: Category:German humanitarians
+End Reference: Category:German humanitarians
+Text: '
+'
+Begin Reference: Category:German emigrants to Switzerland
+End Reference: Category:German emigrants to Switzerland
+Text: '
+'
+Begin Reference: Category:German inventors
+End Reference: Category:German inventors
+Text: '
+'
+Begin Reference: Category:German Jews who emigrated to the United States to escape Nazism
+End Reference: Category:German Jews who emigrated to the United States to escape Nazism
+Text: '
+'
+Begin Reference: Category:German-language philosophers
+End Reference: Category:German-language philosophers
+Text: '
+'
+Begin Reference: Category:German Nobel laureates
+End Reference: Category:German Nobel laureates
+Text: '
+'
+Begin Reference: Category:German pacifists
+End Reference: Category:German pacifists
+Text: '
+'
+Begin Reference: Category:German philosophers
+End Reference: Category:German philosophers
+Text: '
+'
+Begin Reference: Category:German physicists
+End Reference: Category:German physicists
+Text: '
+'
+Begin Reference: Category:Institute for Advanced Study faculty
+End Reference: Category:Institute for Advanced Study faculty
+Text: '
+'
+Begin Reference: Category:Jewish agnostics
+End Reference: Category:Jewish agnostics
+Text: '
+'
+Begin Reference: Category:Jewish American scientists
+End Reference: Category:Jewish American scientists
+Text: '
+'
+Begin Reference: Category:Jewish American writers
+End Reference: Category:Jewish American writers
+Text: '
+'
+Begin Reference: Category:Jewish inventors
+End Reference: Category:Jewish inventors
+Text: '
+'
+Begin Reference: Category:Jewish pacifists
+End Reference: Category:Jewish pacifists
+Text: '
+'
+Begin Reference: Category:Jewish philosophers
+End Reference: Category:Jewish philosophers
+Text: '
+'
+Begin Reference: Category:Jewish physicists
+End Reference: Category:Jewish physicists
+Text: '
+'
+Begin Reference: Category:Leiden University faculty
+End Reference: Category:Leiden University faculty
+Text: '
+'
+Begin Reference: Category:Members of the Prussian Academy of Sciences
+End Reference: Category:Members of the Prussian Academy of Sciences
+Text: '
+'
+Begin Reference: Category:Naturalized citizens of the United States
+End Reference: Category:Naturalized citizens of the United States
+Text: '
+'
+Begin Reference: Category:Nobel laureates in Physics
+End Reference: Category:Nobel laureates in Physics
+Text: '
+'
+Begin Reference: Category:Patent examiners
+End Reference: Category:Patent examiners
+Text: '
+'
+Begin Reference: Category:People associated with the University of Zurich
+End Reference: Category:People associated with the University of Zurich
+Text: '
+'
+Begin Reference: Category:People from the Kingdom of Württemberg
+End Reference: Category:People from the Kingdom of Württemberg
+Text: '
+'
+Begin Reference: Category:People from Ulm
+End Reference: Category:People from Ulm
+Text: '
+'
+Begin Reference: Category:Recipients of the Gold Medal of the Royal Astronomical Society
+End Reference: Category:Recipients of the Gold Medal of the Royal Astronomical Society
+Text: '
+'
+Begin Reference: Category:Recipients of the Pour le Mérite (civil class)
+End Reference: Category:Recipients of the Pour le Mérite (civil class)
+Text: '
+'
+Begin Reference: Category:Stateless persons
+End Reference: Category:Stateless persons
+Text: '
+'
+Begin Reference: Category:Swiss emigrants to the United States
+End Reference: Category:Swiss emigrants to the United States
+Text: '
+'
+Begin Reference: Category:Swiss humanitarians
+End Reference: Category:Swiss humanitarians
+Text: '
+'
+Begin Reference: Category:Swiss inventors
+End Reference: Category:Swiss inventors
+Text: '
+'
+Begin Reference: Category:Swiss Jews
+End Reference: Category:Swiss Jews
+Text: '
+'
+Begin Reference: Category:Swiss Nobel laureates
+End Reference: Category:Swiss Nobel laureates
+Text: '
+'
+Begin Reference: Category:Swiss pacifists
+End Reference: Category:Swiss pacifists
+Text: '
+'
+Begin Reference: Category:Swiss philosophers
+End Reference: Category:Swiss philosophers
+Text: '
+'
+Begin Reference: Category:Swiss physicists
+End Reference: Category:Swiss physicists
+Text: '
+'
+Begin Reference: Category:University of Zurich alumni
+End Reference: Category:University of Zurich alumni
+Text: '
+'
+Begin Reference: Category:University of Zurich faculty
+End Reference: Category:University of Zurich faculty
+Text: '
+'
+Begin Reference: Category:Theoretical physicists
+End Reference: Category:Theoretical physicists
+Paragraph
+Begin Template: Link GA
+k: null
+Text: 'de'
+End Template: Link GA
+Text: '
+'
+Begin Template: Link GA
+k: null
+Text: 'no'
+End Template: Link GA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'als'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'an'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'fi'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'he'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'hr'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'ru'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'sr'
+End Template: Link FA
+Text: '
+'
+Begin Template: Link FA
+k: null
+Text: 'ur'
+End Template: Link FA
+Paragraph
+Begin Reference: af:Albert Einstein
+End Reference: af:Albert Einstein
+Text: '
+'
+Begin Reference: als:Albert Einstein
+End Reference: als:Albert Einstein
+Text: '
+'
+Begin Reference: am:አልበርት አይንስታይን
+End Reference: am:አልበርት አይንስታይን
+Text: '
+'
+Begin Reference: ang:Albert Einstein
+End Reference: ang:Albert Einstein
+Text: '
+'
+Begin Reference: ar:ألبرت أينشتاين
+End Reference: ar:ألبرت أينشتاين
+Text: '
+'
+Begin Reference: an:Albert Einstein
+End Reference: an:Albert Einstein
+Text: '
+'
+Begin Reference: as:এলবাৰ্ট আইনষ্টাইন
+End Reference: as:এলবাৰ্ট আইনষ্টাইন
+Text: '
+'
+Begin Reference: ast:Albert Einstein
+End Reference: ast:Albert Einstein
+Text: '
+'
+Begin Reference: ay:Albert Einstein
+End Reference: ay:Albert Einstein
+Text: '
+'
+Begin Reference: az:Albert Eynşteyn
+End Reference: az:Albert Eynşteyn
+Text: '
+'
+Begin Reference: bm:Albert Einstein
+End Reference: bm:Albert Einstein
+Text: '
+'
+Begin Reference: bn:আলবার্ট আইনস্টাইন
+End Reference: bn:আলবার্ট আইনস্টাইন
+Text: '
+'
+Begin Reference: zh-min-nan:Albert Einstein
+End Reference: zh-min-nan:Albert Einstein
+Text: '
+'
+Begin Reference: map-bms:Albert Einstein
+End Reference: map-bms:Albert Einstein
+Text: '
+'
+Begin Reference: be:Альберт Эйнштэйн
+End Reference: be:Альберт Эйнштэйн
+Text: '
+'
+Begin Reference: be-x-old:Альбэрт Айнштайн
+End Reference: be-x-old:Альбэрт Айнштайн
+Text: '
+'
+Begin Reference: bcl:Albert Einstein
+End Reference: bcl:Albert Einstein
+Text: '
+'
+Begin Reference: bg:Алберт Айнщайн
+End Reference: bg:Алберт Айнщайн
+Text: '
+'
+Begin Reference: bs:Albert Einstein
+End Reference: bs:Albert Einstein
+Text: '
+'
+Begin Reference: br:Albert Einstein
+End Reference: br:Albert Einstein
+Text: '
+'
+Begin Reference: ca:Albert Einstein
+End Reference: ca:Albert Einstein
+Text: '
+'
+Begin Reference: cv:Эйнштейн Альберт
+End Reference: cv:Эйнштейн Альберт
+Text: '
+'
+Begin Reference: cs:Albert Einstein
+End Reference: cs:Albert Einstein
+Text: '
+'
+Begin Reference: cbk-zam:Albert Einstein
+End Reference: cbk-zam:Albert Einstein
+Text: '
+'
+Begin Reference: co:Albert Einstein
+End Reference: co:Albert Einstein
+Text: '
+'
+Begin Reference: cy:Albert Einstein
+End Reference: cy:Albert Einstein
+Text: '
+'
+Begin Reference: da:Albert Einstein
+End Reference: da:Albert Einstein
+Text: '
+'
+Begin Reference: de:Albert Einstein
+End Reference: de:Albert Einstein
+Text: '
+'
+Begin Reference: nv:Hastiin Albert Einstein
+End Reference: nv:Hastiin Albert Einstein
+Text: '
+'
+Begin Reference: et:Albert Einstein
+End Reference: et:Albert Einstein
+Text: '
+'
+Begin Reference: el:Άλμπερτ Αϊνστάιν
+End Reference: el:Άλμπερτ Αϊνστάιν
+Text: '
+'
+Begin Reference: es:Albert Einstein
+End Reference: es:Albert Einstein
+Text: '
+'
+Begin Reference: eo:Albert Einstein
+End Reference: eo:Albert Einstein
+Text: '
+'
+Begin Reference: ext:Albert Einstein
+End Reference: ext:Albert Einstein
+Text: '
+'
+Begin Reference: eu:Albert Einstein
+End Reference: eu:Albert Einstein
+Text: '
+'
+Begin Reference: fa:آلبرت اینشتین
+End Reference: fa:آلبرت اینشتین
+Text: '
+'
+Begin Reference: hif:Albert Einstein
+End Reference: hif:Albert Einstein
+Text: '
+'
+Begin Reference: fr:Albert Einstein
+End Reference: fr:Albert Einstein
+Text: '
+'
+Begin Reference: fy:Albert Einstein
+End Reference: fy:Albert Einstein
+Text: '
+'
+Begin Reference: ga:Albert Einstein
+End Reference: ga:Albert Einstein
+Text: '
+'
+Begin Reference: gd:Albert Einstein
+End Reference: gd:Albert Einstein
+Text: '
+'
+Begin Reference: gl:Albert Einstein
+End Reference: gl:Albert Einstein
+Text: '
+'
+Begin Reference: gan:愛因斯坦
+End Reference: gan:愛因斯坦
+Text: '
+'
+Begin Reference: gu:આલ્બર્ટ આઇન્સ્ટાઇન
+End Reference: gu:આલ્બર્ટ આઇન્સ્ટાઇન
+Text: '
+'
+Begin Reference: ko:알베르트 아인슈타인
+End Reference: ko:알베르트 아인슈타인
+Text: '
+'
+Begin Reference: haw:Albert Einstein
+End Reference: haw:Albert Einstein
+Text: '
+'
+Begin Reference: hy:Ալբերտ Այնշտայն
+End Reference: hy:Ալբերտ Այնշտայն
+Text: '
+'
+Begin Reference: hi:ऐल्बर्ट आइनस्टाइन
+End Reference: hi:ऐल्बर्ट आइनस्टाइन
+Text: '
+'
+Begin Reference: hr:Albert Einstein
+End Reference: hr:Albert Einstein
+Text: '
+'
+Begin Reference: io:Albert Einstein
+End Reference: io:Albert Einstein
+Text: '
+'
+Begin Reference: ig:Albert Einstein
+End Reference: ig:Albert Einstein
+Text: '
+'
+Begin Reference: ilo:Albert Einstein
+End Reference: ilo:Albert Einstein
+Text: '
+'
+Begin Reference: bpy:আলবার্ট আইনস্টাইন
+End Reference: bpy:আলবার্ট আইনস্টাইন
+Text: '
+'
+Begin Reference: id:Albert Einstein
+End Reference: id:Albert Einstein
+Text: '
+'
+Begin Reference: ia:Albert Einstein
+End Reference: ia:Albert Einstein
+Text: '
+'
+Begin Reference: os:Эйнштейн, Альберт
+End Reference: os:Эйнштейн, Альберт
+Text: '
+'
+Begin Reference: is:Albert Einstein
+End Reference: is:Albert Einstein
+Text: '
+'
+Begin Reference: it:Albert Einstein
+End Reference: it:Albert Einstein
+Text: '
+'
+Begin Reference: he:אלברט איינשטיין
+End Reference: he:אלברט איינשטיין
+Text: '
+'
+Begin Reference: jv:Albert Einstein
+End Reference: jv:Albert Einstein
+Text: '
+'
+Begin Reference: kn:ಅಲ್ಬರ್ಟ್ ಐನ್‍ಸ್ಟೈನ್
+End Reference: kn:ಅಲ್ಬರ್ಟ್ ಐನ್‍ಸ್ಟೈನ್
+Text: '
+'
+Begin Reference: pam:Albert Einstein
+End Reference: pam:Albert Einstein
+Text: '
+'
+Begin Reference: ka:ალბერტ აინშტაინი
+End Reference: ka:ალბერტ აინშტაინი
+Text: '
+'
+Begin Reference: kk:Альберт Эйнштейн
+End Reference: kk:Альберт Эйнштейн
+Text: '
+'
+Begin Reference: sw:Albert Einstein
+End Reference: sw:Albert Einstein
+Text: '
+'
+Begin Reference: ht:Albert Einstein
+End Reference: ht:Albert Einstein
+Text: '
+'
+Begin Reference: ku:Albert Einstein
+End Reference: ku:Albert Einstein
+Text: '
+'
+Begin Reference: ky:Эйнштейн, Алберт
+End Reference: ky:Эйнштейн, Алберт
+Text: '
+'
+Begin Reference: lad:Albert Einstein
+End Reference: lad:Albert Einstein
+Text: '
+'
+Begin Reference: la:Albertus Einstein
+End Reference: la:Albertus Einstein
+Text: '
+'
+Begin Reference: lv:Alberts Einšteins
+End Reference: lv:Alberts Einšteins
+Text: '
+'
+Begin Reference: lb:Albert Einstein
+End Reference: lb:Albert Einstein
+Text: '
+'
+Begin Reference: lt:Albert Einstein
+End Reference: lt:Albert Einstein
+Text: '
+'
+Begin Reference: lij:Albert Einstein
+End Reference: lij:Albert Einstein
+Text: '
+'
+Begin Reference: jbo:albert. ainctain
+End Reference: jbo:albert. ainctain
+Text: '
+'
+Begin Reference: lmo:Albert Einstein
+End Reference: lmo:Albert Einstein
+Text: '
+'
+Begin Reference: hu:Albert Einstein
+End Reference: hu:Albert Einstein
+Text: '
+'
+Begin Reference: mk:Алберт Ајнштајн
+End Reference: mk:Алберт Ајнштајн
+Text: '
+'
+Begin Reference: mg:Albert Einstein
+End Reference: mg:Albert Einstein
+Text: '
+'
+Begin Reference: ml:ആൽബർട്ട് ഐൻസ്റ്റൈൻ
+End Reference: ml:ആൽബർട്ട് ഐൻസ്റ്റൈൻ
+Text: '
+'
+Begin Reference: mr:अल्बर्ट आइनस्टाइन
+End Reference: mr:अल्बर्ट आइनस्टाइन
+Text: '
+'
+Begin Reference: arz:البرت اينشتاين
+End Reference: arz:البرت اينشتاين
+Text: '
+'
+Begin Reference: mzn:آلبرت اینشتین
+End Reference: mzn:آلبرت اینشتین
+Text: '
+'
+Begin Reference: ms:Albert Einstein
+End Reference: ms:Albert Einstein
+Text: '
+'
+Begin Reference: mwl:Albert Einstein
+End Reference: mwl:Albert Einstein
+Text: '
+'
+Begin Reference: mn:Альберт Эйнштейн
+End Reference: mn:Альберт Эйнштейн
+Text: '
+'
+Begin Reference: my:အဲလ်ဘတ် အိုင်းစတိုင်း
+End Reference: my:အဲလ်ဘတ် အိုင်းစတိုင်း
+Text: '
+'
+Begin Reference: nah:Albert Einstein
+End Reference: nah:Albert Einstein
+Text: '
+'
+Begin Reference: nl:Albert Einstein
+End Reference: nl:Albert Einstein
+Text: '
+'
+Begin Reference: nds-nl:Albert Einstein
+End Reference: nds-nl:Albert Einstein
+Text: '
+'
+Begin Reference: ne:अल्बर्ट आइन्स्टाइन
+End Reference: ne:अल्बर्ट आइन्स्टाइन
+Text: '
+'
+Begin Reference: ja:アルベルト・アインシュタイン
+End Reference: ja:アルベルト・アインシュタイン
+Text: '
+'
+Begin Reference: no:Albert Einstein
+End Reference: no:Albert Einstein
+Text: '
+'
+Begin Reference: nn:Albert Einstein
+End Reference: nn:Albert Einstein
+Text: '
+'
+Begin Reference: nov:Albert Einstein
+End Reference: nov:Albert Einstein
+Text: '
+'
+Begin Reference: oc:Albert Einstein
+End Reference: oc:Albert Einstein
+Text: '
+'
+Begin Reference: or:ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ
+End Reference: or:ଆଲବର୍ଟ ଆଇନଷ୍ଟାଇନ
+Text: '
+'
+Begin Reference: uz:Albert Einstein
+End Reference: uz:Albert Einstein
+Text: '
+'
+Begin Reference: pa:ਐਲਬਰਟ ਆਈਨਸਟਾਈਨ
+End Reference: pa:ਐਲਬਰਟ ਆਈਨਸਟਾਈਨ
+Text: '
+'
+Begin Reference: pag:Albert Einstein
+End Reference: pag:Albert Einstein
+Text: '
+'
+Begin Reference: pnb:ایلبرٹ آئینسٹائن
+End Reference: pnb:ایلبرٹ آئینسٹائن
+Text: '
+'
+Begin Reference: ps:آلبرټ آينشټاين
+End Reference: ps:آلبرټ آينشټاين
+Text: '
+'
+Begin Reference: km:អាល់បឺត អែងស្តែង
+End Reference: km:អាល់បឺត អែងស្តែង
+Text: '
+'
+Begin Reference: pcd:Albert Einstein
+End Reference: pcd:Albert Einstein
+Text: '
+'
+Begin Reference: pms:Albert Einstein
+End Reference: pms:Albert Einstein
+Text: '
+'
+Begin Reference: tpi:Albert Einstein
+End Reference: tpi:Albert Einstein
+Text: '
+'
+Begin Reference: nds:Albert Einstein
+End Reference: nds:Albert Einstein
+Text: '
+'
+Begin Reference: pl:Albert Einstein
+End Reference: pl:Albert Einstein
+Text: '
+'
+Begin Reference: pt:Albert Einstein
+End Reference: pt:Albert Einstein
+Text: '
+'
+Begin Reference: kaa:Albert Einstein
+End Reference: kaa:Albert Einstein
+Text: '
+'
+Begin Reference: ksh:Albert Einstein
+End Reference: ksh:Albert Einstein
+Text: '
+'
+Begin Reference: ro:Albert Einstein
+End Reference: ro:Albert Einstein
+Text: '
+'
+Begin Reference: qu:Albert Einstein
+End Reference: qu:Albert Einstein
+Text: '
+'
+Begin Reference: rue:Алберт Айнштайн
+End Reference: rue:Алберт Айнштайн
+Text: '
+'
+Begin Reference: ru:Эйнштейн, Альберт
+End Reference: ru:Эйнштейн, Альберт
+Text: '
+'
+Begin Reference: sah:Альберт Эйнштейн
+End Reference: sah:Альберт Эйнштейн
+Text: '
+'
+Begin Reference: se:Albert Einstein
+End Reference: se:Albert Einstein
+Text: '
+'
+Begin Reference: sc:Albert Einstein
+End Reference: sc:Albert Einstein
+Text: '
+'
+Begin Reference: sco:Albert Einstein
+End Reference: sco:Albert Einstein
+Text: '
+'
+Begin Reference: sq:Albert Einstein
+End Reference: sq:Albert Einstein
+Text: '
+'
+Begin Reference: scn:Albert Einstein
+End Reference: scn:Albert Einstein
+Text: '
+'
+Begin Reference: si:ඇල්බට්‍ අයින්ස්ටයින්
+End Reference: si:ඇල්බට්‍ අයින්ස්ටයින්
+Text: '
+'
+Begin Reference: simple:Albert Einstein
+End Reference: simple:Albert Einstein
+Text: '
+'
+Begin Reference: sk:Albert Einstein
+End Reference: sk:Albert Einstein
+Text: '
+'
+Begin Reference: sl:Albert Einstein
+End Reference: sl:Albert Einstein
+Text: '
+'
+Begin Reference: szl:Albert Einstein
+End Reference: szl:Albert Einstein
+Text: '
+'
+Begin Reference: so:Albert Einstein
+End Reference: so:Albert Einstein
+Text: '
+'
+Begin Reference: ckb:ئاڵبێرت ئاینیشتاین
+End Reference: ckb:ئاڵبێرت ئاینیشتاین
+Text: '
+'
+Begin Reference: sr:Алберт Ајнштајн
+End Reference: sr:Алберт Ајнштајн
+Text: '
+'
+Begin Reference: sh:Albert Einstein
+End Reference: sh:Albert Einstein
+Text: '
+'
+Begin Reference: su:Albert Einstein
+End Reference: su:Albert Einstein
+Text: '
+'
+Begin Reference: fi:Albert Einstein
+End Reference: fi:Albert Einstein
+Text: '
+'
+Begin Reference: sv:Albert Einstein
+End Reference: sv:Albert Einstein
+Text: '
+'
+Begin Reference: tl:Albert Einstein
+End Reference: tl:Albert Einstein
+Text: '
+'
+Begin Reference: ta:ஆல்பர்ட் ஐன்ஸ்டைன்
+End Reference: ta:ஆல்பர்ட் ஐன்ஸ்டைன்
+Text: '
+'
+Begin Reference: tt:Albert Einstein
+End Reference: tt:Albert Einstein
+Text: '
+'
+Begin Reference: te:ఆల్బర్ట్ ఐన్‌స్టీన్
+End Reference: te:ఆల్బర్ట్ ఐన్‌స్టీన్
+Text: '
+'
+Begin Reference: th:อัลเบิร์ต ไอน์สไตน์
+End Reference: th:อัลเบิร์ต ไอน์สไตน์
+Text: '
+'
+Begin Reference: tr:Albert Einstein
+End Reference: tr:Albert Einstein
+Text: '
+'
+Begin Reference: uk:Альберт Ейнштейн
+End Reference: uk:Альберт Ейнштейн
+Text: '
+'
+Begin Reference: ur:البرٹ آئنسٹائن
+End Reference: ur:البرٹ آئنسٹائن
+Text: '
+'
+Begin Reference: ug:ئالبېرىت ئېينىشتېين
+End Reference: ug:ئالبېرىت ئېينىشتېين
+Text: '
+'
+Begin Reference: za:Albert Einstein
+End Reference: za:Albert Einstein
+Text: '
+'
+Begin Reference: vec:Albert Einstein
+End Reference: vec:Albert Einstein
+Text: '
+'
+Begin Reference: vep:Einštein Al'bert
+End Reference: vep:Einštein Al'bert
+Text: '
+'
+Begin Reference: vi:Albert Einstein
+End Reference: vi:Albert Einstein
+Text: '
+'
+Begin Reference: vo:Albert Einstein
+End Reference: vo:Albert Einstein
+Text: '
+'
+Begin Reference: fiu-vro:Einsteini Albert
+End Reference: fiu-vro:Einsteini Albert
+Text: '
+'
+Begin Reference: wa:Albert Einstein
+End Reference: wa:Albert Einstein
+Text: '
+'
+Begin Reference: war:Albert Einstein
+End Reference: war:Albert Einstein
+Text: '
+'
+Begin Reference: wo:Albert Einstein
+End Reference: wo:Albert Einstein
+Text: '
+'
+Begin Reference: yi:אלבערט איינשטיין
+End Reference: yi:אלבערט איינשטיין
+Text: '
+'
+Begin Reference: yo:Albert Einstein
+End Reference: yo:Albert Einstein
+Text: '
+'
+Begin Reference: zh-yue:愛因斯坦
+End Reference: zh-yue:愛因斯坦
+Text: '
+'
+Begin Reference: diq:Albert Einstein
+End Reference: diq:Albert Einstein
+Text: '
+'
+Begin Reference: bat-smg:Alberts Einšteins
+End Reference: bat-smg:Alberts Einšteins
+Text: '
+'
+Begin Reference: zh:阿尔伯特·爱因斯坦
+End Reference: zh:阿尔伯特·爱因斯坦
+Text: '
+'
+End Document

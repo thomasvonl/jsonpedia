@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2012-2015 Michele Mostarda (me@michelemostarda.it)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xml:lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>JSONpedia - Storage Query</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/frontend/img/favicon.ico">
+    <meta name="description" content="JSONpedia Storage Query Frontend">
+    <meta name="author" content="Michele Mostarda @micmos">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/highlight.default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jsonpedia.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="application/javascript">
+        $(function ($) {
+            LIMIT = 1000;
+
+            $("#filter-syntax-include").load("filter.html");
+
+            $.each($('.app-base-uri'), function() {
+                $(this).text(document.location.host);
+            });
+
+            $('#mongo-select-submit').addClass('disabled');
+            $('#mongo-mapred-submit').addClass('disabled');
+            $('#elastic-select-submit').addClass('disabled');
+
+            $('.mongo-selector-example').click(function(e) {
+                $('#mongo-select-selector').val($(e.target).text());
+                e.preventDefault();
+                updateMongoSelectQuery();
+            });
+            $('.mongo-filter-example').click(function(e) {
+                $('#mongo-select-filter').val($(e.target).text());
+                e.preventDefault();
+                updateMongoSelectQuery();
+            });
+
+            $('.mongo-mapred-criteria-example').click(function (e) {
+                $('#mongo-mapred-criteria').val($(e.target).text());
+                e.preventDefault();
+                updateMongoMapRedQuery();
+            });
+            $('.mongo-mapred-example').click(function (e) {
+                $a = $(e.target);
+                $('#mongo-mapred-map').val($a.attr('map'));
+                $('#mongo-mapred-red').val($a.attr('red'));
+                e.preventDefault();
+                updateMongoMapRedQuery();
+            });
+
+            $('.elastic-selector-example').click(function(e) {
+                $('#elastic-select-selector').val($(e.target).text());
+                e.preventDefault();
+                updateElasticSelectQuery();
+            });
+            $('.elastic-filter-example').click(function(e) {
+                $('#elastic-select-filter').val($(e.target).text());
+                e.preventDefault();
+                updateElasticSelectQuery();
+            });
+
+            $('#mongo-select-selector').keyup(function() {
+                $submitButton = $('#mongo-select-submit');
+                if ($('#mongo-select-selector').val() != '') {
+                    $submitButton.removeClass('disabled');
+                } else {
+                    $submitButton.addClass('disabled');
+                }
+            });
+
+            $('#mongo-select-query-copy').click(function(){
+                window.prompt('CTRL + C to copy:', $('#mongo-select-query').html() );
+            });
+            $('#mongo-mapred-query-copy').click(function(){
+                window.prompt('CTRL + C to copy:', $('#mongo-mapred-query').html() );
+            });
+            $('#elastic-select-query-copy').click(function(){
+                window.prompt('CTRL + C to copy:', $('#elastic-select-query').html() );
+            });
+
+            $('#mongo-select-limit').keyup(function(){
+                if($('#mongo-select-limit').val() > LIMIT) {
+                    $('#mongo-select-limit').addClass('glyphicon glyphicon-warning-sign has-warning has-feedback form-control-feedback');
+                } else {
+                    $('#mongo-select-limit').removeClass('glyphicon glyphicon-warning-sign has-warning has-feedback form-control-feedback');
+                }
+            });
+
+            $('#mongo-mapred-limit').keyup(function(){
+                if($('#mongo-mapred-limit').val() > LIMIT) {
+                    $('#mongo-mapred-limit').addClass('glyphicon glyphicon-warning-sign has-warning has-feedback form-control-feedback');
+                } else {
+                    $('#mongo-mapred-limit').removeClass('glyphicon glyphicon-warning-sign has-warning has-feedback form-control-feedback');
+                }
+            });
+
+            $('#elastic-select-limit').keyup(function(){
+                if($('#elastic-select-limit').val() > LIMIT) {
+                    $('#elastic-select-limit').addClass('glyphicon glyphicon-warning-sign has-warning has-feedback form-control-feedback');
+                } else {
+                    $('#elastic-select-limit').removeClass('glyphicon glyphicon-warning-sign has-warning has-feedback form-control-feedback');
+                }
+            });
+
+            $('#mongo-select-form').live('click change keyup', function(e) {
+                updateMongoSelectQuery();
+            });
+            $('#mongo-mapred-form').live('click change keyup', function(e) {
+                updateMongoMapRedQuery();
+            });
+            $('#elastic-select-form').live('click change keyup', function(e) {
+                updateElasticSelectQuery();
+            });
+
+            $('#mongo-select-submit').click(function(e){
+                window.open(buildMongoSelectQuery());
+            });
+            $('#mongo-mapred-submit').click(function(e){
+                window.open(buildMongoMapRedQuery());
+            });
+            $('#elastic-select-submit').click(function(e){
+                window.open(buildElasticSelectQuery());
+            });
+
+            $('#mongo-select-reset').click(function(e){
+                e.preventDefault();
+                $('#mongo-select-form')[0].reset();
+                updateMongoSelectQuery();
+            });
+            $('#mongo-mapred-reset').click(function(e){
+                e.preventDefault();
+                $('#mongo-mapred-form')[0].reset();
+                updateMongoMapRedQuery();
+            });
+            $('#elastic-select-reset').click(function(e){
+                e.preventDefault();
+                $('#elastic-select-form')[0].reset();
+                updateElasticSelectQuery();
+            });
+
+            $('.mongo-selector-help').click(function(e){
+                            document.location = "#mongo-selector-syntax";
+            });
+
+            $('.elastic-selector-help').click(function (e) {
+                document.location = "#elastic-selector-syntax";
+            });
+
+            $('.filter-help').click(function(e){
+                            document.location = "#filter-syntax";
+            });
+            $('.limit-help').click(function(e){
+                            document.location = "#limit-syntax";
+            });
+        });
+
+        function dismissAlert() {
+            $('#alert-message').html("");
+        }
+
+        function alert(msg) {
+            $('#alert-message').html(
+                '<div class="alert fade in fixedpos"><button type="button" class="close" data-dismiss="alert">&times;</button>'
+                        + msg +
+                '</div>'
+            );
+        }
+
+        function isNumeric(n) {
+          return !isNaN(parseFloat(n)) && isFinite(n);
+        }
+
+        function buildMongoSelectQuery() {
+            selector = $('#mongo-select-selector').val();
+            filter = $('#mongo-select-filter').val();
+            limit = $('#mongo-select-limit').val();
+            if(selector.trim().length == 0) throw new Error("Invalid selector");
+            if(limit != "" && !isNumeric(limit)) throw new Error("Invalid limit");
+            return '/storage/mongo/select?q=' +
+             encodeURIComponent(selector) +
+            (filter.trim().length == 0 ? '' : '&filter=' + encodeURIComponent(filter)) +
+            (limit.trim().length == 0 || limit == $('#mongo-select-limit').attr('placeholder') ? '' : '&limit=' + limit)
+        }
+
+        function buildMongoMapRedQuery() {
+            criteria = $('#mongo-mapred-criteria').val();
+            _map = $('#mongo-mapred-map').val();
+            red = $('#mongo-mapred-red').val();
+            limit = $('#mongo-mapred-limit').val();
+            //if(criteria.trim().length == 0) throw new Error("Invalid criteria");
+            if(limit != "" && !isNumeric(limit)) throw new Error("Invalid limit");
+            return '/storage/mongo/mapred?' +
+                'map=' + encodeURIComponent(_map) + '&' +
+                'reduce=' + encodeURIComponent(red) + '&' +
+                'criteria=' + encodeURIComponent(criteria) + '&' +
+                (limit.trim().length == 0 || limit == $('#mongo-mapred-limit').attr('placeholder') ? '' : '&limit=' + limit)
+        }
+
+        function buildElasticSelectQuery() {
+            selector = $('#elastic-select-selector').val();
+            filter = $('#elastic-select-filter').val();
+            limit = $('#elastic-select-limit').val();
+            if(selector.trim().length == 0) throw new Error("Invalid selector");
+            if(limit != "" && !isNumeric(limit)) throw new Error("Invalid limit");
+            return '/storage/elastic/select?q=' +
+             encodeURIComponent(selector) +
+            (filter.trim().length == 0 ? '' : '&filter=' + encodeURIComponent(filter)) +
+            (limit.trim().length == 0 || limit == $('#elastic-select-limit').attr('placeholder') ? '' : '&limit=' + limit)
+        }
+
+        function updateMongoSelectQuery() {
+            try {
+                $('#mongo-select-query').html('http://' + document.location.host + buildMongoSelectQuery());
+                $('#mongo-select-submit').removeClass('disabled');
+            } catch(e) {
+                console.log('Error: ' + e)
+                $('#mongo-select-submit').addClass('disabled');
+            }
+        }
+
+        function updateMongoMapRedQuery() {
+            try {
+                $('#mongo-mapred-query').html('http://' + document.location.host + buildMongoMapRedQuery());
+                $('#mongo-mapred-submit').removeClass('disabled');
+            } catch(e) {
+                console.log('Error: ' + e)
+                $('#mongo-select-submit').addClass('disabled');
+            }
+        }
+
+        function updateElasticSelectQuery() {
+            try {
+                $('#elastic-select-query').html('http://' + document.location.host + buildElasticSelectQuery());
+                $('#elastic-select-submit').removeClass('disabled');
+            } catch(e) {
+                console.log('Error: ' + e)
+                $('#elastic-select-submit').addClass('disabled');
+            }
+        }
+    </script>
+</head>
+
+<body role="document">
+
+<div id="alert-message"></div>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">JSONpedia</a>
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Live</a></li>
+            <li><a href="facet.html">Facet</a></li>
+            <li class="active"><a href="#">Store</a></li>
+            <li><a href="client.html">JQuery Client</a></li>
+            <li><a target="_blank" href="https://bitbucket.org/hardest/jsonpedia">Documentation</a></li>
+        </ul>
+    </div>
+</div>
+
+
+<div class="container theme-showcase" role="main">
+
+<header class="jumbotron">
+    <h1>Wikipedia Storage</h1>
+    <p>Query the latest Wikipedia dump processed with JSONpedia.</p>
+</header>
+
+<h2>MongoDB Query</h2>
+
+<form id="mongo-select-form" class="well form-horizontal">
+    <code>GET /storage/mongo/select</code>
+    <p class="help-block">
+        Specify a data selector and optionally a filter and a resultset limit
+    </p>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="mongo-select-selector">Selector</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="mongo-select-selector" type="text"
+                       placeholder="[<FIELD> OP <VALUE>]+ -> [<FIELD>]+">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Selector samples <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="mongo-selector-example dropdown-list-button" href="#">_id = #736 -&gt; title</a></li>
+                        <li><a class="mongo-selector-example dropdown-list-button" href="#">name = Albert Einstein -> content.sections</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i class="mongo-selector-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Selector syntax"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="mongo-select-filter">Filter</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="mongo-select-filter" type="text"
+                       placeholder="[<FIELD> : <VALUE re>]+">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Filter samples <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="mongo-filter-example dropdown-list-button" href="#">@type : link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i class="filter-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Filter syntax"></i>
+    </div>
+
+    <div class="form-group">
+        <label for="mongo-select-limit" class="col-md-1 control-label">Limit</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="mongo-select-limit" placeholder="1000">
+        </div>
+        <i class="limit-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip"
+           title="Result limit (Max: 1000)"></i>
+    </div>
+
+    <span class="row">
+        <span class="label label-info">Query</span>
+        <span id="mongo-select-query" class="label label-info"></span>
+        <i id="mongo-select-query-copy" class="glyphicon glyphicon-edit" rel="tooltip" title="Copy query"></i>
+    </span>
+
+    <div class="control-group">
+        <button id="mongo-select-submit" type="button" class="btn btn-primary">Query</button>
+        <button id="mongo-select-reset" type="reset" class="btn">Cancel</button>
+    </div>
+</form>
+
+<h2>MongoDB Map/Reduce</h2>
+
+<form id="mongo-mapred-form" class="well form-horizontal">
+    <code>GET /storage/mongo/mapred</code>
+    <p class="help-block">
+        Specify a data criteria selector, a map/reduce functions and optionally a resultset limit
+    </p>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="mongo-mapred-criteria">Criteria</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="mongo-mapred-criteria" type="text"
+                       placeholder="[<FIELD> OP <VALUE>]+">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Criteria samples <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="mongo-mapred-criteria-example dropdown-list-button" href="#">_id = #736</a></li>
+                        <li><a class="mongo-mapred-criteria-example dropdown-list-button" href="#">name = Albert Einstein</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i class="mongo-selector-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Selector syntax"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1"></label>
+        <div class="col-md-6">
+            <div class="input-group-btn">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                Map/reduce function samples <span class="caret"></span></button>
+                <ul class="dropdown-menu pull-left">
+                    <li><a
+                            class="mongo-mapred-example dropdown-list-button"
+                            href="#"
+                            map="function() { ocs = this.content.templates.occurrences; for(template in ocs) { emit(template, ocs[template]); } }"
+                            red="function(key, values) { return Array.sum(values) }"
+                        >Count template occurrences</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="mongo-mapred-map">Map function</label>
+        <div class="col-md-6">
+            <input class="form-control" id="mongo-mapred-map" type="text" placeholder="function() { this... emit(key, val); }">
+        </div>
+        <i id="mapred-map-help" class="glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Map function help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="mongo-mapred-red">Reduce function</label>
+        <div class="col-md-6">
+            <input class="form-control" id="mongo-mapred-red" type="text" placeholder="function(key, vals) { return ... }">
+        </div>
+        <i id="mapred-red-help" class="glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Reduce function help"></i>
+    </div>
+
+    <div class="form-group">
+        <label for="mongo-mapred-limit" class="col-md-1 control-label">Limit</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="mongo-mapred-limit" placeholder="1000">
+        </div>
+        <i class="limit-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip"
+           title="Result limit (Max: 1000)"></i>
+    </div>
+
+    <span class="row">
+        <span class="label label-info">Query</span>
+        <span id="mongo-mapred-query" class="label label-info"></span>
+        <i id="mongo-mapred-query-copy" class="glyphicon glyphicon-edit" rel="tooltip" title="Copy query"></i>
+    </span>
+
+    <div class="control-group">
+        <button id="mongo-mapred-submit" type="button" class="btn btn-primary">Run</button>
+        <button id="mongo-mapred-reset" type="reset" class="btn">Cancel</button>
+    </div>
+</form>
+
+<!--------- BEGIN ElasticSearch Forms --------->
+
+<h2>Elasticsearch Query</h2>
+
+<form id="elastic-select-form" class="well form-horizontal">
+    <code>GET /storage/elastic/select</code>
+    <p class="help-block">
+        Specify a data selector and optionally a filter and a resultset limit
+    </p>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="elastic-select-selector">Selector</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="elastic-select-selector" type="text"
+                       placeholder="[[<FIELD>:]?<CRITERIA>]+">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Selector samples <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="elastic-selector-example dropdown-list-button" href="#">Albert Einstein</a></li>
+                        <li><a class="elastic-selector-example dropdown-list-button" href="#">name:"Albert Einstein"</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i class="elastic-selector-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Selector syntax"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="elastic-select-filter">Filter</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="elastic-select-filter" type="text"
+                       placeholder="[<FIELD> : <VALUE re>]+">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                        Filter samples <span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="elastic-filter-example dropdown-list-button" href="#">@type:link</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i class="filter-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip" title="Filter syntax"></i>
+    </div>
+
+    <div class="form-group">
+        <label for="elastic-select-limit" class="col-md-1 control-label">Limit</label>
+        <div class="col-md-6">
+            <input type="text" class="form-control" id="elastic-select-limit" placeholder="1000">
+        </div>
+        <i class="limit-help glyphicon glyphicon-question-sign col-md-1" rel="tooltip"
+           title="Result limit (Max: 1000)"></i>
+    </div>
+
+    <span class="row">
+        <span class="label label-info">Query</span>
+        <span id="elastic-select-query" class="label label-info"></span>
+        <i id="elastic-select-query-copy" class="glyphicon glyphicon-edit" rel="tooltip" title="Copy query"></i>
+    </span>
+
+    <div class="control-group">
+        <button id="elastic-select-submit" type="button" class="btn btn-primary">Query</button>
+        <button id="elastic-select-reset" type="reset" class="btn">Cancel</button>
+    </div>
+</form>
+
+<!--------- BEGIN API Reference --------->
+
+<h2>Quick API reference</h2>
+
+<h3>Examples</h3>
+<ul>
+    <li><code><a target="_blank" href="/store/select?q=title=title%20%3D%20Albert_Einstein"><span class="app-base-uri">http://...</span>/store/select?q=title=title%20%3D%20Albert_Einstein</a></code>
+    </li>
+</ul>
+
+<!-- GET /storage/mongo/select -->
+
+<h3><code>GET /storage/mongo/select</code> API</h3>
+
+<p>HTTP GET requests can be sent to the URL:</p>
+<pre><span class="app-base-uri">http://.../</span>/storage/mongo/select?q=<em>&lt;query&gt;</em>&filter=<em>&lt;filter&gt;</em>&limit=<em>&lt;limit&gt;</em></pre>
+with the following parameters:
+
+<table class="table">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>
+    <tr>
+        <th>q</th>
+        <td>Selector to apply over stored data. See <a href="#mongo-selector-syntax">mongo selector syntax</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>filter</th>
+        <td>Filter criteria to be applied to the result. See <a href="#filter-syntax">filter syntax</a>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+    <tr>
+        <th>limit</th>
+        <td>Limit of returned results, max allowed value: <strong>1000</strong>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+</table>
+
+<p>
+    The response is the input resource converted to the desired <a href="#supported-formats">output format</a>.
+    Processing errors are encoded in <a href="#error-codes">error codes</a> table.
+</p>
+
+<!-- GET /storage/mongo/mapred -->
+
+<h3><code>GET /storage/mongo/mapred</code> API</h3>
+
+<p>HTTP GET requests can be sent to the URL:</p>
+<pre><span class="app-base-uri">http://.../</span>/storage/mongo/mapred?criteria=<em>&lt;criteria&gt;</em>&map=<em>&lt;map&gt;</em>&reduce=<em>&lt;reduce&gt;</em>&limit=<em>&lt;limit&gt;</em></pre>
+with the following parameters:
+
+<table class="table">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>
+    <tr>
+        <th>criteria</th>
+        <td>Selector to apply over stored data. See <a href="#mongo-selector-syntax">mongo selector syntax (criteria)</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>map</th>
+        <td>Javascript Map function. See <a href="http://docs.mongodb.org/manual/core/map-reduce/">MongoDB Map-Reduce manual</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>reduce</th>
+        <td>Javascript Reduce function. See <a href="http://docs.mongodb.org/manual/core/map-reduce/">MongoDB Map-Reduce manual</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>limit</th>
+        <td>Limit of returned results, max allowed value: <strong>1000</strong>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+</table>
+
+<p>
+    The response is the input resource converted to the desired <a href="#supported-formats">output format</a>.
+    Processing errors are encoded in <a href="#error-codes">error codes</a> table.
+</p>
+
+<!-- GET /storage/elastic/select -->
+
+<h3><code>GET /storage/elastic/select</code> API</h3>
+
+<p>HTTP GET requests can be sent to the URL:</p>
+<pre><span class="app-base-uri">http://.../</span>/storage/elastic/select?q=<em>&lt;query&gt;</em>&filter=<em>&lt;filter&gt;</em>&limit=<em>&lt;limit&gt;</em></pre>
+with the following parameters:
+
+<table class="table">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>
+    <tr>
+        <th>q</th>
+        <td>Selector to apply over stored data. See <a href="#elastic-selector-syntax">elastic selector syntax</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>filter</th>
+        <td>Filter criteria to be applied to the result. See <a href="#filter-syntax">filter syntax</a>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+    <tr>
+        <th>limit</th>
+        <td>Limit of returned results, max allowed value: <strong>1000</strong>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+</table>
+
+<p>
+    The response is the input resource converted to the desired <a href="#supported-formats">output format</a>.
+    Processing errors are encoded in <a href="#error-codes">error codes</a> table.
+</p>
+
+<a name="supported-formats"></a>
+<h3>Output formats</h3>
+
+<p>Supported output format are:</p>
+
+<table class="table">
+    <tr>
+        <th>Output format</th>
+        <th>Media type</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <th>JSON</th>
+        <td><code>application/json</code></td>
+        <td>Produces a <a href="http://json.org/" target="_blank">JSON</a> object which sections are described in
+            <a href="#mongo-output">Mongo select output format</a></td>
+    </tr>
+</table>
+
+<a name="error-codes"></a>
+<h3>Error codes</h3>
+
+<p>
+    Processing errors are reported as HTTP status codes with short <code>text/plain</code> messages.
+    <br/>
+    The following status codes can be returned:
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Code</th>
+        <th>Reason</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>200 OK</th>
+        <td><span class="label label-success">Success.</span></td>
+    </tr>
+    <tr>
+        <th>400 Bad Request</th>
+        <td>Invalid parameters.</td>
+    </tr>
+    <tr>
+        <th>500 Internal Error</th>
+        <td>Generic error occurred.</td>
+    </tr>
+    </tbody>
+</table>
+<!--------- END API   Reference --------->
+
+<hr/>
+
+<!--------- BEGIN Selector Documentation --------->
+<a name="mongo-selector-syntax"></a>
+<h3>Mongo Selector Syntax</h3>
+<p>
+The <b>MongoDB selector</b> is an expression which describes a criteria to select JSONpedia documents stored into the configured MongoDB store.
+A selector is composed of a <i>selection part</i> where it is possible to define conditions over fields and
+a <i>projection part</i> where it is possible do define which part of the documents satisfying the selection must be returned.<br/>
+MongoDB selector has been introduced to avoid user to write queries using the JSON syntax imposed by MongoDB.
+</p>
+<p>
+
+<h4>Examples of selectors</h4>
+Select document with id 706 and return only the value of field "name".
+<pre>_id = 706 -> name</pre>
+Select all documents with version major or equals to 10 and for these return the value of field "categories" (which is a list).
+<pre>version >= 10 -> content.categories</pre>
+</p>
+
+<h4>Selector syntax</h4>
+<p>
+The full <b>MongoDB selector syntax</b> is reported below.
+<pre>
+&lt;selector&gt;      ::= &lt;criteria&gt; "->" &lt;projection&gt; ;
+&lt;criteria&gt;      ::= &lt;node-criteria&gt; | &lt;node-criteria&gt; "," &lt;criteria&gt; ;
+&lt;node-criteria&gt; ::=  &lt;field&gt; &lt;operator&gt; &lt;value&gt;
+&lt;projection&gt;    ::= &lt;field&gt; | &lt;field&gt; "." &lt;projection&gt; ;
+&lt;operator&gt;      ::= '==' | '!=' | '<' | '>' | '<=' | '>=' ;
+&lt;field&gt;         ::= &lt;JSON-field-name&gt; ;
+&lt;value&gt;         ::= &lt;String&gt; | &lt;number&gt; ;
+&lt;number&gt;        ::= '#' &lt;Number&gt; ;
+</pre>
+</p>
+
+<!--------- END   Selector Documentation --------->
+
+<hr/>
+
+<!--------- BEGIN Elastic Selector Documentation --------->
+<a name="elastic-selector-syntax"></a>
+<h3>Elasticsearch Selector Syntax</h3>
+<p>
+The <b>Elasticsearch selector</b> is an expression which describes a criteria to select JSONpedia documents stored in Elasticsearch.
+A selector can be a <i>criteria</i> (in this case applies on every field) or a <i>criteria</i> applied on a <i>field</i>.
+The <i>criteria</i> must respect the query syntax defined by Elasticsearch (see reference below).<br/>
+Elasticsearch selector has been introduced to avoid user to write queries using the JSON syntax imposed by Elasticsearch.
+</p>
+
+<h4>Examples of selectors</h4>
+<p>
+Select all documents which field "name" contains string "Albert Einstein".
+<pre>name:"Albert Einstein"</pre>
+Select all documents which field "name" contains word "quick" or word "brown".
+<pre>name:"quick OR brown"</pre>
+    Select all documents which field "name" contains word "quick" and word "brown".
+<pre>name:"quick AND brown"</pre>
+</p>
+
+<h4>Selector syntax</h4>
+<p>
+The full <b>Elasticsearch selector syntax</b> is reported below.
+<pre>
+&lt;selector&gt; ::= &lt;criteria&gt; | &lt;field&gt; : &lt;criteria&gt; ;
+&lt;field&gt;    ::= &lt;JSON-field-name&gt; ;
+&lt;criteria&gt; ::= &lt;Query-String-Syntax&gt; ; (See <a href="http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/query-dsl-query-string-query.html#query-string-syntax" target="_blank">full specification</a>)
+</pre>
+</p>
+<!--------- END   Elastic Selector Documentation --------->
+
+<!--------- BEGIN Filter Documentation --------->
+<a name="filter-syntax"></a>
+<div id="filter-syntax-include"></div>
+<!--------- END   Filter Documentation --------->
+
+<hr/>
+
+<a name="limit-syntax"></a>
+<h3>Request Limit</h3>
+<p>
+    Defines the limit in size of results. Integer value &gt;= <code>0</code>.
+    <br/>
+    <code>0</code> means no limit.
+</p>
+
+<hr/>
+
+<!--------- BEGIN Mongo Output Documentation --------->
+<a name="mongo-output"></a>
+<h3>Mongo Select Output Format</h3>
+<p>
+The service returns an object with following fields:
+<ul>
+    <li><code>query-explain</code>: how the selection query has been interpreted.</li>
+    <li><code>mongo-selection</code>: how the selection query has been translated to a MongoDB selection criteria.</li>
+    <li><code>mongo-projection</code>: how the selection query has been translated to a MongoDB projection criteria.</li>
+    <li><code>count</code>: number of results.</li>
+    <li><code>result</code>: list of objects in result.</li>
+</ul>
+</p>
+<p>The output format is composed as described in the example below.</p>
+<pre class="well">
+{
+    query-explain: "criterias: [_id eq 736], projections: [content, title, _id, name, version]",
+    mongo-selection: "{ "_id" : 736}",
+    mongo-projection: "{ "_id" : 1 , "content" : 1 , "title" : 1 , "name" : 1 , "version" : 1}",
+    count: 1,
+    result: [
+        [
+            {
+                _id: 736,
+                version: 8494089,
+                name: "Albert Einstein",
+                content: { <span class="label label-warning">...</span> }
+            }
+        ]
+    ]
+}
+</pre>
+<!--------- END   Mongo Output Documentation --------->
+
+</div>
+
+<footer>
+    <div class="container-fluid" style="padding:50px">
+        <p><b>JSONpedia @version@</b> | <a href="https://bitbucket.org/hardest/jsonpedia" target="_blank">Project homepage</a> |
+            Hosted by <a href="http://it.dbpedia.org" target="_blank">DBpedia Italiana</a> in collaboration with <a
+                    href="http://www.top-ix.org/" target="_blank">Top-IX</a>
+        </p>
+        Copyright &copy;2015 <a href="http://michelemostarda.it">Michele Mostarda</a>. All Rights Reserved.<br/>
+    </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-48164253-1', 'jsonpedia.org');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

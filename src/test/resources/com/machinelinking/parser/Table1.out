@@ -1,0 +1,2275 @@
+Begin Document
+Text: 'Earlier versions of ASCII used the up-arrow instead of the '
+Begin Reference: caret
+End Reference: caret
+Text: ' (5E'
+Open Tag: sub attributes: []
+Begin Reference: hexadecimal
+k: null
+Text: 'hex'
+End Reference: hexadecimal
+Close Tag: sub
+Text: ') and the left-arrow instead of the '
+Begin Reference: underscore
+End Reference: underscore
+Text: ' (5F'
+Open Tag: sub attributes: []
+Begin Reference: hexadecimal
+k: null
+Text: 'hex'
+End Reference: hexadecimal
+Close Tag: sub
+Text: ').'
+Open Tag: ref attributes: []
+Begin Link: http://www.wps.com/projects/codes/X3.4-1963/index.html
+k: null
+Text: 'ASA X3.4-1963'
+End Link: http://www.wps.com/projects/codes/X3.4-1963/index.html
+Text: '.'
+Close Tag: ref
+Text: '
+'
+Begin Table
+Text: ' style="background:none; text-align:center;"
+'
+Header Cell (1, 1)
+k: style
+Text: '"vertical-align:top;"
+'
+Body Cell (1, 3)
+Begin Table
+Text: ' class="wikitable" style="text-align: center;"
+'
+Header Cell (1, 1)
+Text: 'Binary '
+Header Cell (1, 2)
+Text: 'Oct '
+Header Cell (1, 3)
+Text: 'Dec '
+Header Cell (1, 4)
+Text: 'Hex '
+Header Cell (1, 5)
+Text: 'Glyph
+'
+Body Cell (2, 2)
+Text: '010 0000 '
+Body Cell (2, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (2, 4)
+Text: '040 '
+Body Cell (2, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (2, 6)
+Text: '32 '
+Body Cell (2, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (2, 8)
+Text: '20 '
+Body Cell (2, 9)
+Begin Reference: space (punctuation)
+k: null
+Text: '␠'
+End Reference: space (punctuation)
+Text: '
+'
+Body Cell (3, 2)
+Text: '010 0001 '
+Body Cell (3, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (3, 4)
+Text: '041 '
+Body Cell (3, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (3, 6)
+Text: '33 '
+Body Cell (3, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (3, 8)
+Text: '21 '
+Body Cell (3, 9)
+Begin Reference: Exclamation mark
+k: null
+Text: '!'
+End Reference: Exclamation mark
+Text: '
+'
+Body Cell (4, 2)
+Text: '010 0010 '
+Body Cell (4, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (4, 4)
+Text: '042 '
+Body Cell (4, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (4, 6)
+Text: '34 '
+Body Cell (4, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (4, 8)
+Text: '22 '
+Body Cell (4, 9)
+Begin Reference: Quotation mark
+k: null
+Text: '"'
+End Reference: Quotation mark
+Text: '
+'
+Body Cell (5, 2)
+Text: '010 0011 '
+Body Cell (5, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (5, 4)
+Text: '043 '
+Body Cell (5, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (5, 6)
+Text: '35 '
+Body Cell (5, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (5, 8)
+Text: '23 '
+Body Cell (5, 9)
+Begin Reference: Number sign
+k: null
+Text: '#'
+End Reference: Number sign
+Text: '
+'
+Body Cell (6, 2)
+Text: '010 0100 '
+Body Cell (6, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (6, 4)
+Text: '044 '
+Body Cell (6, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (6, 6)
+Text: '36 '
+Body Cell (6, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (6, 8)
+Text: '24 '
+Body Cell (6, 9)
+Begin Reference: Dollar sign
+k: null
+Text: '$'
+End Reference: Dollar sign
+Text: '
+'
+Body Cell (7, 2)
+Text: '010 0101 '
+Body Cell (7, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (7, 4)
+Text: '045 '
+Body Cell (7, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (7, 6)
+Text: '37 '
+Body Cell (7, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (7, 8)
+Text: '25 '
+Body Cell (7, 9)
+Begin Reference: Percent sign
+k: null
+Text: '%'
+End Reference: Percent sign
+Text: '
+'
+Body Cell (8, 2)
+Text: '010 0110 '
+Body Cell (8, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (8, 4)
+Text: '046 '
+Body Cell (8, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (8, 6)
+Text: '38 '
+Body Cell (8, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (8, 8)
+Text: '26 '
+Body Cell (8, 9)
+Begin Reference: Ampersand
+k: null
+Text: '&'
+End Reference: Ampersand
+Text: '
+'
+Body Cell (9, 2)
+Text: '010 0111 '
+Body Cell (9, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (9, 4)
+Text: '047 '
+Body Cell (9, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (9, 6)
+Text: '39 '
+Body Cell (9, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (9, 8)
+Text: '27 '
+Body Cell (9, 9)
+Begin Reference: apostrophe
+k: null
+Text: '''
+End Reference: apostrophe
+Text: '
+'
+Body Cell (10, 2)
+Text: '010 1000 '
+Body Cell (10, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (10, 4)
+Text: '050 '
+Body Cell (10, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (10, 6)
+Text: '40 '
+Body Cell (10, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (10, 8)
+Text: '28 '
+Body Cell (10, 9)
+Begin Reference: Parentheses
+k: null
+Text: '('
+End Reference: Parentheses
+Text: '
+'
+Body Cell (11, 2)
+Text: '010 1001 '
+Body Cell (11, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (11, 4)
+Text: '051 '
+Body Cell (11, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (11, 6)
+Text: '41 '
+Body Cell (11, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (11, 8)
+Text: '29 '
+Body Cell (11, 9)
+Begin Reference: Parentheses
+k: null
+Text: ')'
+End Reference: Parentheses
+Text: '
+'
+Body Cell (12, 2)
+Text: '010 1010 '
+Body Cell (12, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (12, 4)
+Text: '052 '
+Body Cell (12, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (12, 6)
+Text: '42 '
+Body Cell (12, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (12, 8)
+Text: '2A '
+Body Cell (12, 9)
+Begin Reference: Asterisk
+k: null
+Text: '*'
+End Reference: Asterisk
+Text: '
+'
+Body Cell (13, 2)
+Text: '010 1011 '
+Body Cell (13, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (13, 4)
+Text: '053 '
+Body Cell (13, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (13, 6)
+Text: '43 '
+Body Cell (13, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (13, 8)
+Text: '2B '
+Body Cell (13, 9)
+Begin Reference: Plus sign
+k: null
+Text: '+'
+End Reference: Plus sign
+Text: '
+'
+Body Cell (14, 2)
+Text: '010 1100 '
+Body Cell (14, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (14, 4)
+Text: '054 '
+Body Cell (14, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (14, 6)
+Text: '44 '
+Body Cell (14, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (14, 8)
+Text: '2C '
+Body Cell (14, 9)
+Begin Reference: Comma (punctuation)
+k: null
+Text: ','
+End Reference: Comma (punctuation)
+Text: '
+'
+Body Cell (15, 2)
+Text: '010 1101 '
+Body Cell (15, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (15, 4)
+Text: '055 '
+Body Cell (15, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (15, 6)
+Text: '45 '
+Body Cell (15, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (15, 8)
+Text: '2D '
+Body Cell (15, 9)
+Begin Reference: Hyphen-minus
+k: null
+Text: '-'
+End Reference: Hyphen-minus
+Text: '
+'
+Body Cell (16, 2)
+Text: '010 1110 '
+Body Cell (16, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (16, 4)
+Text: '056 '
+Body Cell (16, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (16, 6)
+Text: '46 '
+Body Cell (16, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (16, 8)
+Text: '2E '
+Body Cell (16, 9)
+Begin Reference: Full stop
+k: null
+Text: '.'
+End Reference: Full stop
+Text: '
+'
+Body Cell (17, 2)
+Text: '010 1111 '
+Body Cell (17, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (17, 4)
+Text: '057 '
+Body Cell (17, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (17, 6)
+Text: '47 '
+Body Cell (17, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (17, 8)
+Text: '2F '
+Body Cell (17, 9)
+Begin Reference: Slash (punctuation)
+k: null
+Text: '/'
+End Reference: Slash (punctuation)
+Text: '
+'
+Body Cell (18, 2)
+Text: '011 0000 '
+Body Cell (18, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (18, 4)
+Text: '060 '
+Body Cell (18, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (18, 6)
+Text: '48 '
+Body Cell (18, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (18, 8)
+Text: '30 '
+Body Cell (18, 9)
+Begin Reference: 0 (number)
+k: null
+Text: '0'
+End Reference: 0 (number)
+Text: '
+'
+Body Cell (19, 2)
+Text: '011 0001 '
+Body Cell (19, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (19, 4)
+Text: '061 '
+Body Cell (19, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (19, 6)
+Text: '49 '
+Body Cell (19, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (19, 8)
+Text: '31 '
+Body Cell (19, 9)
+Begin Reference: 1 (number)
+k: null
+Text: '1'
+End Reference: 1 (number)
+Text: '
+'
+Body Cell (20, 2)
+Text: '011 0010 '
+Body Cell (20, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (20, 4)
+Text: '062 '
+Body Cell (20, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (20, 6)
+Text: '50 '
+Body Cell (20, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (20, 8)
+Text: '32 '
+Body Cell (20, 9)
+Begin Reference: 2 (number)
+k: null
+Text: '2'
+End Reference: 2 (number)
+Text: '
+'
+Body Cell (21, 2)
+Text: '011 0011 '
+Body Cell (21, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (21, 4)
+Text: '063 '
+Body Cell (21, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (21, 6)
+Text: '51 '
+Body Cell (21, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (21, 8)
+Text: '33 '
+Body Cell (21, 9)
+Begin Reference: 3 (number)
+k: null
+Text: '3'
+End Reference: 3 (number)
+Text: '
+'
+Body Cell (22, 2)
+Text: '011 0100 '
+Body Cell (22, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (22, 4)
+Text: '064 '
+Body Cell (22, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (22, 6)
+Text: '52 '
+Body Cell (22, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (22, 8)
+Text: '34 '
+Body Cell (22, 9)
+Begin Reference: 4 (number)
+k: null
+Text: '4'
+End Reference: 4 (number)
+Text: '
+'
+Body Cell (23, 2)
+Text: '011 0101 '
+Body Cell (23, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (23, 4)
+Text: '065 '
+Body Cell (23, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (23, 6)
+Text: '53 '
+Body Cell (23, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (23, 8)
+Text: '35 '
+Body Cell (23, 9)
+Begin Reference: 5 (number)
+k: null
+Text: '5'
+End Reference: 5 (number)
+Text: '
+'
+Body Cell (24, 2)
+Text: '011 0110 '
+Body Cell (24, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (24, 4)
+Text: '066 '
+Body Cell (24, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (24, 6)
+Text: '54 '
+Body Cell (24, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (24, 8)
+Text: '36 '
+Body Cell (24, 9)
+Begin Reference: 6 (number)
+k: null
+Text: '6'
+End Reference: 6 (number)
+Text: '
+'
+Body Cell (25, 2)
+Text: '011 0111 '
+Body Cell (25, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (25, 4)
+Text: '067 '
+Body Cell (25, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (25, 6)
+Text: '55 '
+Body Cell (25, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (25, 8)
+Text: '37 '
+Body Cell (25, 9)
+Begin Reference: 7 (number)
+k: null
+Text: '7'
+End Reference: 7 (number)
+Text: '
+'
+Body Cell (26, 2)
+Text: '011 1000 '
+Body Cell (26, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (26, 4)
+Text: '070 '
+Body Cell (26, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (26, 6)
+Text: '56 '
+Body Cell (26, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (26, 8)
+Text: '38 '
+Body Cell (26, 9)
+Begin Reference: 8 (number)
+k: null
+Text: '8'
+End Reference: 8 (number)
+Text: '
+'
+Body Cell (27, 2)
+Text: '011 1001 '
+Body Cell (27, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (27, 4)
+Text: '071 '
+Body Cell (27, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (27, 6)
+Text: '57 '
+Body Cell (27, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (27, 8)
+Text: '39 '
+Body Cell (27, 9)
+Begin Reference: 9 (number)
+k: null
+Text: '9'
+End Reference: 9 (number)
+Text: '
+'
+Body Cell (28, 2)
+Text: '011 1010 '
+Body Cell (28, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (28, 4)
+Text: '072 '
+Body Cell (28, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (28, 6)
+Text: '58 '
+Body Cell (28, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (28, 8)
+Text: '3A '
+Body Cell (28, 9)
+Begin Reference: Colon (punctuation)
+k: null
+Text: ':'
+End Reference: Colon (punctuation)
+Text: '
+'
+Body Cell (29, 2)
+Text: '011 1011 '
+Body Cell (29, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (29, 4)
+Text: '073 '
+Body Cell (29, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (29, 6)
+Text: '59 '
+Body Cell (29, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (29, 8)
+Text: '3B '
+Body Cell (29, 9)
+Begin Reference: Semicolon
+k: null
+Text: ';'
+End Reference: Semicolon
+Text: '
+'
+Body Cell (30, 2)
+Text: '011 1100 '
+Body Cell (30, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (30, 4)
+Text: '074 '
+Body Cell (30, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (30, 6)
+Text: '60 '
+Body Cell (30, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (30, 8)
+Text: '3C '
+Body Cell (30, 9)
+Begin Reference: Less-than sign
+End Reference: Less-than sign
+Text: '
+'
+Body Cell (31, 2)
+Text: '011 1101 '
+Body Cell (31, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (31, 4)
+Text: '075 '
+Body Cell (31, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (31, 6)
+Text: '61 '
+Body Cell (31, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (31, 8)
+Text: '3D '
+Body Cell (31, 9)
+Begin Reference: Equals sign
+k: 
+End Reference: Equals sign
+Text: '
+'
+Body Cell (32, 2)
+Text: '011 1110 '
+Body Cell (32, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (32, 4)
+Text: '076 '
+Body Cell (32, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (32, 6)
+Text: '62 '
+Body Cell (32, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (32, 8)
+Text: '3E '
+Body Cell (32, 9)
+Begin Reference: Greater-than sign
+k: null
+Text: '>'
+End Reference: Greater-than sign
+Text: '
+'
+Body Cell (33, 2)
+Text: '011 1111 '
+Body Cell (33, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (33, 4)
+Text: '077 '
+Body Cell (33, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (33, 6)
+Text: '63 '
+Body Cell (33, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (33, 8)
+Text: '3F '
+Body Cell (33, 9)
+Begin Reference: Question mark
+k: null
+Text: '?'
+End Reference: Question mark
+Text: '
+'
+End Table
+Text: '
+'
+Body Cell (1, 4)
+Begin Table
+Text: ' class="wikitable" style="text-align:center;"
+'
+Header Cell (1, 1)
+k: style
+Text: '"vertical-align:bottom;"
+'
+Text: 'Binary '
+Header Cell (1, 2)
+Text: 'Oct '
+Header Cell (1, 3)
+Text: 'Dec '
+Header Cell (1, 4)
+Text: 'Hex '
+Header Cell (1, 5)
+Text: 'Glyph
+'
+Body Cell (2, 2)
+Text: '100 0000 '
+Body Cell (2, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (2, 4)
+Text: '100 '
+Body Cell (2, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (2, 6)
+Text: '64 '
+Body Cell (2, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (2, 8)
+Text: '40 '
+Body Cell (2, 9)
+Begin Reference: @
+End Reference: @
+Text: '
+'
+Body Cell (3, 2)
+Text: '100 0001 '
+Body Cell (3, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (3, 4)
+Text: '101 '
+Body Cell (3, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (3, 6)
+Text: '65 '
+Body Cell (3, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (3, 8)
+Text: '41 '
+Body Cell (3, 9)
+Begin Reference: A
+End Reference: A
+Text: '
+'
+Body Cell (4, 2)
+Text: '100 0010 '
+Body Cell (4, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (4, 4)
+Text: '102 '
+Body Cell (4, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (4, 6)
+Text: '66 '
+Body Cell (4, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (4, 8)
+Text: '42 '
+Body Cell (4, 9)
+Begin Reference: B
+End Reference: B
+Text: '
+'
+Body Cell (5, 2)
+Text: '100 0011 '
+Body Cell (5, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (5, 4)
+Text: '103 '
+Body Cell (5, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (5, 6)
+Text: '67 '
+Body Cell (5, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (5, 8)
+Text: '43 '
+Body Cell (5, 9)
+Begin Reference: C
+End Reference: C
+Text: '
+'
+Body Cell (6, 2)
+Text: '100 0100 '
+Body Cell (6, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (6, 4)
+Text: '104 '
+Body Cell (6, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (6, 6)
+Text: '68 '
+Body Cell (6, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (6, 8)
+Text: '44 '
+Body Cell (6, 9)
+Begin Reference: D
+End Reference: D
+Text: '
+'
+Body Cell (7, 2)
+Text: '100 0101 '
+Body Cell (7, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (7, 4)
+Text: '105 '
+Body Cell (7, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (7, 6)
+Text: '69 '
+Body Cell (7, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (7, 8)
+Text: '45 '
+Body Cell (7, 9)
+Begin Reference: E
+End Reference: E
+Text: '
+'
+Body Cell (8, 2)
+Text: '100 0110 '
+Body Cell (8, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (8, 4)
+Text: '106 '
+Body Cell (8, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (8, 6)
+Text: '70 '
+Body Cell (8, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (8, 8)
+Text: '46 '
+Body Cell (8, 9)
+Begin Reference: F
+End Reference: F
+Text: '
+'
+Body Cell (9, 2)
+Text: '100 0111 '
+Body Cell (9, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (9, 4)
+Text: '107 '
+Body Cell (9, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (9, 6)
+Text: '71 '
+Body Cell (9, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (9, 8)
+Text: '47 '
+Body Cell (9, 9)
+Begin Reference: G
+End Reference: G
+Text: '
+'
+Body Cell (10, 2)
+Text: '100 1000 '
+Body Cell (10, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (10, 4)
+Text: '110 '
+Body Cell (10, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (10, 6)
+Text: '72 '
+Body Cell (10, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (10, 8)
+Text: '48 '
+Body Cell (10, 9)
+Begin Reference: H
+End Reference: H
+Text: '
+'
+Body Cell (11, 2)
+Text: '100 1001 '
+Body Cell (11, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (11, 4)
+Text: '111 '
+Body Cell (11, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (11, 6)
+Text: '73 '
+Body Cell (11, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (11, 8)
+Text: '49 '
+Body Cell (11, 9)
+Begin Reference: I
+End Reference: I
+Text: '
+'
+Body Cell (12, 2)
+Text: '100 1010 '
+Body Cell (12, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (12, 4)
+Text: '112 '
+Body Cell (12, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (12, 6)
+Text: '74 '
+Body Cell (12, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (12, 8)
+Text: '4A '
+Body Cell (12, 9)
+Begin Reference: J
+End Reference: J
+Text: '
+'
+Body Cell (13, 2)
+Text: '100 1011 '
+Body Cell (13, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (13, 4)
+Text: '113 '
+Body Cell (13, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (13, 6)
+Text: '75 '
+Body Cell (13, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (13, 8)
+Text: '4B '
+Body Cell (13, 9)
+Begin Reference: K
+End Reference: K
+Text: '
+'
+Body Cell (14, 2)
+Text: '100 1100 '
+Body Cell (14, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (14, 4)
+Text: '114 '
+Body Cell (14, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (14, 6)
+Text: '76 '
+Body Cell (14, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (14, 8)
+Text: '4C '
+Body Cell (14, 9)
+Begin Reference: L
+End Reference: L
+Text: '
+'
+Body Cell (15, 2)
+Text: '100 1101 '
+Body Cell (15, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (15, 4)
+Text: '115 '
+Body Cell (15, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (15, 6)
+Text: '77 '
+Body Cell (15, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (15, 8)
+Text: '4D '
+Body Cell (15, 9)
+Begin Reference: M
+End Reference: M
+Text: '
+'
+Body Cell (16, 2)
+Text: '100 1110 '
+Body Cell (16, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (16, 4)
+Text: '116 '
+Body Cell (16, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (16, 6)
+Text: '78 '
+Body Cell (16, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (16, 8)
+Text: '4E '
+Body Cell (16, 9)
+Begin Reference: N
+End Reference: N
+Text: '
+'
+Body Cell (17, 2)
+Text: '100 1111 '
+Body Cell (17, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (17, 4)
+Text: '117 '
+Body Cell (17, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (17, 6)
+Text: '79 '
+Body Cell (17, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (17, 8)
+Text: '4F '
+Body Cell (17, 9)
+Begin Reference: O
+End Reference: O
+Text: '
+'
+Body Cell (18, 2)
+Text: '101 0000 '
+Body Cell (18, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (18, 4)
+Text: '120 '
+Body Cell (18, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (18, 6)
+Text: '80 '
+Body Cell (18, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (18, 8)
+Text: '50 '
+Body Cell (18, 9)
+Begin Reference: P
+End Reference: P
+Text: '
+'
+Body Cell (19, 2)
+Text: '101 0001 '
+Body Cell (19, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (19, 4)
+Text: '121 '
+Body Cell (19, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (19, 6)
+Text: '81 '
+Body Cell (19, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (19, 8)
+Text: '51 '
+Body Cell (19, 9)
+Begin Reference: Q
+End Reference: Q
+Text: '
+'
+Body Cell (20, 2)
+Text: '101 0010 '
+Body Cell (20, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (20, 4)
+Text: '122 '
+Body Cell (20, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (20, 6)
+Text: '82 '
+Body Cell (20, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (20, 8)
+Text: '52 '
+Body Cell (20, 9)
+Begin Reference: R
+End Reference: R
+Text: '
+'
+Body Cell (21, 2)
+Text: '101 0011 '
+Body Cell (21, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (21, 4)
+Text: '123 '
+Body Cell (21, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (21, 6)
+Text: '83 '
+Body Cell (21, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (21, 8)
+Text: '53 '
+Body Cell (21, 9)
+Begin Reference: S
+End Reference: S
+Text: '
+'
+Body Cell (22, 2)
+Text: '101 0100 '
+Body Cell (22, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (22, 4)
+Text: '124 '
+Body Cell (22, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (22, 6)
+Text: '84 '
+Body Cell (22, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (22, 8)
+Text: '54 '
+Body Cell (22, 9)
+Begin Reference: T
+End Reference: T
+Text: '
+'
+Body Cell (23, 2)
+Text: '101 0101 '
+Body Cell (23, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (23, 4)
+Text: '125 '
+Body Cell (23, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (23, 6)
+Text: '85 '
+Body Cell (23, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (23, 8)
+Text: '55 '
+Body Cell (23, 9)
+Begin Reference: U
+End Reference: U
+Text: '
+'
+Body Cell (24, 2)
+Text: '101 0110 '
+Body Cell (24, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (24, 4)
+Text: '126 '
+Body Cell (24, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (24, 6)
+Text: '86 '
+Body Cell (24, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (24, 8)
+Text: '56 '
+Body Cell (24, 9)
+Begin Reference: V
+End Reference: V
+Text: '
+'
+Body Cell (25, 2)
+Text: '101 0111 '
+Body Cell (25, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (25, 4)
+Text: '127 '
+Body Cell (25, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (25, 6)
+Text: '87 '
+Body Cell (25, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (25, 8)
+Text: '57 '
+Body Cell (25, 9)
+Begin Reference: W
+End Reference: W
+Text: '
+'
+Body Cell (26, 2)
+Text: '101 1000 '
+Body Cell (26, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (26, 4)
+Text: '130 '
+Body Cell (26, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (26, 6)
+Text: '88 '
+Body Cell (26, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (26, 8)
+Text: '58 '
+Body Cell (26, 9)
+Begin Reference: X
+End Reference: X
+Text: '
+'
+Body Cell (27, 2)
+Text: '101 1001 '
+Body Cell (27, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (27, 4)
+Text: '131 '
+Body Cell (27, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (27, 6)
+Text: '89 '
+Body Cell (27, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (27, 8)
+Text: '59 '
+Body Cell (27, 9)
+Begin Reference: Y
+End Reference: Y
+Text: '
+'
+Body Cell (28, 2)
+Text: '101 1010 '
+Body Cell (28, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (28, 4)
+Text: '132 '
+Body Cell (28, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (28, 6)
+Text: '90 '
+Body Cell (28, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (28, 8)
+Text: '5A '
+Body Cell (28, 9)
+Begin Reference: Z
+End Reference: Z
+Text: '
+'
+Body Cell (29, 2)
+Text: '101 1011 '
+Body Cell (29, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (29, 4)
+Text: '133 '
+Body Cell (29, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (29, 6)
+Text: '91 '
+Body Cell (29, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (29, 8)
+Text: '5B '
+Body Cell (29, 9)
+Begin Reference: Square brackets
+Open Tag: nowiki attributes: []
+Text: '['
+Close Tag: nowiki
+End Reference: Square brackets
+Text: '
+'
+Body Cell (30, 2)
+Text: '101 1100 '
+Body Cell (30, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (30, 4)
+Text: '134 '
+Body Cell (30, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (30, 6)
+Text: '92 '
+Body Cell (30, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (30, 8)
+Text: '5C '
+Body Cell (30, 9)
+Begin Reference: Backslash
+k: null
+Text: '\'
+End Reference: Backslash
+Text: '
+'
+Body Cell (31, 2)
+Text: '101 1101 '
+Body Cell (31, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (31, 4)
+Text: '135 '
+Body Cell (31, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (31, 6)
+Text: '93 '
+Body Cell (31, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (31, 8)
+Text: '5D '
+Body Cell (31, 9)
+Begin Reference: Square brackets
+Open Tag: nowiki attributes: []
+Text: ']'
+Close Tag: nowiki
+End Reference: Square brackets
+Text: '
+'
+Body Cell (32, 2)
+Text: '101 1110 '
+Body Cell (32, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (32, 4)
+Text: '136 '
+Body Cell (32, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (32, 6)
+Text: '94 '
+Body Cell (32, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (32, 8)
+Text: '5E '
+Body Cell (32, 9)
+Begin Reference: Caret
+k: null
+Text: '^'
+End Reference: Caret
+Text: '
+'
+Body Cell (33, 2)
+Text: '101 1111 '
+Body Cell (33, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (33, 4)
+Text: '137 '
+Body Cell (33, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (33, 6)
+Text: '95 '
+Body Cell (33, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (33, 8)
+Text: '5F '
+Body Cell (33, 9)
+Begin Reference: Underscore
+k: null
+Text: '_'
+End Reference: Underscore
+Text: '
+'
+End Table
+Text: '
+'
+Body Cell (1, 5)
+Begin Table
+Text: ' class="wikitable" style="text-align:center;"
+'
+Header Cell (1, 1)
+k: style
+Text: '"vertical-align:bottom;"
+'
+Text: 'Binary '
+Header Cell (1, 2)
+Text: 'Oct '
+Header Cell (1, 3)
+Text: 'Dec '
+Header Cell (1, 4)
+Text: 'Hex '
+Header Cell (1, 5)
+Text: 'Glyph
+'
+Body Cell (2, 2)
+Text: '110 0000 '
+Body Cell (2, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (2, 4)
+Text: '140 '
+Body Cell (2, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (2, 6)
+Text: '96 '
+Body Cell (2, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (2, 8)
+Text: '60 '
+Body Cell (2, 9)
+Begin Reference: Grave accent
+k: null
+Text: '`'
+End Reference: Grave accent
+Text: '
+'
+Body Cell (3, 2)
+Text: '110 0001 '
+Body Cell (3, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (3, 4)
+Text: '141 '
+Body Cell (3, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (3, 6)
+Text: '97 '
+Body Cell (3, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (3, 8)
+Text: '61 '
+Body Cell (3, 9)
+Begin Reference: a
+End Reference: a
+Text: '
+'
+Body Cell (4, 2)
+Text: '110 0010 '
+Body Cell (4, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (4, 4)
+Text: '142 '
+Body Cell (4, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (4, 6)
+Text: '98 '
+Body Cell (4, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (4, 8)
+Text: '62 '
+Body Cell (4, 9)
+Begin Reference: b
+End Reference: b
+Text: '
+'
+Body Cell (5, 2)
+Text: '110 0011 '
+Body Cell (5, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (5, 4)
+Text: '143 '
+Body Cell (5, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (5, 6)
+Text: '99 '
+Body Cell (5, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (5, 8)
+Text: '63 '
+Body Cell (5, 9)
+Begin Reference: c
+End Reference: c
+Text: '
+'
+Body Cell (6, 2)
+Text: '110 0100 '
+Body Cell (6, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (6, 4)
+Text: '144 '
+Body Cell (6, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (6, 6)
+Text: '100 '
+Body Cell (6, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (6, 8)
+Text: '64 '
+Body Cell (6, 9)
+Begin Reference: d
+End Reference: d
+Text: '
+'
+Body Cell (7, 2)
+Text: '110 0101 '
+Body Cell (7, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (7, 4)
+Text: '145 '
+Body Cell (7, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (7, 6)
+Text: '101 '
+Body Cell (7, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (7, 8)
+Text: '65 '
+Body Cell (7, 9)
+Begin Reference: e
+End Reference: e
+Text: '
+'
+Body Cell (8, 2)
+Text: '110 0110 '
+Body Cell (8, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (8, 4)
+Text: '146 '
+Body Cell (8, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (8, 6)
+Text: '102 '
+Body Cell (8, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (8, 8)
+Text: '66 '
+Body Cell (8, 9)
+Begin Reference: f
+End Reference: f
+Text: '
+'
+Body Cell (9, 2)
+Text: '110 0111 '
+Body Cell (9, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (9, 4)
+Text: '147 '
+Body Cell (9, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (9, 6)
+Text: '103 '
+Body Cell (9, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (9, 8)
+Text: '67 '
+Body Cell (9, 9)
+Begin Reference: g
+End Reference: g
+Text: '
+'
+Body Cell (10, 2)
+Text: '110 1000 '
+Body Cell (10, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (10, 4)
+Text: '150 '
+Body Cell (10, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (10, 6)
+Text: '104 '
+Body Cell (10, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (10, 8)
+Text: '68 '
+Body Cell (10, 9)
+Begin Reference: h
+End Reference: h
+Text: '
+'
+Body Cell (11, 2)
+Text: '110 1001 '
+Body Cell (11, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (11, 4)
+Text: '151 '
+Body Cell (11, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (11, 6)
+Text: '105 '
+Body Cell (11, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (11, 8)
+Text: '69 '
+Body Cell (11, 9)
+Begin Reference: i
+End Reference: i
+Text: '
+'
+Body Cell (12, 2)
+Text: '110 1010 '
+Body Cell (12, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (12, 4)
+Text: '152 '
+Body Cell (12, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (12, 6)
+Text: '106 '
+Body Cell (12, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (12, 8)
+Text: '6A '
+Body Cell (12, 9)
+Begin Reference: j
+End Reference: j
+Text: '
+'
+Body Cell (13, 2)
+Text: '110 1011 '
+Body Cell (13, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (13, 4)
+Text: '153 '
+Body Cell (13, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (13, 6)
+Text: '107 '
+Body Cell (13, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (13, 8)
+Text: '6B '
+Body Cell (13, 9)
+Begin Reference: k
+End Reference: k
+Text: '
+'
+Body Cell (14, 2)
+Text: '110 1100 '
+Body Cell (14, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (14, 4)
+Text: '154 '
+Body Cell (14, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (14, 6)
+Text: '108 '
+Body Cell (14, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (14, 8)
+Text: '6C '
+Body Cell (14, 9)
+Begin Reference: l
+End Reference: l
+Text: '
+'
+Body Cell (15, 2)
+Text: '110 1101 '
+Body Cell (15, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (15, 4)
+Text: '155 '
+Body Cell (15, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (15, 6)
+Text: '109 '
+Body Cell (15, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (15, 8)
+Text: '6D '
+Body Cell (15, 9)
+Begin Reference: m
+End Reference: m
+Text: '
+'
+Body Cell (16, 2)
+Text: '110 1110 '
+Body Cell (16, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (16, 4)
+Text: '156 '
+Body Cell (16, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (16, 6)
+Text: '110 '
+Body Cell (16, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (16, 8)
+Text: '6E '
+Body Cell (16, 9)
+Begin Reference: n
+End Reference: n
+Text: '
+'
+Body Cell (17, 2)
+Text: '110 1111 '
+Body Cell (17, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (17, 4)
+Text: '157 '
+Body Cell (17, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (17, 6)
+Text: '111 '
+Body Cell (17, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (17, 8)
+Text: '6F '
+Body Cell (17, 9)
+Begin Reference: o
+End Reference: o
+Text: '
+'
+Body Cell (18, 2)
+Text: '111 0000 '
+Body Cell (18, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (18, 4)
+Text: '160 '
+Body Cell (18, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (18, 6)
+Text: '112 '
+Body Cell (18, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (18, 8)
+Text: '70 '
+Body Cell (18, 9)
+Begin Reference: p
+End Reference: p
+Text: '
+'
+Body Cell (19, 2)
+Text: '111 0001 '
+Body Cell (19, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (19, 4)
+Text: '161 '
+Body Cell (19, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (19, 6)
+Text: '113 '
+Body Cell (19, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (19, 8)
+Text: '71 '
+Body Cell (19, 9)
+Begin Reference: q
+End Reference: q
+Text: '
+'
+Body Cell (20, 2)
+Text: '111 0010 '
+Body Cell (20, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (20, 4)
+Text: '162 '
+Body Cell (20, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (20, 6)
+Text: '114 '
+Body Cell (20, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (20, 8)
+Text: '72 '
+Body Cell (20, 9)
+Begin Reference: r
+End Reference: r
+Text: '
+'
+Body Cell (21, 2)
+Text: '111 0011 '
+Body Cell (21, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (21, 4)
+Text: '163 '
+Body Cell (21, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (21, 6)
+Text: '115 '
+Body Cell (21, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (21, 8)
+Text: '73 '
+Body Cell (21, 9)
+Begin Reference: s
+End Reference: s
+Text: '
+'
+Body Cell (22, 2)
+Text: '111 0100 '
+Body Cell (22, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (22, 4)
+Text: '164 '
+Body Cell (22, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (22, 6)
+Text: '116 '
+Body Cell (22, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (22, 8)
+Text: '74 '
+Body Cell (22, 9)
+Begin Reference: t
+End Reference: t
+Text: '
+'
+Body Cell (23, 2)
+Text: '111 0101 '
+Body Cell (23, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (23, 4)
+Text: '165 '
+Body Cell (23, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (23, 6)
+Text: '117 '
+Body Cell (23, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (23, 8)
+Text: '75 '
+Body Cell (23, 9)
+Begin Reference: u
+End Reference: u
+Text: '
+'
+Body Cell (24, 2)
+Text: '111 0110 '
+Body Cell (24, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (24, 4)
+Text: '166 '
+Body Cell (24, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (24, 6)
+Text: '118 '
+Body Cell (24, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (24, 8)
+Text: '76 '
+Body Cell (24, 9)
+Begin Reference: v
+End Reference: v
+Text: '
+'
+Body Cell (25, 2)
+Text: '111 0111 '
+Body Cell (25, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (25, 4)
+Text: '167 '
+Body Cell (25, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (25, 6)
+Text: '119 '
+Body Cell (25, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (25, 8)
+Text: '77 '
+Body Cell (25, 9)
+Begin Reference: w
+End Reference: w
+Text: '
+'
+Body Cell (26, 2)
+Text: '111 1000 '
+Body Cell (26, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (26, 4)
+Text: '170 '
+Body Cell (26, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (26, 6)
+Text: '120 '
+Body Cell (26, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (26, 8)
+Text: '78 '
+Body Cell (26, 9)
+Begin Reference: x
+End Reference: x
+Text: '
+'
+Body Cell (27, 2)
+Text: '111 1001 '
+Body Cell (27, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (27, 4)
+Text: '171 '
+Body Cell (27, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (27, 6)
+Text: '121 '
+Body Cell (27, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (27, 8)
+Text: '79 '
+Body Cell (27, 9)
+Begin Reference: y
+End Reference: y
+Text: '
+'
+Body Cell (28, 2)
+Text: '111 1010 '
+Body Cell (28, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (28, 4)
+Text: '172 '
+Body Cell (28, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (28, 6)
+Text: '122 '
+Body Cell (28, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (28, 8)
+Text: '7A '
+Body Cell (28, 9)
+Begin Reference: z
+End Reference: z
+Text: '
+'
+Body Cell (29, 2)
+Text: '111 1011 '
+Body Cell (29, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (29, 4)
+Text: '173 '
+Body Cell (29, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (29, 6)
+Text: '123 '
+Body Cell (29, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (29, 8)
+Text: '7B '
+Body Cell (29, 9)
+Begin Reference: Bracket#Curly brackets
+k: null
+Text: '&#123;'
+End Reference: Bracket#Curly brackets
+Text: '
+'
+Body Cell (30, 2)
+Text: '111 1100 '
+Body Cell (30, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (30, 4)
+Text: '174 '
+Body Cell (30, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (30, 6)
+Text: '124 '
+Body Cell (30, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (30, 8)
+Text: '7C '
+Body Cell (30, 9)
+Begin Reference: Vertical bar
+k: null
+Text: '&#124;'
+End Reference: Vertical bar
+Text: '
+'
+Body Cell (31, 2)
+Text: '111 1101 '
+Body Cell (31, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (31, 4)
+Text: '175 '
+Body Cell (31, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (31, 6)
+Text: '125 '
+Body Cell (31, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (31, 8)
+Text: '7D '
+Body Cell (31, 9)
+Begin Reference: Bracket#Curly brackets
+k: null
+Text: '&#125;'
+End Reference: Bracket#Curly brackets
+Text: '
+'
+Body Cell (32, 2)
+Text: '111 1110 '
+Body Cell (32, 3)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (32, 4)
+Text: '176 '
+Body Cell (32, 5)
+k: style
+Text: '"background:#cff;"'
+Body Cell (32, 6)
+Text: '126 '
+Body Cell (32, 7)
+k: style
+Text: '"background:lightblue;"'
+Body Cell (32, 8)
+Text: '7E '
+Body Cell (32, 9)
+Begin Reference: Tilde
+k: null
+Text: '~'
+End Reference: Tilde
+Text: '
+'
+End Table
+Text: '
+'
+End Table
+Text: '
+'
+End Document

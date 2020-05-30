@@ -1,0 +1,48 @@
+<!--
+  ~ Copyright 2012-2015 Michele Mostarda (me@michelemostarda.it)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<h3>Filter Syntax</h3>
+<p>
+    A JSONpedia <b>filter</b> is conceptually similar to a CSS selector.
+    It allows to specify a hierarchical selection criteria to address specific JSON nodes.
+    <br/>
+    The most basic format is the <b>key filter</b> which matches for any object the value which key satisfies the given
+    regexp:
+<pre>sections</pre>
+
+A more complex format is a list of <i>comma-separated</i> <b>key/value patterns</b> like:
+<pre>name:Death date and age,@type:template</pre>
+where <i>Key-i</i> is a string matching a JSON object key and <i>Value-i</i> is a regexp matching
+the value associated to such key. Any JSON object matching <strong>ALL</strong> these patterns will be returned.
+If patters contain special characters like <code>,</code> they can be escaped within quotes:
+<pre>url:".*[\s,\d]?\.html",@type:link</pre>
+
+Hierarchical patterns can be combined with the <code>&gt;</code> operator like
+(see live example on <a targe="_blank"
+                        href="/annotate/resource/json/en%3AAlbert_Einstein?filter=notable_students%3E@type:template,name:Plainlist%3E@type:reference&procs=Extractors,Structure">en:Albert_Einstein</a>):
+<pre>notable_students>@type:template,name:Plainlist>@type:reference</pre>
+
+The full <b>filter syntax</b> is reported below.
+<pre>
+&lt;filter&gt;             ::= &lt;key-selector&gt; | &lt;object-selector&gt; ;
+&lt;key-selector&gt;       ::= &lt;Valid-Java-Regexp&gt; ;
+&lt;object-selector&gt;    ::= &lt;key-value-selector&gt; | &lt;key-value-selector&gt; ',' &lt;object-selector&gt; ;
+&lt;key-value-selector&gt; ::= &lt;key-matcher&gt; ':' &lt;value-matcher&gt; ;
+&lt;key-matcher&gt;        ::= &lt;Valid-JSON-Key-Name&gt; ;
+&lt;value-matcher&gt;      ::= &lt;Valid-Java-Regexp&gt; | '"' &lt;Valid-Java-Regexp&gt; '"' ;
+</pre>
+
+</p>

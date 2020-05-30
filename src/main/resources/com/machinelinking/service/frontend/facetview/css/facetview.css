@@ -1,0 +1,100 @@
+/*
+ * Copyright 2012-2015 Michele Mostarda (me@michelemostarda.it)
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+#facetview_freetext{
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+#facetview_filters h3{
+    margin:40px 0 20px 0;
+}
+#facetview_advanced{
+    float:left;
+    clear:left;
+    margin:10px;
+    padding:3px 5px 5px 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #a1a1a1;
+    color:#a1a1a1;
+    overflow:hidden;
+    width:165px;
+}
+#facetview_advanced select{
+    width:160px;
+    background:#fff;
+    border:1px solid #a1a1a1;
+    color:#a1a1a1;
+    font-size:11px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+}
+#facetview_visualisation{
+    border:1px solid #ccc;
+    margin:10px 0 10px 0;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.facetview_rangecontainer{
+    border:1px solid #ccc; 
+    padding:5px; 
+    margin-bottom:5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+.node{
+    cursor:pointer;
+}
+.facetview_filterchoice{
+    text-decoration:none;
+    color:#373737;
+}
+.facetview_filterselected{
+}
+.facetview_facetlogic{
+}
+.facetview_freetext_filterdiv{
+    float:left;
+    clear:both;
+    background:#eee;
+    padding:0;
+    color:green;
+    width:100%;
+}
+.facetview_advancedshow{
+    text-decoration:none;
+    color:#a1a1a1;
+}
+
+.facetview_resultactions a{
+    color:#353535;
+    font-weight:bold;
+    text-decoration:none;
+    margin:0 5px 0 5px;
+}
+
+.navbar {
+    height: 50px;
+}
+.navbar-inner {
+    height: 50px;
+}
+

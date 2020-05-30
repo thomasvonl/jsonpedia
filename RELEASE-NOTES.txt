@@ -1,0 +1,6 @@
+                JSONpedia 1.2
+                Release Notes
+
+Fixes:
+
+Enhancements:

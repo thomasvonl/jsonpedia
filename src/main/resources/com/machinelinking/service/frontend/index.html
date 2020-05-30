@@ -1,0 +1,1033 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2012-2015 Michele Mostarda (me@michelemostarda.it)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xml:lang="en"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/1999/html">
+<head>
+    <title>JSONpedia - Live</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/frontend/img/favicon.ico">
+    <meta name="description" content="JSONpedia Storage Query Frontend">
+    <meta name="author" content="Michele Mostarda @micmos">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/highlight.default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jsonpedia.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/highlight.min.js"></script>
+    <script type="application/javascript">
+        $(function ($) {
+            $.each($('.app-base-uri'), function () {
+                $(this).text('http://' + document.location.host);
+            });
+
+            $('#app-path').text(document.location.pathname);
+            $('#app-host').text(document.location.host);
+
+            $('.get-uri-example').click(function(e){
+                $('#get-uri').val( $(e.target).text() );
+                $('#get-submit').removeClass('disabled');
+                e.preventDefault();
+                updateGetRequest();
+            });
+
+            $('.get-filter-example').click(function(e){
+                $('#get-filter').val( $(e.target).text() );
+                $('#get-submit').removeClass('disabled');
+                e.preventDefault();
+                updateGetRequest();
+            });
+
+            $('.post-filter-example').click(function(e){
+                $('#post-filter').val( $(e.target).text() );
+                $('#post-submit').removeClass('disabled');
+                e.preventDefault();
+            });
+
+            $('.get-format').click(function(e) {
+                $('#get-format').val($(e.target).text());
+                $('#get-submit').removeClass('disabled');
+                e.preventDefault();
+                updateGetRequest();
+            });
+
+            $('.post-format').click(function(e) {
+                $('#post-format').val($(e.target).text());
+                $('#post-submit').removeClass('disabled');
+                e.preventDefault();
+            });
+
+            $('.wt-sample-button').click(function(e){
+                $('#post-wikitext').val( $(e.target).html() );
+                e.preventDefault();
+            });
+
+            $.get('/annotate/flags').success(function(data){
+                declared = Array.isArray(data.definedFlags) ? data.definedFlags : [data.definedFlags];
+                defaultz = Array.isArray(data.defaultFlags) ? data.defaultFlags : [data.defaultFlags];
+                for(var i=0; i < declared.length; i++) {
+                    console.log('i:' + declared[i].id );
+                    active = false;
+                    for(var j=0; j < defaultz.length; j++) {
+                        if(defaultz[j].id == declared[i].id) active = true;
+                    }
+                    addFlagButton( $('#get-flags') , 'get-'  + declared[i].id, declared[i].id, declared[i].description, active );
+                    addFlagButton( $('#post-flags'), 'post-' + declared[i].id, declared[i].id, declared[i].description, active );
+                }
+                $("[rel=tooltip]").tooltip();
+                updateGetRequest();
+            });
+
+            $('#get-uri').keyup(function(){
+                $submitButton = $('#get-submit');
+                if( $('#get-uri').val() != '' ) {
+                    $submitButton.removeClass('disabled');
+                } else {
+                    $submitButton.addClass('disabled');
+                }
+            });
+
+            $('#post-uri').keyup(function(){
+                $submitButton = $('#post-submit');
+                if( $('#post-uri').val() != '' ) {
+                    $submitButton.removeClass('disabled');
+                } else {
+                    $submitButton.addClass('disabled');
+                }
+            });
+
+            $('#get-submit').click(function () {
+                if($('#get-submit').hasClass('disabled')) return;
+                $('#get-form-result').html('');
+                dismissAlert();
+                $('#get-submit').button('loading');
+                $.get( buildGetRequest())
+                  .success(function(data){
+                    processResponse('get', getSelectedGETOutFormat(), data);
+                }).error(function (xhr, ajaxOptions, thrownError) {
+                    alert('Error while performing request: ' + xhr.status + ' ' + thrownError);
+                }).always(function(e){
+                    $('#get-submit').button('reset');
+                });
+            });
+
+            $('#post-submit').click(function () {
+                if($('#post-submit').hasClass('disabled')) return;
+                request = '/annotate/resource/' +
+                           getSelectedPOSTOutFormat() + '/' +
+                           encodeURIComponent($('#post-uri').val());
+                $('#post-form-result').html('');
+                dismissAlert();
+                $('#post-submit').button('loading');
+                $.post( request,
+                        {
+                          wikitext : $('#post-wikitext').val(),
+                          filter   : $('#post-filter').val(),
+                          procs    : getActiveFlags('post-flags')
+                        }
+                ).success(function (data) {
+                    processResponse('post', getSelectedPOSTOutFormat(), data);
+                }).error(function (xhr, ajaxOptions, thrownError) {
+                    alert('Error while performing request: ' + xhr.status + ' ' + thrownError);
+                }).always(function(){
+                    $('#post-submit').button('reset');
+                });
+            });
+
+            $('#post-reset').click(function(){
+                $('#post-result').html('');
+            });
+
+            $('#get-form').live('click change keyup', function(e) {
+                updateGetRequest();
+            });
+
+            $('#get-query-copy').click(function(e){
+                window.prompt('CTRL + C to copy:', $('#get-query').html() );
+            });
+
+            $('#uri-help').click(function(e){
+                document.location = "#uri-syntax";
+            });
+            $('#filter-help').click(function(e){
+                document.location = "#filter-syntax";
+            });
+            $('#format-help').click(function(e){
+                document.location = "#supported-formats";
+            });
+
+            $('#get-query-open-external').click(function (e) {
+                window.open( buildGetRequest() );
+            });
+        });
+
+        function getSelectedGETOutFormat() {
+            return getSelectedFormat('get-format');
+        }
+
+        function getSelectedPOSTOutFormat() {
+            return getSelectedFormat('post-format');
+        }
+
+        function buildGetRequest() {
+            filter = $('#get-filter').val();
+            return '/annotate/resource/' + getSelectedGETOutFormat() +
+            '/' + encodeURIComponent($('#get-uri').val()) +
+            '?' +
+            (filter.trim().length == 0 ? '' : 'filter=' + filter) +
+            '&procs=' + getActiveFlags('get-flags');
+        }
+
+        function updateGetRequest() {
+            $('#get-query').html( 'http://' + document.location.host + buildGetRequest() );
+        }
+
+        function showModal(id) {
+            $(id).modal('show');
+        }
+
+        function addFlagButton($root, id, name, description, active) {
+            $root.append('<button id="' + id + '" onclick="return false;" rel="tooltip" data-placement="top" data-original-title="' + description + '" class="btn btn-primary flagbutton' + (active ? ' active' : '') + '">'+ name + '</button>');
+            $('#' + id).data('default-flag', active);
+        }
+
+        function getActiveFlags(container) {
+            flags = '';
+            first = true;
+            $('#' + container + ' .btn').each(function(i,e){
+                $e = $(e);
+                if( $e.attr('class').indexOf('active') != -1) {
+                    flags += (first ? '' : ',') + $e.html();
+                } else {
+                    if( $e.data('default-flag') ) flags += (first ? '' : ',') + '-' + $e.html();
+                }
+                first = false;
+            });
+            return flags;
+        }
+
+        function getSelectedFormat(container) {
+            value = null;
+            $('#' + container + ' .btn').each(function (i, e) {
+                $e = $(e);
+                if ($e.attr('class').indexOf('active') != -1) {
+                    value = $e.text();
+                }
+
+            });
+            return value;
+        }
+
+        function processResponse(method, outFormat, data) {
+            $resultContainer = $('#' + method + '-form-result');
+            closeResultButtonId = 'delete-' + method + '-query-result';
+            $resultContainer.append(
+                    '<div><i id="' + closeResultButtonId + '" class="glyphicon glyphicon-remove-circle" rel="tooltip" data-placement="right" data-original-title="Close result panel"></i></div>'
+            );
+            $('#' + closeResultButtonId).click(function (e) {
+                $('#' + method + '-form-result').html('')
+            });
+            if(outFormat == 'json') {
+                $resultContainer.append(hljs.highlight('json', JSON.stringify(data, null, 2)).value);
+            } else { // html
+                $resultContainer.append('<iframe class="post-response-html">');
+                $('.post-response-html').contents().find('body').append(data);
+            }
+        }
+
+        function dismissAlert() {
+            $('#alert-message').html("");
+        }
+
+        function alert(msg) {
+            $('#alert-message').html(
+                '<div class="alert alert-danger fade in fixedpos"><button type="button" class="close" data-dismiss="alert">&times;</button>'
+                        + msg +
+                '</div>'
+            );
+        }
+    </script>
+</head>
+
+<body role="document">
+
+<div id="alert-message"></div>
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">JSONpedia</a>
+        <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Live</a></li>
+            <li><a href="facet.html">Facet</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li><a href="client.html">JQuery Client</a></li>
+            <li><a target="_blank" href="https://bitbucket.org/hardest/jsonpedia">Documentation</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container theme-showcase" role="main">
+
+<header class="jumbotron">
+    <h1>Live Service Demo</h1>
+    <p>Query Wikipedia live pages.</p>
+    <p>Convert any <a href="http://en.wikipedia.org/wiki/Help:Wiki_markup" target="_blank">MediaWiki</a>
+     document to <a href="http://www.json.org/" target="_blank">JSON</a>!
+    </p>
+</header>
+
+<p>
+Download and install JSONpedia: visit the
+<a href="https://bitbucket.org/hardest/jsonpedia" target="_blank">Developers Site</a> and the
+<a href="https://bitbucket.org/hardest/jsonpedia/wiki/Home" target="_blank">Documentation</a>.
+</p>
+
+<hr/>
+
+<h2>Convert a Resource</h2>
+
+<form id="get-form" class="well form-horizontal">
+    <code>GET /annotate/resource</code>
+    <p class="help-block">
+    Enter a MediaWiki resource ID or URI, an output format, a set of processors to be applied and optionally a filter.
+    </p>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="get-uri">URI</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="get-uri" type="text"
+                       value="en:Albert_Einstein"
+                       placeholder="http://en.wikipedia.org/Albert_Einstein OR en:Albert_Einstein">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    URI samples<span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:Albert_Einstein</a></li>
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:Cetacea</a></li>
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:Carbon</a></li>
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:Italy</a></li>
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:London</a></li>
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:Philosophy</a></li>
+                        <li><a class="get-uri-example dropdown-list-button" href="#">en:Star_Wars</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i id="uri-help" class="glyphicon glyphicon-question-sign" rel="tooltip" data-placement="right" title="URI help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="get-filter">Filter</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="get-filter" type="text"
+                       value="" placeholder="@type:link">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Filter samples<span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="get-filter-example dropdown-list-button" href="#">@type:link</a></li>
+                        <li><a class="get-filter-example dropdown-list-button" href="#">@type:reference</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i id="filter-help" class="glyphicon glyphicon-question-sign" rel="tooltip" data-placement="right" title="Filter help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="get-format">Format</label>
+        <div class="col-md-6">
+            <div id="get-format" class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn btn-default get-format active">json</button>
+                <button type="button" class="btn btn-default get-format">html</button>
+            </div>
+        </div>
+        <i id="format-help" class="glyphicon glyphicon-question-sign" rel="tooltip" data-placement="right" title="Format help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1">
+            <a href="#processors-doc"><span class="label label-info">Processors</span></a>
+        </label>
+        <div class="col-md-6">
+        <span id="get-flags" class="btn-group" data-toggle="buttons-checkbox"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1">
+            <span class="label label-info">Query</span>
+        </label>
+        <div class="col-md-10">
+            <span id="get-query" class="label label-info"></span>
+            <i id="get-query-copy" class="glyphicon glyphicon-edit" rel="tooltip" data-original-title="Copy query"></i>
+            <i id="get-query-open-external" class="glyphicon glyphicon-arrow-right" rel="tooltip" data-original-title="Open in a new window"></i>
+        </div>
+    </div>
+
+    <div class="control-group">
+        <button id="get-submit" type="button" class="btn btn-primary">Convert</button>
+        <button type="reset" class="btn">Cancel</button>
+    </div>
+
+</form>
+
+<div>
+    <p>
+    <span class="label label-info">Result</span>
+    </p>
+    <pre id="get-form-result"></pre>
+</div>
+
+<hr/>
+
+<h2>Convert a WikiText</h2>
+
+<form class="well form-horizontal">
+    <code>POST /annotate/resource</code>
+    <p class="help-block">
+        Enter a MediaWiki resource ID or URI, a WikiText content, an output format, a set of processors to be applied and optionally a filter.
+    </p>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="post-uri">URI</label>
+        <div class="col-md-6">
+                <input class="form-control" id="post-uri" type="text"
+                       value="en:FakeDoc"
+                       placeholder="http://&lt;lang&gt;.wikipedia.org/wiki/&lt;Doc&gt; OR &lt;lang&gt;:&lt;Doc&gt;">
+        </div>
+        <i id="uri-help" class="glyphicon glyphicon-question-sign" rel="tooltip" data-placement="right" title="URI help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="post-filter">Filter</label>
+        <div class="col-md-6">
+            <div class="input-group">
+                <input class="form-control" id="post-filter" type="text"
+                       value="" placeholder="@type:link">
+                <div class="input-group-btn">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    Filter samples<span class="caret"></span></button>
+                    <ul class="dropdown-menu pull-right">
+                        <li><a class="post-filter-example dropdown-list-button" href="#">@type:link</a></li>
+                        <li><a class="post-filter-example dropdown-list-button" href="#">@type:reference</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <i id="filter-help" class="glyphicon glyphicon-question-sign" rel="tooltip" data-placement="right" title="Filter help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1" for="post-format">Format</label>
+        <div class="col-md-6">
+            <div id="post-format" class="btn-group" data-toggle="buttons-radio">
+                <button type="button" class="btn btn-default post-format active">json</button>
+                <button type="button" class="btn btn-default post-format">html</button>
+            </div>
+        </div>
+        <i id="format-help" class="glyphicon glyphicon-question-sign" rel="tooltip" data-placement="right" title="Format help"></i>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label col-md-1">
+            <a href="#processors-doc"><span class="label label-info">Processors</span></a>
+        </label>
+        <div class="col-md-6">
+        <span id="post-flags" class="btn-group" data-toggle="buttons-checkbox"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="input-group-btn col-md-1">
+            <button type="button" class="btn btn-default dropdown-toggle pull-left" data-toggle="dropdown">
+                Examples<span class="caret"></span>
+            </button>
+        <ul class="dropdown-menu" role="menu">
+            <li><a class="wt-sample-button dropdown-list-button" href="#">Reference: [[Reference Description|Reference]].</a></li>
+            <li><a class="wt-sample-button dropdown-list-button" href="#">Link: [http://path.to.lnk Description]</a></li>
+            <li><a class="wt-sample-button dropdown-list-button" href="#">Template: {{Redirect|Einstein}}</a></li>
+            <li><a class="wt-sample-button dropdown-list-button" href="#">Template Infobox: {{Infobox scientist
+    | name        = Albert Einstein
+    | image       = Einstein 1921 portrait2.jpg
+    | caption     = Albert Einstein in 1921
+}}</a></li>
+           <li><a class="wt-sample-button dropdown-list-button" href="#">Table: {| border="1" cellspacing="0" cellpadding="5" align="center"
+    |-
+    ! This
+    ! is
+    |-
+    | a
+    | table
+|}</a></li>
+        </ul>
+       </div>
+    </div>
+
+    <div class="form-group col-md-12">
+        <textarea id="post-wikitext" class="form-control" rows="12">
+{{Infobox scientist
+    | name = Albert Einstein
+    | image = Einstein 1921 portrait2.jpg
+    | caption = Albert Einstein in 1921
+    | birth_date = {{Birth date|df=yes|1879|3|14}}
+    | birth_place = [[Ulm]], [[Kingdom of Württemberg]], [[German Empire]]
+    | death_date = {{Death date and age|df=yes|1955|4|18|1879|3|14}}
+    | death_place = [[Princeton, New Jersey|Princeton]], New Jersey, United States
+    | spouse = [[Mileva Marić]]&nbsp;(1903–1919)<br>{{nowrap|[[Elsa Löwenthal]]&nbsp;(1919–1936)}}
+    | residence = Germany, Italy, Switzerland, Austria, Belgium, United Kingdom, United States
+    | citizenship = {{Plainlist|
+        * [[Kingdom of Württemberg|Württemberg/Germany]] (1879–1896)
+        * [[Statelessness|Stateless]] (1896–1901)
+        * [[Switzerland]] (1901–1955)
+        * [[Austria–Hungary|Austria]] (1911–1912)
+        * [[German Empire|Germany]] (1914–1933)
+        * United States (1940–1955)
+      }}
+}}
+        </textarea>
+    </div>
+
+    <div class="control-group">
+        <button id="post-submit" type="button" class="btn btn-primary">Convert</button>
+        <button id="post-reset"  type="reset" class="btn">Cancel</button>
+    </div>
+</form>
+
+<div>
+    <p>
+    <span class="label label-info">Result</span>
+    </p>
+    <pre id="post-form-result"></pre>
+</div>
+
+<hr/>
+
+<!--------- BEGIN API Reference --------->
+
+<h2>Quick API reference</h2>
+
+<h3>Examples</h3>
+<ul>
+    <li>Process page "Albert Einstein" from English Wikipedia and return result in JSON:<br/>
+        <code><a target="_blank" href="/annotate/resource/json/en:Albert_Einstein"><span class="app-base-uri">http://...</span>/annotate/resource/json/en:Albert_Einstein</a></code>
+    </li>
+    <li>Process page "Albert Einstein" from Italian Wikipedia and return result in HTML:<br/>
+        <code><a target="_blank" href="/annotate/resource/html/it:Albert_Einstein"><span class="app-base-uri">http://...</span>/annotate/resource/html/it:Albert_Einstein</a></code>
+    </li>
+    <li>Process page "CURL" and return result in JSON:<br/>
+        <code>curl <span class="app-base-uri">http://...</span>/annotate/resource/json/en:CURL</code>
+    </li>
+    <li>Process page "Test" specifying WikiText content and return result in JSON:<br/>
+        <code>curl --data "wikitext=This is just a [[Test]]..." <span class="app-base-uri">http://...</span>/annotate/resource/json/en:Test</code>
+    </li>
+</ul>
+
+<a name="get-api"></a>
+<h3><code>GET /annotate</code> API</h3>
+
+<p>HTTP GET requests can be sent to the URL:</p>
+<pre><span class="app-base-uri">http://.../</span>/annotate/<em>&lt;format&gt;</em>/<em>&lt;uri&gt;</em></pre> with the following parameters:
+
+<table class="table">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>
+    <tr>
+        <a name="uri-syntax"></a>
+        <th>uri</th>
+        <td>full URL (or short identifier) of a Wikipedia input resource, es: <i>http://en.wikipedia.org/wiki/Albert_Einstein</i> or <i>en:Albert_Einstein</i></td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>format</th>
+        <td>Desired output format. See <a href="#supported-formats">supported formats</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>filter</th>
+        <td>Filter criteria to be applied to the result. See <a href="#filter-syntax">filter syntax</a>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+    <tr>
+        <th>procs</th>
+        <td>Processors to be activated on this request. See <a href="#procs-syntax">procs syntax</a>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+</table>
+
+<p>
+    The response is the input resource converted to the desired <a href="#supported-formats">output format</a>.
+    Processing errors are encoded in <a href="#error-codes">error codes</a> table.
+</p>
+
+<a name="post-api"></a>
+<h3><code>POST /annotate</code> API</h3>
+
+<p>Large WikiText documents can be also sent by HTTP POSTing form data to:</p>
+
+<pre><span class="app-base-uri">http://.../</span>/annotate/<em>&lt;format&gt;</em>/<em>&lt;uri&gt;</em></pre>
+
+<p>
+The request <code>Content-Type</code> must be set to <code>application/x-www-form-urlencoded</code>.
+<br/>
+The following parameters are supported:
+</p>
+
+<table class="table">
+    <tr>
+        <th>Parameter</th>
+        <th>Description</th>
+        <th>Required</th>
+    </tr>
+    <tr>
+        <th>uri</th>
+        <td>full URL (or short identifier) of a Wikipedia input resource, es: <i>http://en.wikipedia.org/wiki/Albert_Einstein</i> or <i>en:Albert_Einstein</i></td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>format</th>
+        <td>Desired output format. See <a href="#supported-formats">supported formats</a>.</td>
+        <td><span class="label label-info">True</span></td>
+    </tr>
+    <tr>
+        <th>filter</th>
+        <td>Filter criteria to be applied to the result. See <a href="#filter-syntax">filter syntax</a>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+    <tr>
+        <th>procs</th>
+        <td>Processors to be activated on this request. See <a href="#procs-syntax">procs syntax</a>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+    <tr>
+        <th>wikitext</th>
+        <td>The wikitext to be converted, if not specified will be retrieved the one addressed by <code>uri</code>.</td>
+        <td><span class="label label-info">False</span></td>
+    </tr>
+</table>
+
+<p>
+    The response is the input resource converted to the desired <a href="#supported-formats">output format</a>.
+    Processing errors are encoded in <a href="#error-codes">error codes</a> table.
+</p>
+
+<a name="supported-formats"></a>
+<h3>Output formats</h3>
+
+<p>Supported output format are:</p>
+
+<table class="table">
+    <tr>
+        <th>Output format</th>
+        <th>Media type</th>
+        <th>Description</th>
+    </tr>
+    <tr>
+        <th>JSON</th>
+        <td><code>application/json</code></td>
+        <td>Produces a <a href="http://json.org/" target="_blank">JSON</a> object which sections are described in
+        <a href="#processors-doc">processors section.</a></td>
+    </tr>
+    <tr>
+        <th>HTML<span class="label label-important">Beta</span></th>
+        <td><code>application/xhtml</code></td>
+        <td>Produces an XHTML markup showing the extracted data structure.</td>
+    </tr>
+</table>
+
+<a name="error-codes"></a>
+<h3>Error codes</h3>
+
+<p>
+Processing errors are reported as HTTP status codes with short <code>text/plain</code> messages.
+<br/>
+The following status codes can be returned:
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>Code</th>
+        <th>Reason</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th>200 OK</th>
+        <td><span class="label label-success">Success.</span></td>
+    </tr>
+    <tr>
+        <th>400 Bad Request</th>
+        <td>Invalid parameters.</td>
+    </tr>
+    <tr>
+        <th>403 Forbidden</th>
+        <td>Wikipedia not reachable.</td>
+    </tr>
+    <tr>
+        <th>404 Not Found</th>
+        <td>Wiki resource not defined.</td>
+    </tr>
+    <tr>
+        <th>500 Internal Error</th>
+        <td>Generic error occurred.</td>
+    </tr>
+    </tbody>
+</table>
+
+<!--------- END API   Reference --------->
+
+<!--------- BEGIN Processors Documentation --------->
+<a name="processors-doc"></a>
+<h2>Processors Documentation</h2>
+
+<h3>Extractors</h3>
+<p>Extract specific parts of content from the WikiText document events stream.</p>
+
+<h4>SectionExtractor</h4>
+<p>Extracts the list of sections defined within the document.</p>
+<pre class="well">
+"sections": [
+        {
+            "title": "Biography",
+            "level": 0
+        },
+        <span class="label label-warning">...</span>
+]
+</pre>
+
+<h4>LinkExtractor</h4>
+<p>Extracts the list of links (to external resources) defined within the document.</p>
+<pre class="well">
+"links": [
+    {
+        "link": "http://books.google.com/books?id=jJl2JAqvoSAC&pg=PA41",
+        "description": "Chapter 2, p. 41"
+    },
+    <span class="label label-warning">...</span>
+]
+</pre>
+
+<h4>ReferenceExtractor</h4>
+<p>Extracts the list of links (to Wikipedia internal resources) defined within the document.</p>
+<pre class="well">
+"references": [
+    {
+        "label": "http://en.wikipedia.org/wiki/Albert_EinsteinUlm",
+        "description": ""
+    },
+    <span class="label label-warning">...</span>
+]
+</pre>
+
+<h4>TemplateOccurrencesExtractor</h4>
+<p>Extracts statistics on template occurrences into the document.</p>
+<pre class="well">
+"templates": {
+    "@type": "templates",
+    "occurrences": {
+        "Birth date": 1,
+        "Block quote": 1,
+        "Portal": 1,
+        "Use dmy dates": 1,
+        "Link GA": 2,
+        "cite web": 12,
+        <span class="label label-warning">...</span>
+    }
+}
+</pre>
+
+<h4>CategoriesExtractor</h4>
+<p>Extracts the list of all declared categories into the document.</p>
+<pre class="well">
+"categories": {
+    "@type": "category",
+    "content": [
+        "1879 births",
+        "1955 deaths",
+        "20th-century American people",
+        "20th-century German people",
+        "20th-century Swiss people",
+        "American humanitarians",
+        "American inventors",
+        "American pacifists",
+        "American people of German-Jewish descent",
+        "Cosmologists",
+        <span class="label label-warning">...</span>
+    ]
+}
+</pre>
+
+<h3>OnlineExtractors</h3>
+<p><strong>Online Extractors</strong> are specific <strong>Extractors</strong> which rely on external services, like <i>DBpedia</i> and <i>Freebase</i>.</p>
+
+<h4>TemplateMappingExtractor</h4>
+<p>Extracts the RDF ontology mapping defined in <i>DBpedia.org</i> for every detected template into the document.</p>
+<pre class="well">
+"template-mapping": {
+     "@type": "mapping-collection",
+     "mapping-collection": [
+         {
+             "@type": "template-mapping",
+             "name": "TemplateMapping",
+             "mapping": {
+                 "notable_students": "notableStudent",
+                 "death_date": "deathDate",
+                 "birth_date": "birthDate",
+                 "birth_name": "birthName",
+                 "citizenship": "citizenship",
+                 <span class="label label-warning">...</span>
+             },
+             "issues": null
+         }
+     ]
+ }
+</pre>
+
+<h4>FreebaseExtractor</h4>
+<p>Extracts the definition of the entity represented by the document from <i>Freebase</i>.</p>
+<pre class="well">
+"freebase": {
+    "alias": [
+        "Einstein",
+        "albert_einstein",
+        "Einstein, Albert"
+    ],
+    "article": {
+        "id": "/m/0jd6"
+    },
+    "guid": "#9202a8c04000641f800000000000417c",
+    "id": "/en/albert_einstein",
+    "image": {
+        "id": "/wikipedia/images/commons_id/925243"
+    },
+    "name": "Albert Einstein",
+    "relevance:score": 178.9317169189453,
+    "type": [
+        {
+            "id": "/influence/influence_node",
+            "name": "Influence Node"
+        },
+        {
+            "id": "/award/award_winner",
+            "name": "Award Winner"
+        },
+        {
+            "id": "/business/board_member",
+            "name": "Organization leader"
+        },
+        <span class="label label-warning">...</span>
+    ],
+    <span class="label label-warning">...</span>
+}
+</pre>
+
+<h3>Splitters</h3>
+<p>A <strong>Splitter</strong> cuts sub-trees of the <strong>WikiText DOM</strong> containing specific sections.</p>
+
+<h4>InfoboxSplitter</h4>
+<p>Splits out from the parsing DOM the <strong>Infobox</strong> section.</p>
+<pre class="well">
+"infobox-splitter": [
+    {
+        "@type": "template",
+        "name": "Infobox scientist",
+        "content": {
+            "name": [
+                "Albert Einstein"
+            ],
+            "image": [
+                "Einstein 1921 portrait2.jpg"
+            ],
+            "caption": [
+                "Albert Einstein in 1921"
+            ],
+            "birth_date": [
+                {
+                    "@type": "template",
+                    "name": "Birth date",
+                    "content": {
+                        "3": null,
+                        "14": null,
+                        "1879": null,
+                        "df": [
+                            "yes"
+                        ]
+                    }
+                }
+            ],
+            "birth_place": [
+                {
+                    "@type": "reference",
+                    "label": "Ulm",
+                    "description": ""
+                },
+                <span class="label label-warning">...</span>
+            ],
+            <span class="label label-warning">...</span>
+        }
+    }
+]
+</pre>
+
+<h4>TableSplitter</h4>
+<p>Splits out from the parsing DOM all the <strong>table</strong> sections.</p>
+<pre class="well">
+"table-splitter": [
+     {
+         "@type": "table",
+         "content": [
+             "class=wikitable",
+             <span class="label label-warning">...</span>
+             {
+                 "@type": "head_cell",
+                 "content": [
+                     "Area of focus"
+                 ]
+             },
+             {
+                 "@type": "head_cell",
+                 "content": [
+                     "Received"
+                 ]
+             },
+             <span class="label label-warning">...</span>
+             {
+                 "@type": "head_cell",
+                 "content": [
+                     "Significance"
+                 ]
+             },
+             {
+                 "@type": "body_cell",
+                 "content": [
+                     "''On a Heuristic Viewpoint Concerning the Production and Transformation of Light''"
+                 ]
+             },
+             {
+                 "@type": "body_cell",
+                 "content": [
+                     {
+                         "@type": "reference",
+                         "label": "Photoelectric effect",
+                         "description": ""
+                     }
+                 ]
+             },
+             <span class="label label-warning">...</span>
+         ]
+    }
+]
+</pre>
+
+<h3>Structure</h3>
+<p>Prints out the <strong>entire DOM tree</strong> representation.</p>
+
+<h3>Validate</h3>
+<p>Prints out all warnings and errors detected during the document parsing.</p>
+<pre class="well">
+"issues": [
+    {
+        "type": "Warning",
+        "description": "Invalid char '<' within comment tag.",
+        "row": 307,
+        "col": 65
+    }
+]
+</pre>
+
+<hr/>
+<!--------- END   Processors Documentation --------->
+
+<!--------- BEGIN Filter Documentation --------->
+<a name="filter-syntax"></a>
+<h3>Filter Syntax</h3>
+<p>
+A JSONpedia <b>filter</b> is conceptually similar to a CSS selector.
+It allows to specify a hierarchical selection criteria to address specific JSON nodes.
+<br/>
+The most basic format is the <b>key filter</b> which matches for any object the value which key satisfies the given regexp:
+<pre>sections</pre>
+
+A more complex format is a list of <i>comma-separated</i> <b>key/value patterns</b> like:
+<pre>name:Death date and age,@type:template</pre>
+where <i>Key-i</i> is a string matching a JSON object key and <i>Value-i</i> is a regexp matching
+the value associated to such key. Any JSON object matching <strong>ALL</strong> these patterns will be returned.
+If patters contain special characters like <code>,</code> they can be escaped within quotes:
+<pre>url:".*[\s,\d]?\.html",@type:link</pre>
+
+Hierarchical patterns can be combined with the <code>&gt;</code> operator like
+(see live example on <a targe="_blank" href="/annotate/resource/json/en%3AAlbert_Einstein?filter=notable_students%3E@type:template,name:Plainlist%3E@type:reference&procs=Extractors,Structure">en:Albert_Einstein</a>):
+<pre>notable_students>@type:template,name:Plainlist>@type:reference</pre>
+
+The full <b>filter syntax</b> is reported below.
+<pre>
+&lt;filter&gt;             ::= &lt;key-selector&gt; | &lt;object-selector&gt; ;
+&lt;key-selector&gt;       ::= &lt;Valid-Java-Regexp&gt; ;
+&lt;object-selector&gt;    ::= &lt;key-value-selector&gt; | &lt;key-value-selector&gt; ',' &lt;object-selector&gt; ;
+&lt;key-value-selector&gt; ::= &lt;key-matcher&gt; ':' &lt;value-matcher&gt; ;
+&lt;key-matcher&gt;        ::= &lt;Valid-JSON-Key-Name&gt; ;
+&lt;value-matcher&gt;      ::= &lt;Valid-Java-Regexp&gt; | '"' &lt;Valid-Java-Regexp&gt; '"' ;
+</pre>
+
+</p>
+<!--------- END   Filter Documentation --------->
+
+<!--------- BEGIN Procs Documentation --------->
+<a name="procs-syntax"></a>
+<h3>Processors Syntax</h3>
+A list of <i>comma-separated</i> names of <i>Processors</i> that must be applied over the document processing.
+Some Processors are active by default, so they don't require to be explicitly activated.
+The default Processors can be forcibly disabled preprending a <strong>-</strong> symbol before the name.
+For example the following string:
+<pre>-Extractors,Linkers</pre>
+disables the <i>Extractors</i> (otherwise active by default)and enables the <i>Linkers</i>.
+<!--------- END   Procs Documentation --------->
+
+</div>
+
+<footer>
+    <div class="container-fluid" style="padding:50px">
+        <p><b>JSONpedia @version@</b> | <a href="https://bitbucket.org/hardest/jsonpedia" target="_blank">Project homepage</a> |
+            Hosted by <a href="http://it.dbpedia.org" target="_blank">DBpedia Italiana</a> in collaboration with <a
+                    href="http://www.top-ix.org/" target="_blank">Top-IX</a>
+        </p>
+        Copyright &copy;2015 <a href="http://michelemostarda.it">Michele Mostarda</a>. All Rights Reserved.<br/>
+    </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-48164253-1', 'jsonpedia.org');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

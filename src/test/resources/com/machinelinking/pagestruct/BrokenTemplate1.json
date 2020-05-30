@@ -1,0 +1,111 @@
+{
+    "@type": "page",
+    "url": "http://test/BrokenTemplate1",
+    "structure": [
+        {
+            "@type": "template",
+            "name": "Infobox U.S. state",
+            "content": {
+                "Name": [
+                    "Alabama"
+                ],
+                "Fullname": [
+                    "State of Alabama"
+                ],
+                "Flag": [
+                    "Flag of Alabama.svg"
+                ],
+                "Flaglink": [
+                    {
+                        "@type": "reference",
+                        "label": "Flag of Alabama",
+                        "content": {
+                            "@an0": [
+                                "Flag"
+                            ]
+                        }
+                    }
+                ],
+                "Seal": [
+                    "Seal of Alabama.svg"
+                ],
+                "Seallink": [
+                    {
+                        "@type": "reference",
+                        "label": "Seal of Alabama",
+                        "content": {
+                            "@an0": [
+                                "Seal"
+                            ]
+                        }
+                    }
+                ],
+                "Coat of arms": [
+                    "Alabama-COA.png\n }"
+                ],
+                "Coatlink": [
+                    {
+                        "@type": "reference",
+                        "label": "Coat of arms of Alabama",
+                        "content": {
+                            "@an0": [
+                                "Coat of arms"
+                            ]
+                        }
+                    }
+                ],
+                "Map": [
+                    "Alabama in United States.svg"
+                ],
+                "Nickname": [
+                    "Yellowhammer State; Heart of",
+                    {
+                        "@type": "reference",
+                        "label": "Dixie",
+                        "content": {}
+                    },
+                    "; Cotton State"
+                ],
+                "Demonym": [
+                    {
+                        "@type": "reference",
+                        "label": "Adjectivals and demonyms for U.S. states",
+                        "content": {
+                            "@an0": [
+                                "Alabamian"
+                            ]
+                        }
+                    },
+                    "&lt;ref&gt;",
+                    {
+                        "@type": "link",
+                        "url": "http://www.gettysburg.stonesentinels.com/Confederate/AL.php",
+                        "content": {
+                            "@an0": [
+                                "The Alabama monument south of Gettysburg"
+                            ]
+                        }
+                    },
+                    "&lt;/ref&gt;"
+                ],
+                "Motto": [
+                    {
+                        "@type": "reference",
+                        "label": "Audemus jura nostra defendere",
+                        "content": {}
+                    },
+                    "(",
+                    {
+                        "@type": "reference",
+                        "label": "Latin",
+                        "content": {}
+                    },
+                    ")"
+                ],
+                "MottoEnglish": [
+                    "We dare defend our rights"
+                ]
+            }
+        }
+    ]
+}

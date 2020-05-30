@@ -1,0 +1,279 @@
+Begin Document
+Open Tag: div attributes: [align : 'center']
+Text: '
+'
+Begin Table
+Text: ' align="center" style="clear:both; margin:0em; border:1px solid #E9E9E9"
+! style="background-color:#C1D4FE; font-size:95%; border:1px solid #aaaaaa; padding: 0 5px 0 5px;" '
+Header Cell (1, 1)
+Text: ''''Huxley-Arnold Family Tree (partial)'''
+'
+Body Cell (2, 2)
+k: style
+Text: '"font-size:80%;line-height:110%" '
+Body Cell (2, 3)
+Begin Template: chart/start
+k: summary
+Text: 'Partial Huxley-Arnold family tree.'
+End Template: chart/start
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: 'ThA '
+k: null
+Text: 'y'
+k: null
+Text: 'MaP '
+k: null
+Text: 'GH '
+k: GH
+Text: 'George Huxley'
+k: ThA
+Begin Reference: Thomas Arnold
+End Reference: Thomas Arnold
+Text: ' 1795–1842'
+k: MaP
+Text: 'Mary Penrose 1791–1873'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: ','
+k: null
+Text: '-'
+k: null
+Text: '^'
+k: null
+Text: '-'
+k: null
+Text: '.'
+k: null
+Text: '!'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: 'MA '
+k: null
+Text: 'TA '
+k: null
+Text: 'THH '
+k: null
+Text: 'y'
+k: null
+Text: 'AH '
+k: THH
+Begin Reference: Thomas Henry Huxley
+End Reference: Thomas Henry Huxley
+Text: ' 1825–1895'
+k: AH
+Text: 'Ann Heathorn 1825–1915'
+k: TA
+Begin Reference: Tom Arnold (literary scholar)
+k: null
+Text: 'Tom Arnold'
+End Reference: Tom Arnold (literary scholar)
+Text: ' 1823–1900'
+k: MA
+Begin Reference: Matthew Arnold
+End Reference: Matthew Arnold
+Text: ' 1822–1888'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: ','
+k: null
+Text: '-'
+k: null
+Text: '^'
+k: null
+Text: '-'
+k: null
+Text: '.'
+k: null
+Text: ','
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '^'
+k: null
+Text: '.'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: 'MAW '
+k: null
+Text: 'JA '
+k: null
+Text: 'y'
+k: null
+Text: 'LH '
+k: null
+Text: 'y'
+k: null
+Text: 'RB '
+k: null
+Text: 'JOH '
+k: FW
+Text: 'Frederick Waller'
+k: JOH
+Text: 'Jessie Huxley 1856–1927'
+k: LH
+Begin Reference: Leonard Huxley (writer)
+k: null
+Text: 'Leonard Huxley'
+End Reference: Leonard Huxley (writer)
+Text: ' 1860–1933'
+k: JA
+Text: 'Julia Arnold 1862–1908'
+k: RB
+Text: 'Rosalind Bruce 1890–1994'
+k: MAW
+Begin Reference: Mary Augusta Ward
+End Reference: Mary Augusta Ward
+Text: ' 1851–1920'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: ','
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: 'v'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '^'
+k: null
+Text: '.'
+k: null
+Text: '`'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: 'v'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '-'
+k: null
+Text: '.'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: 'TH '
+k: null
+Text: 'JH '
+k: null
+Text: 'MN '
+k: null
+Text: 'y'
+k: null
+Text: 'AH '
+k: null
+Text: '~'
+k: null
+Text: 'LA '
+k: null
+Text: 'DBH '
+k: null
+Text: 'AFH '
+k: null
+Text: '~'
+k: null
+Text: 'RP '
+k: JH
+Begin Reference: Julian Huxley
+End Reference: Julian Huxley
+Text: ' 1887–1975'
+k: AH
+Text: 'Aldous Huxley 1894–1963'
+k: DBH
+Text: 'David Bruce Huxley 1915–1992'
+k: AFH
+Begin Reference: Andrew Huxley
+End Reference: Andrew Huxley
+Text: ' '
+Open Tag: br attributes: []
+Text: '  1917–2012'
+k: RP
+Text: 'Richenda Pease 1925–2003'
+k: TH
+Text: 'Trevelyan Huxley 1891–1914'
+k: LA
+Begin Reference: Laura Archera
+End Reference: Laura Archera
+Text: ' 1911–2007'
+k: MN
+Text: 'Maria Nys 1899–1955'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: '!'
+End Template: chart 
+Text: '
+'
+Begin Template: chart 
+k: null
+Text: 'MH '
+k: MH
+Begin Reference: Matthew Huxley
+End Reference: Matthew Huxley
+Text: ' 1920–2005'
+End Template: chart 
+Text: '
+'
+Begin Template: chart/end
+End Template: chart/end
+Text: '
+'
+End Table
+Text: '
+'
+Close Tag: div
+End Document

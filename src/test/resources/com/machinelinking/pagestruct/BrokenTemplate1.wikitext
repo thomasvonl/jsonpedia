@@ -1,0 +1,16 @@
+{{Infobox U.S. state
+ |Name = Alabama
+ |Fullname = State of Alabama
+ |Flag = Flag of Alabama.svg
+ |Flaglink = [[Flag of Alabama|Flag]]
+ |Seal = Seal of Alabama.svg
+ |Seallink = [[Seal of Alabama|Seal]]
+ |Coat of arms = Alabama-COA.png
+ }
+ |Coatlink = [[Coat of arms of Alabama|Coat of arms]]
+ |Map = Alabama in United States.svg
+ |Nickname = Yellowhammer State; Heart of [[Dixie]]; Cotton State
+ |Demonym = [[Adjectivals and demonyms for U.S. states|Alabamian]]&lt;ref&gt;[http://www.gettysburg.stonesentinels.com/Confederate/AL.php The Alabama monument south of Gettysburg]&lt;/ref&gt;
+ |Motto = [[Audemus jura nostra defendere]] ([[Latin]])
+ |MottoEnglish = We dare defend our rights
+}}

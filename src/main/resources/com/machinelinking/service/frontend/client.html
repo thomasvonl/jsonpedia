@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright 2012-2015 Michele Mostarda (me@michelemostarda.it)
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN" "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html>
+<head>
+    <title>JSONpedia - jQuery plugin</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="/frontend/img/favicon.ico">
+    <meta name="description" content="JSONpedia Storage Query Frontend">
+    <meta name="author" content="Michele Mostarda @micmos">
+    <link rel="stylesheet" href="css/qunit-1.12.0.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/highlight.default.css"/>
+    <link rel="stylesheet" type="text/css" href="css/jsonpedia.css"/>
+
+    <script type="text/javascript" src="js/jquery-1.7.2-min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/highlight.min.js"></script>
+
+    <script type="text/javascript" src="js/jsonpedia.js"></script>
+    <script type="text/javascript" src="js/qunit-1.12.0.js"></script>
+    <script type="text/javascript" src="js/jsonpedia-tests.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+          $('pre code').each(function(i, e) {hljs.highlightBlock(e)});
+        });
+    </script>
+</head>
+<body role="document">
+
+<!-- Fixed navbar -->
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <a class="navbar-brand" href="#">JSONpedia</a>
+        <ul class="nav navbar-nav">
+            <li><a href="index.html">Live</a></li>
+            <li><a href="facet.html">Facet</a></li>
+            <li><a href="store.html">Store</a></li>
+            <li class="active"><a href="#">JQuery Client</a></li>
+            <li><a target="_blank" href="https://bitbucket.org/hardest/jsonpedia">Documentation</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="container theme-showcase" role="main">
+
+<header class="jumbotron">
+    <h1>jQuery Client</h1>
+    <p>Access JSONpedia with Javascript</p>
+</header>
+
+<h2>How to include it</h2>
+<pre>
+<code class="html">
+&lt;script type="text/javascript" src="js/jquery-1.7.2-min.js"&gt;&lt;/script&gt;
+&lt;script type="text/javascript" src="<a href="js/jsonpedia.js">js/jsonpedia.js</a>"&gt;&lt;/script&gt;
+</code>
+</pre>
+
+<h2>How to use it</h2>
+
+<h3>Live annotation</h3>
+<pre>
+<code class="javascript">
+    var c = new JSONpedia();
+    c.annotate('en:Albert_Einstein').extractors()
+            .linkers().splitters().structure().validate()
+            .json()
+            .done(
+                function (data) {
+                    console.log('Success: ' + data);
+                }
+            )
+            .fail(
+                function(err) {
+                    console.error('Something went wrong: ' + err);
+                }
+            );
+</code>
+</pre>
+
+<h3>MongoDB query</h3>
+<pre>
+<code class="javascript">
+    var c = new JSONpedia();
+    c.mongo().select('_id = #736 -> title', '@type : link', 1)
+            .done(
+                function (data) {
+                    console.log('Loaded data: ' + data);
+                }
+            )
+            .fail(
+                function(err) {
+                    console.error('Error while loading data: ' + err);
+                }
+            );
+</code>
+</pre>
+
+<h3>MongoDB Map/Reduce</h3>
+<pre>
+<code class="javascript">
+    var c = new JSONpedia();
+    c.mongo().mapred(
+            '_id = #736',
+            'function() { ocs = this.content.templates.occurrences; for(template in ocs) { emit(template, ocs[template]); } }',
+            'function(key, values) { return Array.sum(values) }',
+            10)
+            .done(
+                function (data) {
+                    console.log('Loaded data: ' + data);
+                }
+            )
+            .fail(
+                function(err) {
+                    console.error('Error while loading data: ' + err);
+                }
+            );
+</code>
+</pre>
+
+<h3>Elasticsearch query</h3>
+<pre>
+<code class="javascript">
+    var c = new JSONpedia();
+    c.elastic().select('Albert Einstein', '@type : link', 1)
+            .done(
+                function (data) {
+                    console.log('Loaded data: ' + data);
+                }
+            )
+            .fail(
+                function(err) {
+                    console.error('Error while loading data: ' + err);
+                }
+            );
+</code>
+</pre>
+
+<h2>Tests cases</h2>
+<p>
+The test cases are available <a href="js/jsonpedia-tests.js">here</a>.
+</p>
+
+<div id="qunit"></div>
+<div id="qunit-fixture"></div>
+
+</div>
+
+<footer>
+    <div class="container-fluid" style="padding:50px">
+        <p><b>JSONpedia @version@</b> | <a href="https://bitbucket.org/hardest/jsonpedia" target="_blank">Project homepage</a> |
+            Hosted by <a href="http://it.dbpedia.org" target="_blank">DBpedia Italiana</a> in collaboration with <a
+                    href="http://www.top-ix.org/" target="_blank">Top-IX</a>
+        </p>
+        Copyright &copy;2015 <a href="http://michelemostarda.it">Michele Mostarda</a>. All Rights Reserved.<br/>
+    </div>
+</footer>
+
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    ga('create', 'UA-48164253-1', 'jsonpedia.org');
+    ga('send', 'pageview');
+</script>
+
+</body>
+</html>

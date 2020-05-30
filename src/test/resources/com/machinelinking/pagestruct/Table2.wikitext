@@ -1,0 +1,49 @@
+{| class="wikitable"
+|-
+!rowspan=2| ANA type !!rowspan=2| Target antigen !!colspan=7| [[Sensitivity and specificity|Sensitivity]]
+|-
+! [[Systemic lupus erythematosus|SLE]] !! [[Drug-induced lupus erythematosus|Drug-induced LE]] !! [[Systemic_sclerosis#Types|Diffuse systemic sclerosis]] !! [[CREST syndrome|Limited systemic scleroderma]] !! [[Sjögren syndrome]] !! [[Inflammatory myopathy]] || [[Mixed connective tissue disease|MCTD]]
+|-
+! All ANAs <br> <font size=1> (by indirect [[Immunofluorescence|IF]])
+| Various
+| >95 || >95 || 70-90 || 70-90 || 50-80 || 40-60 || 95<ref name=agabegi2ndtable6-2/>
+|-
+! [[Anti-dsDNA]]
+| DNA
+| 40-60 || - || - || - || - || - || -<ref name=agabegi2ndtable6-2/>
+|-
+! [[Anti-Sm]]
+| Core proteins of [[snRNP]]s
+| 20-30|| - || - || - || - || - || -<ref name=agabegi2ndtable6-2/>
+|-
+! [[Anti-histone antibodies|Anti-histone]]
+| [[Histone]]s
+| 50-70 || 90<ref name=agabegi2ndtable6-2>Table 6-2 in: {{cite book |author=Elizabeth D Agabegi; Agabegi, Steven S. |title=Step-Up to Medicine (Step-Up Series) |publisher=Lippincott Williams & Wilkins |location=Hagerstwon, MD |year=2008 |pages= |isbn=0-7817-7153-6 |oclc= |doi= |accessdate=}}</ref> - 95 || - || - || - || - || -<ref name=agabegi2ndtable6-2/>
+|-
+! [[Anti Scl-70]]
+| [[Type I topoisomerase]]
+| - || - || 28-70 || 10-18 || - || - || -<ref name=agabegi2ndtable6-2/>
+|-
+! Anti-centromere
+| [[Centromere|Centromeric]] proteins
+| - || - || 22-26 || 90 || - || - || -<ref name=agabegi2ndtable6-2/>
+|-
+! [[Anti-snRNP70]]
+| [[snRNP70]] || 30<ref name=Kumar5-9/>-40<ref name=Kumar5-9/><ref name=agabegi2ndtable6-2/> || -<ref name=agabegi2ndtable6-2/> || 15<ref name=agabegi2ndtable6-2/> || 10<ref name=agabegi2ndtable6-2/> || -<ref name=agabegi2ndtable6-2/> || 15<ref name=agabegi2ndtable6-2/> || 90<ref name=agabegi2ndtable6-2/>
+|-
+! [[SS-A]] (Ro)
+| [[Ribonucleoprotein|RNP]]s
+| 30-50 || - || - || - || 70-95 || 10 || -<ref name=agabegi2ndtable6-2/>
+|-
+! [[SS-B]] (La)
+| [[Ribonucleoprotein|RNP]]s
+| 10-15 || - || - || - || 60-90 || - || -<ref name=agabegi2ndtable6-2/>
+|-
+! [[Jo-1]]
+| [[Histidine-tRNA ligase]]
+| - || - || - || - || - || 25 || -<ref name=agabegi2ndtable6-2/>
+|-
+|colspan=9| <font size=1>  - = less than 5% sensitivity
+
+Unless else specified in boxes, then ref is:<ref name=Kumar5-9> Table 5-9 in: {{cite book |author=Mitchell, Richard Sheppard; Kumar, Vinay; Abbas, Abul K.; Fausto, Nelson |title=Robbins Basic Pathology|publisher=Saunders |location=Philadelphia |year= 2007|pages= |isbn=1-4160-2973-7 |oclc= |doi=}} 8th edition. </ref>
+|}

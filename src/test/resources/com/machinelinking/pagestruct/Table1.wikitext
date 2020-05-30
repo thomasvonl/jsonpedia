@@ -1,0 +1,18 @@
+{| class=wikitable style=text-align:right
+|- align=center
+| align=right | '''character''' || colspan=2 | A || colspan=2 | a
+|- align=center
+| align=right | '''Unicode name''' || colspan=2 | <small>LATIN CAPITAL LETTER A</small> || colspan=2 | <small>LATIN SMALL LETTER A</small>
+|-
+| align=left | '''character encoding''' || decimal || hex || decimal || hex
+|-
+| align=left | [[Unicode]] || 65 || 0041 || 97 || 0061
+|-
+| align=left | [[UTF-8]] || 65 || 41 || 97 || 61
+|-
+| align=left | [[Numeric character reference]] || &amp;#65; || &amp;#x0041; || &amp;#97; || &amp;#x0061;
+|-
+| align=left | [[EBCDIC]] family || 193 || C1 || 129 || 81
+|-
+| align=left | [[ASCII]] <sup>1<sup/> || 65 || 41 || 97 || 61
+|}

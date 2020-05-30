@@ -1,0 +1,429 @@
+Begin Document
+Begin Template: Infobox
+
+k: bodyclass  
+Text: 'vcard
+'
+k: aboveclass 
+Text: 'fn
+'
+k: above      
+Begin Template: #if:<name:>
+k: null
+var: name [null]
+k: null
+Begin Template: PAGENAME
+End Template: PAGENAME
+End Template: #if:<name:>
+Text: '
+'
+k: abovestyle 
+Text: 'background:transparent; text-align:center;
+
+'
+k: image      
+Begin Template: #invoke:InfoboxImage
+k: null
+Text: 'InfoboxImage'
+k: image
+var: image [const: []]
+k: size
+var: image_size [var: imagesize [const: []]]
+k: sizedefault
+Text: 'frameless'
+k: alt
+var: alt [const: []]
+k: suppressplaceholder
+Text: 'yes'
+End Template: #invoke:InfoboxImage
+Text: '
+'
+k: imagestyle 
+Text: 'padding-bottom:0.5em;
+'
+k: caption    
+var: caption [const: []]
+Text: '
+'
+k: labelstyle 
+Text: 'background:transparent; line-height:1.1em;
+'
+k: datastyle  
+Text: 'line-height:1.3em; vertical-align:middle;
+
+'
+k: label1     
+Text: 'Native name
+'
+k: data1      
+Begin Template: #if:<native_name:>
+Open Tag: span attributes: [class : 'nickname', {{#if:{{{native_name_lang|}}}|lang : '{{{native_name_lang}}}', xml:lang : '{{{native_name_lang}}}', null : '}}']
+k: null
+var: native_name [null]
+Close Tag: span
+Text: ' '
+End Template: #if:<native_name:>
+Text: '
+
+'
+k: label10  
+Text: 'Born
+'
+k: data10   
+Begin Template: br separated entries
+k: null
+var: birth_name [const: []]
+k: null
+var: birth_date [const: []]
+k: null
+var: birth_place [const: []]
+End Template: br separated entries
+Text: '
+
+'
+k: label11  
+Text: 'Died
+'
+k: data11   
+Begin Template: br separated entries
+k: null
+var: death_date [const: []]
+k: null
+var: death_place [const: []]
+k: null
+var: death_cause [const: []]
+End Template: br separated entries
+Text: '
+
+'
+k: label12     
+Text: 'Resting place
+'
+k: class12     
+Text: 'label
+'
+k: data12      
+Begin Template: br separated entries
+k: null
+var: resting place [var: resting_place [var: restingplace [const: []]]]
+k: null
+var: resting place coordinates [var: resting_place_coordinates [var: restingplacecoordinates [const: []]]]
+End Template: br separated entries
+Text: '
+
+'
+k: label13    
+Text: 'Other names
+'
+k: class13    
+Text: 'nickname
+'
+k: data13     
+var: other_names [const: []]
+Text: '
+
+'
+k: label14  
+Text: 'Residence
+'
+k: data14   
+var: residence [const: []]
+Text: '
+'
+k: label15  
+Text: 'Citizenship
+'
+k: data15   
+var: citizenship [const: []]
+Text: '
+'
+k: label16  
+Text: 'Nationality
+'
+k: data16   
+var: nationality [const: []]
+Text: '
+
+'
+k: label17  
+Text: 'Fields
+'
+k: class17  
+Text: 'category
+'
+k: data17   
+var: field [var: fields [const: []]]
+Text: '
+
+'
+k: label18  
+Text: 'Institutions
+'
+k: data18   
+var: workplaces [const: []]
+Comment Tag: 
+        
+var: work_institutions [const: []]
+var: work_institution [const: []]
+Text: '
+
+'
+k: label19  
+Begin Reference: Alma mater
+End Reference: Alma mater
+Text: '
+'
+k: data19   
+var: alma_mater [const: []]
+Text: '
+'
+k: label30 
+Begin Reference: Thesis
+End Reference: Thesis
+Text: '
+'
+k: data30  
+Begin Template: #if:<thesis_title:>
+k: null
+Begin Template: #if:<thesis_url:>
+k: null
+Begin Link: null
+var: thesis_url [null]
+k: null
+Text: ' '''
+var: thesis_title [null]
+Text: ''''
+End Link: null
+k: null
+Text: ''''
+var: thesis_title [null]
+Text: ''''
+End Template: #if:<thesis_url:>
+End Template: #if:<thesis_title:>
+Text: ' '
+Begin Template: #if:<thesis_year:>
+k: null
+Text: '('
+var: thesis_year [null]
+Text: ')'
+End Template: #if:<thesis_year:>
+Text: '
+'
+k: label31 
+Begin Reference: Doctoral advisor
+End Reference: Doctoral advisor
+Text: '
+'
+k: data31  
+var: doctoral_advisor [const: []]
+Text: '
+
+'
+k: label32 
+Begin Template: #if:<doctoral_advisor:>
+             
+k: null
+Text: 'Other&nbsp;academic advisors
+             '
+k: null
+Text: 'Academic advisors '
+End Template: #if:<doctoral_advisor:>
+             
+Text: '
+'
+k: data32  
+var: academic_advisors [const: []]
+Text: '
+
+'
+k: label33 
+Text: 'Doctoral students
+'
+k: data33  
+var: doctoral_students [const: []]
+Text: '
+
+'
+k: label34 
+Begin Template: #if:<doctoral_students:>
+             
+k: null
+Text: 'Other&nbsp;notable students
+             '
+k: null
+Text: 'Notable students '
+End Template: #if:<doctoral_students:>
+             
+Text: '
+'
+k: data34  
+var: notable_students [const: []]
+Text: '
+
+'
+k: label35 
+Text: 'Known&nbsp;for
+'
+k: data35  
+var: known_for [const: []]
+Text: '
+'
+k: label36 
+Text: 'Influences
+'
+k: data36  
+var: influences [const: []]
+Text: '
+'
+k: label37 
+Text: 'Influenced
+'
+k: data37  
+var: influenced [const: []]
+Text: '
+'
+k: label38 
+Text: 'Notable awards
+'
+k: data38  
+var: awards [const: []]
+var: prizes [const: []]
+Text: '
+'
+k: label39 
+Begin Reference: Author citation (botany)
+k: null
+Text: 'Author abbreviation (botany)'
+End Reference: Author citation (botany)
+Text: '
+'
+k: data39  
+var: author_abbreviation_bot [var: author_abbrev_bot [const: []]]
+Text: '
+'
+k: label40 
+Begin Reference: Author citation (zoology)
+k: null
+Text: 'Author abbreviation (zoology)'
+End Reference: Author citation (zoology)
+Text: '
+'
+k: data40  
+var: author_abbreviation_zoo [var: author_abbrev_zoo [const: []]]
+Text: '
+'
+k: label51 
+Text: 'Spouse
+'
+k: data51  
+var: spouse [const: []]
+Text: '
+'
+k: label52 
+Text: 'Partner(s)
+'
+k: data52  
+var: partner [const: []]
+Text: '
+'
+k: label53 
+Text: 'Children
+'
+k: data53  
+var: children [const: []]
+Text: '
+'
+k: data54  
+Begin Template: #if:<signature:>
+             
+k: null
+Text: ''''Signature''''
+Inline Tag: br attributes: []
+Comment Tag: 
+               
+Begin Reference: File:{
+k: null
+Text: '128px'
+Comment Tag: 
+                 
+k: alt
+var: signature_alt [const: []]
+Comment Tag: 
+                 
+k: null
+Begin Template: PAGENAME
+End Template: PAGENAME
+var: name [null]
+Text: ''s signature'
+End Reference: File:{
+Text: ' '
+End Template: #if:<signature:>
+             
+Text: '
+
+'
+k: header65 
+Begin Template: #if:<website:<homepage:<URL:>>>
+k: null
+Text: 'Website'
+End Template: #if:<website:<homepage:<URL:>>>
+Text: '
+'
+k: data66   
+var: website [var: homepage [var: URL [const: []]]]
+Text: '
+
+'
+k: data67  
+Begin Template: #if:<footnotes:>
+             
+Open Tag: div attributes: [style : 'padding-top:0.25em; text-align:left; font-style:90%;']
+Comment Tag: 
+                    
+k: null
+Text: ''''Notes''''
+Inline Tag: br attributes: []
+var: footnotes [null]
+Close Tag: div
+Text: ' '
+End Template: #if:<footnotes:>
+             
+Text: '
+'
+End Template: Infobox
+
+Comment Tag: 
+
+
+Begin Template: #if:<author_abbreviation_zoo:<author_abbrev_zoo:>>
+     
+k: null
+Begin Reference: Category:Zoologists with author abbreviations<!--
+         -->
+k: null
+var: author_abbreviation_zoo [var: author_abbrev_zoo [null]]
+End Reference: Category:Zoologists with author abbreviations<!--
+         -->
+Comment Tag: 
+
+End Template: #if:<author_abbreviation_zoo:<author_abbrev_zoo:>>
+     
+Begin Template: #if:<pronunciation:>
+k: null
+Begin Reference: Category:Biography template using pronunciation
+End Reference: Category:Biography template using pronunciation
+End Template: #if:<pronunciation:>
+Open Tag: noinclude attributes: []
+Text: '
+'
+Begin Template: documentation
+End Template: documentation
+Text: '
+'
+Comment Tag: -Please add metadata to the  section at the bottom of the /doc subpage-
+Text: '
+'
+Close Tag: noinclude
+Text: '
+'
+End Document

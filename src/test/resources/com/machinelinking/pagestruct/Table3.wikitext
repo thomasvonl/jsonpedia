@@ -1,0 +1,74 @@
+{| style="float: right; margin-left: 3em; margin-bottom: 2em"
+|-
+|
+{| border="0" cellpadding="2" cellspacing="0" style="width: 100%; margin-bottom: 1em; text-align: center; border: 1px solid #333333; font-family: Arial"
+|- style="background-color: #DDDDDD"
+| style="padding-top: 5px; padding-bottom: 5px" | [[August 2003|<]]
+| colspan="5" style="padding-top: 5px; padding-bottom: 5px" | September 2003
+| style="padding-top: 5px; padding-bottom: 5px" | [[October 2003|>]]
+|-
+| style="padding-top: 4px" | S
+| style="padding-top: 4px" | M
+| style="padding-top: 4px" | T
+| style="padding-top: 4px" | W
+| style="padding-top: 4px" | T
+| style="padding-top: 4px" | F
+| style="padding-top: 4px" | S
+|-
+| &nbsp;
+| '''[[#September 1, 2003|1]]'''
+| '''[[#September 2, 2003|2]]'''
+| '''[[#September 3, 2003|3]]'''
+| '''[[#September 4, 2003|4]]'''
+| '''[[#September 5, 2003|5]]'''
+| '''[[#September 6, 2003|6]]'''
+|-
+| '''[[#September 7, 2003|7]]'''
+| '''[[#September 8, 2003|8]]'''
+| '''[[#September 9, 2003|9]]'''
+| '''[[#September 10, 2003|10]]'''
+| '''[[#September 11, 2003|11]]'''
+| '''[[#September 12, 2003|12]]'''
+| '''[[#September 13, 2003|13]]'''
+|-
+| '''[[#September 14, 2003|14]]'''
+| '''[[#September 15, 2003|15]]'''
+| '''[[#September 16, 2003|16]]'''
+| '''[[#September 17, 2003|17]]'''
+| '''[[#September 18, 2003|18]]'''
+| '''[[#September 19, 2003|19]]'''
+| '''[[#September 20, 2003|20]]'''
+|-
+| '''[[#September 21, 2003|21]]'''
+| '''[[#September 22, 2003|22]]'''
+| '''[[#September 23, 2003|23]]'''
+| '''[[#September 24, 2003|24]]'''
+| '''[[#September 25, 2003|25]]'''
+| '''[[#September 26, 2003|26]]'''
+| '''[[#September 27, 2003|27]]'''
+|-
+| '''[[#September 28, 2003|28]]'''
+| '''[[#September 29, 2003|29]]'''
+| '''[[#September 30, 2003|30]]'''
+| &nbsp;
+| &nbsp;
+| &nbsp;
+| &nbsp;
+|}
+|-
+| style="border: 1px solid #000000; background-color: #fff5f5; padding: 7px" |
+
+===See also===
+
+*[[U.S. presidential election, 2004|U.S. Presidential Election]]
+*[[2003 occupation of Iraq timeline|Iraq timeline]]
+*[[Timeline of the War in Afghanistan (September 2003)]]
+*[[2003 California recall|California recall]]
+*[[Hutton Inquiry]]
+*[[Politics of Liberia|''Liberian crisis'']]
+*[[North Korea nuclear weapons program|''North Korea crisis'']]
+*[[Road map for peace]]
+*[[Same-sex marriage in Canada|Same-sex marriage]]
+*[[SCO v. IBM Linux lawsuit|''SCO vs IBM'']]
+*[[War on Terrorism]]
+|}

@@ -1,0 +1,18 @@
+<div align="center">
+{| align="center" style="clear:both; margin:0em; border:1px solid #E9E9E9"
+! style="background-color:#C1D4FE; font-size:95%; border:1px solid #aaaaaa; padding: 0 5px 0 5px;" |'''Huxley-Arnold Family Tree (partial)'''
+|-
+| style="font-size:80%;line-height:110%" |
+{{chart/start|summary=Partial Huxley-Arnold family tree.}}
+{{chart | | | | ThA |y| MaP | | | | | | | | |  GH | GH=George Huxley|ThA=[[Thomas Arnold]] 1795–1842|MaP=Mary Penrose 1791–1873}}
+{{chart | | | | |,|-|^|-|.| | | | | | | | | | |!}}
+{{chart | | | |  MA | |  TA | | | | | | | | | THH |y|  AH | | THH=[[Thomas Henry Huxley]] 1825–1895|AH=Ann Heathorn 1825–1915|TA=[[Tom Arnold (literary scholar)|Tom Arnold]] 1823–1900|MA=[[Matthew Arnold]] 1822–1888}}
+{{chart | | | | | | |,|-|^|-|.| | | |,|-|-|-|-|-|-|^|.| }}
+{{chart | | | | | | MAW | |  JA |y|  LH |y|  RB | | JOH |FW=Frederick Waller|JOH=Jessie Huxley 1856–1927|LH=[[Leonard Huxley (writer)|Leonard Huxley]] 1860–1933|JA=Julia Arnold 1862–1908|RB=Rosalind Bruce 1890–1994|MAW=[[Mary Augusta Ward]] 1851–1920}}
+{{chart | |,|-|-|-|v|-|-|-|-|-|-|^|.| | |`|-|-|-|-|v|-|-|-|.| | }}
+{{chart |  TH | |  JH | |  MN |y|  AH |~|  LA | | DBH | | AFH |~|  RP |JH=[[Julian Huxley]] 1887–1975|AH=Aldous Huxley 1894–1963|DBH=David Bruce Huxley 1915–1992| AFH=[[Andrew Huxley]] <br>  1917–2012|RP=Richenda Pease 1925–2003|TH=Trevelyan Huxley 1891–1914|LA=[[Laura Archera]] 1911–2007|MN=Maria Nys 1899–1955}}
+{{chart | | | | | | | | | | | |!| }}
+{{chart | | | | | | | | | | |  MH |MH=[[Matthew Huxley]] 1920–2005}}
+{{chart/end}}
+|}
+</div>

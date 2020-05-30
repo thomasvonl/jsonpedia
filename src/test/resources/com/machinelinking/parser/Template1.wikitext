@@ -1,0 +1,103 @@
+{{Infobox
+|bodyclass  = vcard
+|aboveclass = fn
+|above      = {{#if:{{{name|}}}|{{{name}}}|{{PAGENAME}}}}
+|abovestyle = background:transparent; text-align:center;
+
+|image      = {{#invoke:InfoboxImage|InfoboxImage|image={{{image|}}}|size={{{image_size|{{{imagesize|}}}}}}|sizedefault=frameless|alt={{{alt|}}}|suppressplaceholder=yes}}
+|imagestyle = padding-bottom:0.5em;
+|caption    = {{{caption|}}}
+|labelstyle = background:transparent; line-height:1.1em;
+|datastyle  = line-height:1.3em; vertical-align:middle;
+
+| label1     = Native name
+| data1      = {{#if:{{{native_name|}}}|<span class="nickname" {{#if:{{{native_name_lang|}}}|lang="{{{native_name_lang}}}" xml:lang="{{{native_name_lang}}}"}}>{{{native_name}}}</span> }}
+
+|label10  = Born
+|data10   = {{br separated entries|{{{birth_name|}}}|{{{birth_date|}}}|{{{birth_place|}}}}}
+
+|label11  = Died
+|data11   = {{br separated entries|{{{death_date|}}}|{{{death_place|}}}|{{{death_cause|}}}}}
+
+| label12     = Resting place
+| class12     = label
+| data12      = {{br separated entries|{{{resting place|{{{resting_place|{{{restingplace|}}}}}}}}}|{{{resting place coordinates|{{{resting_place_coordinates|{{{restingplacecoordinates|}}}}}}}}}}}
+
+| label13    = Other names
+| class13    = nickname
+| data13     = {{{other_names|}}}
+
+|label14  = Residence
+|data14   = {{{residence|}}}
+|label15  = Citizenship
+|data15   = {{{citizenship|}}}
+|label16  = Nationality
+|data16   = {{{nationality|}}}
+
+|label17  = Fields
+|class17  = category
+|data17   = {{{field|{{{fields|}}}}}}
+
+|label18  = Institutions
+|data18   = {{{workplaces|}}}<!--
+        -->{{{work_institutions|}}}{{{work_institution|}}}
+
+|label19  = [[Alma mater]]
+|data19   = {{{alma_mater|}}}
+|label30 = [[Thesis]]
+|data30  = {{#if:{{{thesis_title|}}}|{{#if:{{{thesis_url|}}}|[{{{thesis_url}}} ''{{{thesis_title}}}'']|''{{{thesis_title}}}''}}}} {{#if:{{{thesis_year|}}}|({{{thesis_year}}})}}
+|label31 = [[Doctoral advisor]]
+|data31  = {{{doctoral_advisor|}}}
+
+|label32 = {{#if:{{{doctoral_advisor|}}}
+             | Other&nbsp;academic advisors
+             | Academic advisors }}
+|data32  = {{{academic_advisors|}}}
+
+|label33 = Doctoral students
+|data33  = {{{doctoral_students|}}}
+
+|label34 = {{#if:{{{doctoral_students|}}}
+             | Other&nbsp;notable students
+             | Notable students }}
+|data34  = {{{notable_students|}}}
+
+|label35 = Known&nbsp;for
+|data35  = {{{known_for|}}}
+|label36 = Influences
+|data36  = {{{influences|}}}
+|label37 = Influenced
+|data37  = {{{influenced|}}}
+|label38 = Notable awards
+|data38  = {{{awards|}}}{{{prizes|}}}
+|label39 = [[Author citation (botany)|Author abbreviation (botany)]]
+|data39  = {{{author_abbreviation_bot|{{{author_abbrev_bot|}}}}}}
+|label40 = [[Author citation (zoology)|Author abbreviation (zoology)]]
+|data40  = {{{author_abbreviation_zoo|{{{author_abbrev_zoo|}}}}}}
+|label51 = Spouse
+|data51  = {{{spouse|}}}
+|label52 = Partner(s)
+|data52  = {{{partner|}}}
+|label53 = Children
+|data53  = {{{children|}}}
+|data54  = {{#if:{{{signature|}}}
+             | '''Signature'''<br/><!--
+               -->[[File:{{{signature}}}|128px<!--
+                 -->|alt={{{signature_alt|}}}<!--
+                 -->|{{{name|{{PAGENAME}}}}}'s signature]] }}
+
+|header65 = {{#if:{{{website|{{{homepage|{{{URL|}}}}}}}}}|Website}}
+|data66   = {{{website|{{{homepage|{{{URL|}}}}}}}}}
+
+|data67  = {{#if:{{{footnotes|}}}
+             | <div style="padding-top:0.25em; text-align:left; font-style:90%;"><!--
+                    -->'''Notes'''<br/>{{{footnotes}}}</div> }}
+}}<!--
+
+-->{{#if:{{{author_abbreviation_zoo|{{{author_abbrev_zoo|}}}}}}
+     | [[Category:Zoologists with author abbreviations<!--
+         -->|{{{author_abbreviation_zoo|{{{author_abbrev_zoo}}}}}}]]<!--
+-->}}{{#if:{{{pronunciation|}}}|[[Category:Biography template using pronunciation]]}}<noinclude>
+{{documentation}}
+<!---Please add metadata to the  section at the bottom of the /doc subpage--->
+</noinclude>

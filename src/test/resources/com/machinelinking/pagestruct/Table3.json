@@ -1,0 +1,878 @@
+{
+    "@type": "page",
+    "url": "http://test/Table3",
+    "structure": [
+        {
+            "@type": "table",
+            "header": " style=\"float: right; margin-left: 3em; margin-bottom: 2em\"\n",
+            "content": [
+                {
+                    "@type": "head_cell",
+                    "content": {}
+                },
+                {
+                    "@type": "body_cell",
+                    "content": {
+                        "@an0": {
+                            "@type": "table",
+                            "header": " border=\"0\" cellpadding=\"2\" cellspacing=\"0\" style=\"width: 100%; margin-bottom: 1em; text-align: center; border: 1px solid #333333; font-family: Arial\"\n",
+                            "content": [
+                                {
+                                    "@type": "head_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"background-color: #DDDDDD\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 5px; padding-bottom: 5px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": {
+                                            "@type": "reference",
+                                            "label": "August 2003",
+                                            "content": {}
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "colspan": [
+                                            "\"5\" style=\"padding-top: 5px; padding-bottom: 5px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "September 2003"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 5px; padding-bottom: 5px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": {
+                                            "@type": "reference",
+                                            "label": "October 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    ">"
+                                                ]
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "S"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "M"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "T"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "W"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "T"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "F"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "style": [
+                                            "\"padding-top: 4px\""
+                                        ]
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "S"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "&nbsp;"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 1, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "1"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 2, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "2"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 3, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "3"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 4, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "4"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 5, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "5"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 6, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "6"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 7, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "7"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 8, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "8"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 9, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "9"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 10, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "10"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 11, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "11"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 12, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "12"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 13, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "13"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 14, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "14"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 15, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "15"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 16, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "16"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 17, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "17"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 18, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "18"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 19, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "19"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 20, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "20"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 21, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "21"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 22, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "22"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 23, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "23"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 24, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "24"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 25, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "25"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 26, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "26"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 27, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "27"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 28, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "28"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 29, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "29"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "'''",
+                                        "@an1": {
+                                            "@type": "reference",
+                                            "label": "#September 30, 2003",
+                                            "content": {
+                                                "@an0": [
+                                                    "30"
+                                                ]
+                                            }
+                                        },
+                                        "@an2": "'''"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "&nbsp;"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "&nbsp;"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "&nbsp;"
+                                    }
+                                },
+                                {
+                                    "@type": "body_cell",
+                                    "content": {
+                                        "@an0": "&nbsp;"
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "@type": "body_cell",
+                    "content": {
+                        "style": [
+                            "\"border: 1px solid #000000; background-color: #fff5f5; padding: 7px\""
+                        ]
+                    }
+                },
+                {
+                    "@type": "body_cell",
+                    "content": {
+                        "": [
+                            {
+                                "@type": "list",
+                                "content": [
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "U.S. presidential election, 2004",
+                                                "content": {
+                                                    "@an0": [
+                                                        "U.S. Presidential Election"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "2003 occupation of Iraq timeline",
+                                                "content": {
+                                                    "@an0": [
+                                                        "Iraq timeline"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "Timeline of the War in Afghanistan (September 2003)",
+                                                "content": {}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "2003 California recall",
+                                                "content": {
+                                                    "@an0": [
+                                                        "California recall"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "Hutton Inquiry",
+                                                "content": {}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "Politics of Liberia",
+                                                "content": {
+                                                    "@an0": [
+                                                        "''Liberian crisis''"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "North Korea nuclear weapons program",
+                                                "content": {
+                                                    "@an0": [
+                                                        "''North Korea crisis''"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "Road map for peace",
+                                                "content": {}
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "Same-sex marriage in Canada",
+                                                "content": {
+                                                    "@an0": [
+                                                        "Same-sex marriage"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "SCO v. IBM Linux lawsuit",
+                                                "content": {
+                                                    "@an0": [
+                                                        "''SCO vs IBM''"
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "@type": "list_item",
+                                        "level": 1,
+                                        "item_type": "Unordered",
+                                        "content": [
+                                            {
+                                                "@type": "reference",
+                                                "label": "War on Terrorism",
+                                                "content": {}
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            "==See also==="
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

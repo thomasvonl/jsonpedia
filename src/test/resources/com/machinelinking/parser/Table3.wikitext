@@ -1,0 +1,20 @@
+{|{{Infobox Aircraft Begin
+  |name =P-38 Lightning
+  |image =Lockheed_P-38J_Lightning_-_1.jpg
+  |caption =P-38H of the AAF Tactical Center, [[Orlando Army Air Base]], Florida, carrying two 1,000 lb  bombs during capability tests in March 1944 <ref name="Bodie">Bodie 1991, pp. 200–201.</ref>
+}}{{Infobox Aircraft Type
+  |type =[[Heavy fighter]]
+  |manufacturer =[[Lockheed Corporation|Lockheed]]
+  |designer =[[Kelly Johnson (engineer)|Clarence "Kelly" Johnson]]
+  |first flight =27 January 1939
+  |introduction = 1941
+  |retired = 1965 [[Honduran Air Force]] <ref>[http://www.aeroflight.co.uk/waf/americas/honduras/Honduras-af-all-time-chron.htm "Honduran Air Force."] ''aeroflight.co.uk.'' Retrieved: 10 October 2010.</ref>
+  |primary user = [[United States Army Air Forces]]
+  |more users = [[Free French Air Force]]
+  |produced =1941–45
+  |number built =10,037<ref name="Donald"/>
+  |unit cost =US $97,147 in 1944<ref name="Army Air Forces Statistical Digest">[http://www.usaaf.net/digest/t82.htm "Army Air Forces Statistical Digest - World War II. Table 82—Average Cost of Airplanes Authorized, by principal model: Fiscal Years 1939–1945".] ''www.maxwell.af.mil''. Retrieved: 7 February 2009.</ref><br>({{Inflation|US|97147|1944|fmt=eq}}{{Inflation-fn|US}})
+  |variants with their own articles =
+  |developed into =  [[Lockheed XP-49]] <br> [[Lockheed XP-58 Chain Lightning|Lockheed XP-58]]
+}}
+|}
